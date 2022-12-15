@@ -1,0 +1,43 @@
+$bcom-chat-fill: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIzMUYyMCIgZD0iTTE5LjgxMSA0Ljk1SDUuMTg3YS41MTcuNTE3IDAgMCAwLS41MS41MTF2MTAuNzE4YzAgLjI3NS4yMzMuNTEuNTEuNTFoMy4zMmwuMDMzIDIuODUxYy4wMDMuMjc5LjIzNy41MS41MjEuNTFhLjQ5Ny40OTcgMCAwIDAgLjM1MS0uMTQ2bDMuMTM3LTMuMjA5aDcuMjYyYS41MjEuNTIxIDAgMCAwIC41MTMtLjUxM1Y1LjQ2YS41MjMuNTIzIDAgMCAwLS41MTMtLjUxeiIvPjwvc3ZnPg==");
+;
+
+.bcom-chat-fill-full, .bcom-chat-fill-full, .bcom-chat-fill-huge, .bcom-chat-fill-large, .bcom-chat-fill-medium, .bcom-chat-fill-small, .bcom-chat-fill-tiny {
+  background: $bcom-chat-fill;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-chat-fill-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-chat-fill-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-chat-fill-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-chat-fill-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-chat-fill-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-chat-fill-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

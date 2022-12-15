@@ -1,0 +1,43 @@
+$bcom-twitter: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIzMUYyMCIgZD0iTTEyLjUgMkM2LjcxIDIgMiA2LjcxIDIgMTIuNSAyIDE4LjI5MSA2LjcxIDIzIDEyLjUgMjMgMTguMjg5IDIzIDIzIDE4LjI5MSAyMyAxMi41IDIzIDYuNzEgMTguMjg5IDIgMTIuNSAyem01LjI4OCA4LjI2MWMuMDA0LjEwNC4wMDcuMjA5LjAwNy4zMTYgMCAzLjIzLTIuNDU5IDYuOTU4LTYuOTU3IDYuOTU4YTYuODkgNi44OSAwIDAgMS0zLjc0Ny0xLjEwMyA0LjkwNSA0LjkwNSAwIDAgMCAzLjYxOS0xLjAxMiAyLjQ1IDIuNDUgMCAwIDEtMi4yODQtMS42OTdjLjE0OS4wMjkuMzAzLjA0My40NjEuMDQzLjIyMiAwIC40MzgtLjAyNi42NDUtLjA4NmEyLjQ0MyAyLjQ0MyAwIDAgMS0xLjk2Mi0yLjM5NXYtLjAzMWMuMzI5LjE4NS43MDYuMjkzIDEuMTA3LjMwNmEyLjQ0MiAyLjQ0MiAwIDAgMS0uNzU3LTMuMjYzIDYuOTQgNi45NCAwIDAgMCA1LjA0IDIuNTU1IDIuNDQ1IDIuNDQ1IDAgMCAxIDQuMTY2LTIuMjMxIDQuODk2IDQuODk2IDAgMCAwIDEuNTU0LS41OTMgMi40NTEgMi40NTEgMCAwIDEtMS4wNzYgMS4zNTIgNC44MjUgNC44MjUgMCAwIDAgMS40MDQtLjM4NGMtLjMyOC40OS0uNzQyLjkyMS0xLjIyIDEuMjY1eiIvPjwvc3ZnPg==");
+;
+
+.bcom-twitter-full, .bcom-twitter-full, .bcom-twitter-huge, .bcom-twitter-large, .bcom-twitter-medium, .bcom-twitter-small, .bcom-twitter-tiny {
+  background: $bcom-twitter;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-twitter-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-twitter-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-twitter-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-twitter-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-twitter-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-twitter-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

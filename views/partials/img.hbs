@@ -1,0 +1,11 @@
+{{!--
+ * Image
+ * @src {string} Scene7 image name without extension.
+ * @alt {string} Image alt text.
+ * @class {string} Classes for img tag.
+ * @lazy {boolean} Lazy load image.
+ * @format {string} Format for Scene7.
+--}}
+
+
+<img {{#if alt}}alt="{{alt}}"{{/if}} class="{{#if lazy}}lozad {{/if}} {{#if class}}{{class}}{{/if}}" {{#if src}}src="images/{{src}}.{{#if format}}{{#if (iseq format 'png-alpha')}}png{{else}}{{format}}{{/if}}{{else}}jpg{{/if}}"{{/if}} {{#if desktopsrc}}data-desktop-src="images/{{desktopsrc}}.{{#if format}}{{#if (iseq format 'png-alpha')}}png{{else}}{{format}}{{/if}}{{else}}jpg{{/if}}"{{/if}}>

@@ -1,0 +1,43 @@
+$bcom-setting-fill: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIzMUYyMCIgZD0iTTIyLjM1OSA5Ljg5NmgtMS44MDFhOC44NSA4Ljg1IDAgMCAwLS41MjEtMS4yNTdjLjQyNS0uNDI1Ljg1MS0uODQ5IDEuMjcyLTEuMjcyYS42NDUuNjQ1IDAgMCAwIDAtLjkwM2MtLjkyNi0uOTI2LTEuODUzLTEuODUyLTIuNzc3LTIuNzc4YS42NDMuNjQzIDAgMCAwLS45MDIgMEwxNi4zNTkgNC45NmE4Ljc0NiA4Ljc0NiAwIDAgMC0xLjI1OC0uNTIxVjIuNjM4QS42NC42NCAwIDAgMCAxNC40NjQgMmgtMy45M2EuNjQ0LjY0NCAwIDAgMC0uNjM4LjYzOHYxLjgwMWE4LjkzIDguOTMgMCAwIDAtMS4yNTYuNTJMNy4zNjYgMy42ODZhLjY0My42NDMgMCAwIDAtLjkwMiAwTDMuNjg2IDYuNDY0YS42NDUuNjQ1IDAgMCAwIDAgLjkwM2MuNDIzLjQyNS44NDguODUgMS4yNzMgMS4yNzRhOS4yMiA5LjIyIDAgMCAwLS41MjEgMS4yNTVIMi42MzdhLjY0NS42NDUgMCAwIDAtLjYzOC42NHYzLjkzYzAgLjM0OC4yOS42MzkuNjM5LjYzOUg0LjQ0Yy4xNDEuNDMzLjMxNC44NTEuNTIxIDEuMjU3bC0xLjI3NCAxLjI3MmEuNjQzLjY0MyAwIDAgMCAwIC45MDJjLjkyNi45MjYgMS44NTIgMS44NTQgMi43NzggMi43NzZhLjY0My42NDMgMCAwIDAgLjkwMiAwbDEuMjc0LTEuMjcyYy40MDUuMjAzLjgyNC4zNzkgMS4yNTYuNTIxdjEuODAyYzAgLjM0OC4yOS42MzkuNjM4LjYzOWgzLjkzYy4zNSAwIC42MzktLjI5MS42MzktLjYzOXYtMS44MDJhOC45MDYgOC45MDYgMCAwIDAgMS4yNTYtLjUyMWMuNDI2LjQyNC44NTEuODUgMS4yNzMgMS4yNzJhLjY0My42NDMgMCAwIDAgLjkwMiAwbDIuNzc3LTIuNzc2YS42NDMuNjQzIDAgMCAwIDAtLjkwMmwtMS4yNzMtMS4yNzRjLjIwNS0uNDA0LjM4LS44MjIuNTIxLTEuMjU1aDEuODAxYy4zNSAwIC42NC0uMjkxLjY0LS42Mzl2LTMuOTNhLjY0OS42NDkgMCAwIDAtLjY0Mi0uNjR6bS00LjM3NyAyLjY4OWE3LjExNSA3LjExNSAwIDAgMS0uMDQ1LjYxNmMtLjM1OCAyLjgzOC0zLjA2NyA1LjEyNS01Ljk2NyA0Ljc2LTIuODQ1LS4zNTktNS4yMTctMi44NC00Ljk0OC01LjgxNC4yNTgtMi44NjIgMi42ODItNS4yOTQgNS42NTQtNS4xMzMgMi45MzIuMTU4IDUuMjE1IDIuNDc0IDUuMzExIDUuNDAyYS41ODIuNTgyIDAgMCAxIC4wMDIuMDg0LjQ4LjQ4IDAgMCAxLS4wMDcuMDg1eiIvPjwvc3ZnPg==");
+;
+
+.bcom-setting-fill-full, .bcom-setting-fill-full, .bcom-setting-fill-huge, .bcom-setting-fill-large, .bcom-setting-fill-medium, .bcom-setting-fill-small, .bcom-setting-fill-tiny {
+  background: $bcom-setting-fill;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-setting-fill-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-setting-fill-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-setting-fill-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-setting-fill-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-setting-fill-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-setting-fill-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

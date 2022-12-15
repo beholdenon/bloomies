@@ -1,0 +1,43 @@
+$credit-card: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PGcgZmlsbD0iIzIzMUYyMCI+PHBhdGggZD0iTTQuODggMTcuMTcxaDIuMzQ0YS42MzYuNjM2IDAgMCAwIDAtMS4yN0g0Ljg4YS42MzUuNjM1IDAgMCAwIDAgMS4yN3ptNC45NzkgMGg0LjY0M2EuNjM2LjYzNiAwIDAgMCAwLTEuMjdIOS44NTlhLjYzNi42MzYgMCAwIDAgMCAxLjI3eiIvPjxwYXRoIGQ9Ik0yMC40NDUgNC4wMDlINC41NTRBMi41NTcgMi41NTcgMCAwIDAgMiA2LjU2M3YxMS44NzJhMi41NiAyLjU2IDAgMCAwIDIuNTU0IDIuNTU3aDE1Ljg5NGEyLjU1NyAyLjU1NyAwIDAgMCAyLjU1My0yLjU1N1Y2LjU2M2EyLjU1OSAyLjU1OSAwIDAgMC0yLjU1Ni0yLjU1NHpNMy4zMDkgMTAuMTI0VjguOTExaDE4LjM4NXYxLjIxM0gzLjMwOXptMCAxLjI3NWgxOC40NDV2Ni45MjRjMCAuNzA1LS41NyAxLjI3Ny0xLjI3NSAxLjI3N0g0LjU4NWExLjI3OCAxLjI3OCAwIDAgMS0xLjI3Ny0xLjI3N3YtNi45MjR6bTEuMjc2LTYuMjI1aDE1Ljg5M2MuNzA1IDAgMS4yNzUuNTcyIDEuMjc1IDEuMjc1djEuMTg0SDMuMzA5VjYuNDVjMC0uNzAzLjU3Mi0xLjI3NiAxLjI3Ni0xLjI3NnoiLz48L2c+PC9zdmc+");
+;
+
+.credit-card-full, .credit-card-full, .credit-card-huge, .credit-card-large, .credit-card-medium, .credit-card-small, .credit-card-tiny {
+  background: $credit-card;
+  background-repeat: no-repeat;
+}
+ 
+.credit-card-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.credit-card-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.credit-card-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.credit-card-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.credit-card-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.credit-card-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

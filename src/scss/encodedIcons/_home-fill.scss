@@ -1,0 +1,43 @@
+$home-fill: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIzMUYyMCIgZD0iTTIxLjcyMSAxMS4zMjFsLTguNzY2LTguMDQ0YS42Ni42NiAwIDAgMC0uODg4IDBMMy4yOSAxMS4zMDRhLjU5Ny41OTcgMCAwIDAtLjE1LjY3Ni42NC42NCAwIDAgMCAuNTk0LjQyaDEuNDMydjguODU0YzAgLjM1My4yODYuNjQuNjM5LjY0aDQuMzg3YS42NC42NCAwIDAgMCAuNjM5LS42NFYxNS40NmgzLjMzN3Y1Ljc5NWMwIC4zNTMuMjg2LjY0LjYzOC42NGg0LjM4OWEuNjQuNjQgMCAwIDAgLjYzOS0uNjRWMTIuNGgxLjQzMmMuMjUgMCAuNDU0LS4xMjcuNTUzLS4zMzlhLjU4Mi41ODIgMCAwIDAtLjA5OC0uNzR6Ii8+PC9zdmc+");
+;
+
+.home-fill-full, .home-fill-full, .home-fill-huge, .home-fill-large, .home-fill-medium, .home-fill-small, .home-fill-tiny {
+  background: $home-fill;
+  background-repeat: no-repeat;
+}
+ 
+.home-fill-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.home-fill-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.home-fill-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.home-fill-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.home-fill-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.home-fill-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

@@ -1,0 +1,43 @@
+$track-order-green: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIyODkwMCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMjAuNjg1IDE3LjQ0MmwtNy42OTUgMy43MzZ2LTkuNDI2bDMuNi0xLjc0NyAxLjAxMy0uNDk0IDMuMDgyLTEuNDk1djkuNDI2em0tOC4yMDItNi41NzJsLTcuNTMtMy42NUw4LjU1IDUuNDc0bDcuNTMxIDMuNjUyLTMuNTk3IDEuNzQzem0tLjUwNiAxMC4zMDhsLTcuNjctMy43MThWOC4wMzNsNy42NyAzLjcydjkuNDI1em0uNTA2LTE3LjYxbDcuNTMxIDMuNjUxLTIuNzczIDEuMzQ2LTcuNTMtMy42NSAyLjc3Mi0xLjM0OHptOS4yMTUgMy42NDZhLjUxOS41MTkgMCAwIDAtLjA1LS4yMjMuNDg4LjQ4OCAwIDAgMC0uMzQzLS4yN2wtOC41OTktNC4xN2EuNTExLjUxMSAwIDAgMC0uNDQyIDBMMy41ODEgNi43NTdhLjUxLjUxIDAgMCAwLS4yODguNDRWMTcuNzhjMCAuMTk0LjExLjM3Mi4yODguNDU2bDguNjgzIDQuMjFjLjAwNCAwIC4wMDQgMCAuMDA4LjAwM2EuMTU0LjE1NCAwIDAgMSAuMDM4LjAxNmMuMDA0IDAgLjAwOC4wMDQuMDE3LjAwNGwuMDM4LjAxM2MuMDA0IDAgLjAwOC4wMDUuMDEyLjAwNS4wMTMuMDA0LjAzLjAwNC4wNDMuMDA4aC4wMTNjLjAxNiAwIC4wMzguMDA1LjA1NC4wMDUuMDE3IDAgLjAzOCAwIC4wNTUtLjAwNWguMDEzYS4xNTYuMTU2IDAgMCAwIC4wNDItLjAwOGMuMDA0IDAgLjAwOC0uMDA1LjAxMy0uMDA1bC4wMzgtLjAxM2MuMDA0IDAgLjAwOC0uMDA0LjAxNi0uMDA0YS4xMjkuMTI5IDAgMCAwIC4wNC0uMDE2bC4wMDctLjAwNCA4LjcwOC00LjIyMmEuNTA5LjUwOSAwIDAgMCAuMjg3LS40NTVWNy4yMjhjLS4wMDgtLjAwNS0uMDA4LS4wMS0uMDA4LS4wMTR6Ii8+PC9zdmc+");
+;
+
+.track-order-green-full, .track-order-green-full, .track-order-green-huge, .track-order-green-large, .track-order-green-medium, .track-order-green-small, .track-order-green-tiny {
+  background: $track-order-green;
+  background-repeat: no-repeat;
+}
+ 
+.track-order-green-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.track-order-green-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.track-order-green-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.track-order-green-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.track-order-green-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.track-order-green-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

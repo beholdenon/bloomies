@@ -1,0 +1,43 @@
+$review: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZD0iTTIyLjIgMTBoLTcuNGwtMi4zLTcuMi0yLjQgNy4xSDIuM2w2LjQgNC41LTIuNCA3LjMgNi4yLTQuNiA2IDQuNi0yLjMtNy40eiIvPjwvc3ZnPg==");
+;
+
+.review-full, .review-full, .review-huge, .review-large, .review-medium, .review-small, .review-tiny {
+  background: $review;
+  background-repeat: no-repeat;
+}
+ 
+.review-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.review-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.review-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.review-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.review-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.review-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

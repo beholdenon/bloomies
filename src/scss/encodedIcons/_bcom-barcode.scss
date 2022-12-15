@@ -1,0 +1,43 @@
+$bcom-barcode: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIzMUYyMCIgZD0iTTMuODE5IDQuMDU1YS42MzQuNjM0IDAgMCAwLS42MzQuNjM0VjIwLjMxYS42MzQuNjM0IDAgMSAwIDEuMjY4IDBWNC42ODhhLjYzNC42MzQgMCAwIDAtLjYzNC0uNjMzem0xNy4zNjEgMGEuNjMzLjYzMyAwIDAgMC0uNjMzLjYzNFYyMC4zMWEuNjMzLjYzMyAwIDEgMCAxLjI2OCAwVjQuNjg4YS42MzYuNjM2IDAgMCAwLS42MzUtLjYzM3ptLTkuNzAxIDBjLS4zNSAwLS42MzQuMjM5LS42MzQuNTMydjEyLjI1YzAgLjI5My4yODQuNTMyLjYzNC41MzIuMzU1IDAgLjYzNS0uMjM0LjYzNS0uNTMyVjQuNTg3Yy0uMDAxLS4yOTgtLjI4MS0uNTMyLS42MzUtLjUzMnptNS41NzQgMGMtLjM1IDAtLjYzNS4yMzktLjYzNS41MzJ2MTIuMjVjMCAuMjkzLjI4NS41MzIuNjM1LjUzMnMuNjM1LS4yMzkuNjM1LS41MzJWNC41ODdjMC0uMjkzLS4yODYtLjUzMi0uNjM1LS41MzJ6bTIuMTE5IDBjLS4zNTUgMC0uNjM1LjIzNC0uNjM1LjUzMnYxMi4yNWMwIC4yOTguMjc5LjUzMi42MzUuNTMycy42MzUtLjIzNC42MzUtLjUzMlY0LjU4N2MwLS4yOTgtLjI4LS41MzItLjYzNS0uNTMyem0tMTMuMzUzIDBjLS4zNSAwLS42MzQuMjM5LS42MzQuNTMydjEyLjI1YzAgLjI5My4yODQuNTMyLjYzNC41MzIuMzUgMCAuNjM0LS4yMzkuNjM0LS41MzJWNC41ODdjLjAwMS0uMjkzLS4yODUtLjUzMi0uNjM0LS41MzJ6bTMuNjExIDBjLS4zNSAwLS42MzQuMjM5LS42MzQuNTMydjEyLjI1YzAgLjI5My4yODQuNTMyLjYzNC41MzIuMzU1IDAgLjYzNS0uMjM0LjYzNS0uNTMyVjQuNTg3Yy0uMDAxLS4yOTgtLjI3OS0uNTMyLS42MzUtLjUzMnptNC4yMTQgMGMtLjM1MSAwLS42MzYuMjM5LS42MzYuNTMydjEyLjI1YzAgLjI5My4yODUuNTMyLjYzNi41MzIuMzU0IDAgLjYzNS0uMjM0LjYzNS0uNTMyVjQuNTg3Yy0uMDAyLS4yOTgtLjI4MS0uNTMyLS42MzUtLjUzMnoiLz48L3N2Zz4=");
+;
+
+.bcom-barcode-full, .bcom-barcode-full, .bcom-barcode-huge, .bcom-barcode-large, .bcom-barcode-medium, .bcom-barcode-small, .bcom-barcode-tiny {
+  background: $bcom-barcode;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-barcode-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-barcode-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-barcode-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-barcode-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-barcode-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-barcode-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

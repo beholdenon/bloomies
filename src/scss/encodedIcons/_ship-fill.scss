@@ -1,0 +1,43 @@
+$ship-fill: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PGcgZmlsbD0iIzIzMUYyMCI+PHBhdGggZD0iTTE1LjkwNyA1LjA5NWEuNjQ4LjY0OCAwIDAgMC0uNjQtLjYzOUgyLjY4N2EuNjQ3LjY0NyAwIDAgMC0uNjM5LjYzOXYxMi43MzZjMCAuMzQ3LjI5Mi42NC42MzkuNjRoLjkwOGMuMTY2LTEuNjM2IDEuNDc1LTIuOTM1IDMuMDMtMi45MzVoLjEwMmEzLjIyIDMuMjIgMCAwIDEgMy4xMyAyLjkzNWg1LjQxM2MuMDM1IDAgLjA2Ni0uMDE3LjEwMi0uMDIxYTMuMzkgMy4zOSAwIDAgMSAuNTM5LTEuNTI1VjUuMDk1aC0uMDA0em02Ljk4OSA4LjE1OGMtLjA2Ny0uMjQ2LS4yODctLjQ5NC0uNDgtLjcxMS0uMDY4LS4wNzctLjEzMy0uMTQ5LS4xODItLjIxM0wxOS43NjIgOS4xNWEyLjU1MyAyLjU1MyAwIDAgMS0uMTE5LS4xNjVjLS4xODgtLjI3MS0uNDI2LS42MDktLjc5MS0uNjA5aC0xLjY2NnY3LjQzOWEyLjgyNyAyLjgyNyAwIDAgMSAxLjMxNS0uMjc3YzEuNjY2LjA2IDIuOTY3IDEuMjg3IDMuMTMgMi45MzNoLjY1MmEuNjQ2LjY0NiAwIDAgMCAuNjM5LS42NHYtMy4zMDNjMC0uMTEuMDA5LS4yMzMuMDE3LS4zNjIuMDE1LS4zMTMuMDM2LS42MzYtLjA0My0uOTEzeiIvPjxwYXRoIGQ9Ik04LjU0MSAxOC40N2MtLjEzNi0uOTEtLjg3OC0xLjYyMy0xLjc1NC0xLjYyMy0uMDIxIDAtLjA0IDAtLjA2MS4wMDItMS4wNzUuMDM3LTEuNzQ0LjgyNi0xLjgzMyAxLjYwOS0uMDA5LjA3OC0uMDE5LjE1NS0uMDE2LjIzMS4wMzYgMS4wNDMuODY0IDEuODg4IDEuODQzIDEuODUzIDEuMDM2LS4wMzcgMS44MTQtLjgxNCAxLjg1MS0xLjg1My0uMDA2LS4wNzUtLjAyLS4xNDctLjAzLS4yMTl6bTExLjc3MyAwYy0uMTM5LS45MS0uODc5LTEuNjIzLTEuNzU2LTEuNjIzLS4wMjEgMC0uMDQxIDAtLjA2Mi4wMDJhMi4wNCAyLjA0IDAgMCAwLTEuMzEyLjU1MWMtLjAwMiAwLS4wMDIuMDAyLS4wMDQuMDA2YTEuNjgyIDEuNjgyIDAgMCAwLS41MzcgMS4yODVjLjAzNSAxLjAyMS44MzYgMS44NTQgMS43ODUgMS44NTQuMDIxIDAgLjAzOSAwIC4wNjEtLjAwMiAxLjAzNS0uMDM1IDEuODEyLS44MTMgMS44NTEtMS44NTIgMC0uMDc3LS4wMTUtLjE0OS0uMDI2LS4yMjF6Ii8+PC9nPjwvc3ZnPg==");
+;
+
+.ship-fill-full, .ship-fill-full, .ship-fill-huge, .ship-fill-large, .ship-fill-medium, .ship-fill-small, .ship-fill-tiny {
+  background: $ship-fill;
+  background-repeat: no-repeat;
+}
+ 
+.ship-fill-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.ship-fill-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.ship-fill-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.ship-fill-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.ship-fill-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.ship-fill-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

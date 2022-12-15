@@ -1,0 +1,43 @@
+$bcom-facebook: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIzMUYyMCIgZD0iTTEyLjUgMkM2LjcxMSAyIDIgNi43MSAyIDEyLjVTNi43MTEgMjMgMTIuNSAyM0MxOC4yOSAyMyAyMyAxOC4yOSAyMyAxMi41UzE4LjI5IDIgMTIuNSAyem0yLjk3OSA2LjM0bC0xLjE3Mi4wMDFjLS45MiAwLTEuMDk5LjQzNy0xLjA5OSAxLjA3OHYxLjQxNEgxNS40bC0uMjg1IDIuMjE1aC0xLjkwN3Y1LjY4M2gtMi4yODV2LTUuNjgzSDkuMDExdi0yLjIxNmgxLjkxMlY5LjE5OWMwLTEuODk1IDEuMTU3LTIuOTI3IDIuODQ5LTIuOTI3LjgxMSAwIDEuNTA2LjA2MSAxLjcwOS4wODdWOC4zNGgtLjAwMnoiLz48L3N2Zz4=");
+;
+
+.bcom-facebook-full, .bcom-facebook-full, .bcom-facebook-huge, .bcom-facebook-large, .bcom-facebook-medium, .bcom-facebook-small, .bcom-facebook-tiny {
+  background: $bcom-facebook;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-facebook-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-facebook-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-facebook-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-facebook-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-facebook-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-facebook-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

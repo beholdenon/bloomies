@@ -1,0 +1,43 @@
+$bcom-radio-check-disabled: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMCIgaGVpZ2h0PSIxMCI+PHBhdGggZmlsbD0iI0QwRDBEMCIgZD0iTTAgNWE1IDUgMCAxIDAgMTAgMEE1IDUgMCAxIDAgMCA1Ii8+PC9zdmc+");
+;
+
+.bcom-radio-check-disabled-full, .bcom-radio-check-disabled-full, .bcom-radio-check-disabled-huge, .bcom-radio-check-disabled-large, .bcom-radio-check-disabled-medium, .bcom-radio-check-disabled-small, .bcom-radio-check-disabled-tiny {
+  background: $bcom-radio-check-disabled;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-radio-check-disabled-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-radio-check-disabled-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-radio-check-disabled-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-radio-check-disabled-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-radio-check-disabled-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-radio-check-disabled-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

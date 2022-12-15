@@ -1,0 +1,43 @@
+$bcom-credit-card-fill: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIzMUYyMCIgZD0iTTIwLjQ3OSA0LjA0Mkg0LjUyMUEyLjUyNCAyLjUyNCAwIDAgMCAyIDYuNTY0djEuMjI0aDIxVjYuNTY0YTIuNTI0IDIuNTI0IDAgMCAwLTIuNTIxLTIuNTIyek0yIDExLjI5MXY3LjE0NWEyLjUyMiAyLjUyMiAwIDAgMCAyLjUyMSAyLjUyMWgxNS45NThBMi41MjMgMi41MjMgMCAwIDAgMjMgMTguNDM2di03LjE0NUgyem01LjIyNiA1LjkyOEg0Ljg4MmEuNjM0LjYzNCAwIDEgMSAwLTEuMjY4aDIuMzQ0YS42MzUuNjM1IDAgMCAxIDAgMS4yNjh6bTcuNDA0IDBIOS45ODhhLjYzNC42MzQgMCAxIDEgMC0xLjI2OGg0LjY0MmEuNjM0LjYzNCAwIDAgMSAwIDEuMjY4eiIvPjwvc3ZnPg==");
+;
+
+.bcom-credit-card-fill-full, .bcom-credit-card-fill-full, .bcom-credit-card-fill-huge, .bcom-credit-card-fill-large, .bcom-credit-card-fill-medium, .bcom-credit-card-fill-small, .bcom-credit-card-fill-tiny {
+  background: $bcom-credit-card-fill;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-credit-card-fill-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-credit-card-fill-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-credit-card-fill-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-credit-card-fill-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-credit-card-fill-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-credit-card-fill-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

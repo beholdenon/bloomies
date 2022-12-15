@@ -1,0 +1,43 @@
+$bcom-collapse: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZD0iTTIxLjI3MSAxMS4zNjVIMy43MzJhMS4xMzYgMS4xMzYgMCAwIDAgMCAyLjI3aDE3LjUzNmExLjEzNiAxLjEzNiAwIDAgMCAuMDAzLTIuMjd6Ii8+PC9zdmc+");
+;
+
+.bcom-collapse-full, .bcom-collapse-full, .bcom-collapse-huge, .bcom-collapse-large, .bcom-collapse-medium, .bcom-collapse-small, .bcom-collapse-tiny {
+  background: $bcom-collapse;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-collapse-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-collapse-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-collapse-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-collapse-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-collapse-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-collapse-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

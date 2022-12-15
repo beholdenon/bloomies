@@ -1,0 +1,43 @@
+$bcom-autopay: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0ODYgNDg2Ij48cGF0aCBkPSJNNDIwLjcgODUuNGMtNDIuMS00Mi4xLTk4LjEtNjUuMy0xNTcuNi02NS4zLTYwLjYgMC0xMTcuMyAyMy45LTE1OS42IDY3LjMtNC42IDQuNy00LjUgMTIuMy4yIDE3IDQuNyA0LjYgMTIuMyA0LjUgMTctLjIgMzcuOC0zOC43IDg4LjMtNjAgMTQyLjQtNjBDMzcyLjggNDQuMSA0NjIgMTMzLjMgNDYyIDI0M3MtODkuMiAxOTguOS0xOTguOSAxOTguOVM2NC4zIDM1Mi43IDY0LjMgMjQzdi0yLjVMODQgMjYwLjNjMi4zIDIuMyA1LjQgMy41IDguNSAzLjVzNi4xLTEuMiA4LjUtMy41YzQuNy00LjcgNC43LTEyLjMgMC0xN0w2MC44IDIwM2MtNC43LTQuNy0xMi4zLTQuNy0xNyAwTDMuNSAyNDMuM2MtNC43IDQuNy00LjcgMTIuMyAwIDE3IDQuNyA0LjcgMTIuMyA0LjcgMTcgMGwxOS44LTE5Ljh2Mi41YzAgNTkuNSAyMy4yIDExNS41IDY1LjMgMTU3LjZzOTguMSA2NS4zIDE1Ny42IDY1LjMgMTE1LjUtMjMuMiAxNTcuNi02NS4zYzQyLTQyLjEgNjUuMi05OC4xIDY1LjItMTU3LjZzLTIzLjItMTE1LjUtNjUuMy0xNTcuNnoiLz48cGF0aCBkPSJNMjYzLjIgMTYxLjJjMjkuNyAwIDU0LjcgMTUuOCA1NC43IDM0LjUgMCA3IDUuNyAxMi42IDEyLjYgMTIuNiA3IDAgMTIuNi01LjcgMTIuNi0xMi42IDAtMzAuMy0yOC43LTU0LjYtNjcuMy01OXYtMTVjMC03LTUuNy0xMi42LTEyLjYtMTIuNnMtMTIuNiA1LjctMTIuNiAxMi42djE1Yy0zOC42IDQuNC02Ny4zIDI4LjgtNjcuMyA1OSAwIDMzLjUgMzUuMSA1OS44IDgwIDU5LjggMjkuNyAwIDU0LjcgMTUuOCA1NC43IDM0LjVzLTI1LjEgMzQuNS01NC43IDM0LjUtNTQuNy0xNS44LTU0LjctMzQuNWMwLTctNS43LTEyLjYtMTIuNi0xMi42cy0xMi42IDUuNy0xMi42IDEyLjZjMCAzMC4zIDI4LjcgNTQuNiA2Ny4zIDU5djE1YzAgNyA1LjcgMTIuNiAxMi42IDEyLjZzMTIuNi01LjcgMTIuNi0xMi42di0xNWMzOC42LTQuNCA2Ny4zLTI4LjggNjcuMy01OSAwLTMzLjUtMzUuMS01OS44LTgwLTU5LjgtMjkuNyAwLTU0LjctMTUuOC01NC43LTM0LjVzMjUtMzQuNSA1NC43LTM0LjV6Ii8+PC9zdmc+");
+;
+
+.bcom-autopay-full, .bcom-autopay-full, .bcom-autopay-huge, .bcom-autopay-large, .bcom-autopay-medium, .bcom-autopay-small, .bcom-autopay-tiny {
+  background: $bcom-autopay;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-autopay-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-autopay-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-autopay-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-autopay-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-autopay-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-autopay-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

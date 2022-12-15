@@ -1,0 +1,43 @@
+$help-circle-reverse: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIzMUYyMCIgZD0iTTEyLjUgMkM2LjcxIDIgMiA2LjcxIDIgMTIuNVM2LjcxIDIzIDEyLjUgMjNDMTguMjg5IDIzIDIzIDE4LjI5IDIzIDEyLjVTMTguMjg5IDIgMTIuNSAyem0uMDE2IDE4LjE1MmMtLjkxNiAwLTEuNjYtLjc0NS0xLjY2LTEuNjZzLjc0NS0xLjY2IDEuNjYtMS42NmMuOTE2IDAgMS42Ni43NDUgMS42NiAxLjY2cy0uNzQ0IDEuNjYtMS42NiAxLjY2em0zLjcxNi05LjIxNmMtLjI5OS40NTMtLjg1NiAxLjA3OC0xLjY2MiAxLjg1OGEzLjUzIDMuNTMgMCAwIDAtLjg0MiAxLjIwOGMtLjExMy4yNTYtLjExMy4yNTYtLjE2Ni42MzRsLS4wMzMuMjQ3Yy0uMDA2LjUyMS0uNDU5Ljk2Ny0xLjAyOS45NjdhMS4wMzYgMS4wMzYgMCAwIDEtMS4wMzUtMS4wMzVsLjAwNy0uMjcxYy4xMDYtLjc5NS4xMTktLjg0OS4zMjUtMS4zNzYuMjM0LS42MDQuNzMyLTEuMjgyIDEuNDc5LTIuMDE1bC43Mi0uNzA4Yy4xOC0uMTY4LjMxNS0uMzM4LjQyMi0uNTEyLjE5Mi0uMzE4LjM1OC0uNTg5LjM2OC0uODUyLjAxLS41NTgtLjE0MS0xLjAyOC0uNDM4LTEuMzk2LS4yMzEtLjI4OC0uOTYzLS44My0yLjA2Mi0uODMtMS4xNDMgMC0xLjk3Ni43MTMtMi4yNjcgMS4zNzYtLjE4NS40MjUtLjI5MS45NS0uMzEzIDEuNTU3bC0uMDQ2LjI0Ny0uMDYzLjEyOWMtLjE3My4zNTItLjUzNi41NzktLjkyNi41NzlzLS43NTQtLjIyNy0uOTI2LS41NzdsLS4xMDgtLjM3Ny40MDEtLjE1OC0uNC0uMDA3Yy4wMjYtMS4zOS40NDYtMi41MzQgMS4yNS0zLjM5OC44NDktLjkxNCAyLjAxMy0xLjM3NyAzLjQ2LTEuMzc3IDEuMzM1IDAgMi40MzEuMzk3IDMuMjU3IDEuMTguODM0Ljc5MiAxLjI1NiAxLjgxMSAxLjI1NiAzLjAyOSAwIC44MTctLjMzNiAxLjQzMy0uNjI5IDEuODc4eiIvPjwvc3ZnPg==");
+;
+
+.help-circle-reverse-full, .help-circle-reverse-full, .help-circle-reverse-huge, .help-circle-reverse-large, .help-circle-reverse-medium, .help-circle-reverse-small, .help-circle-reverse-tiny {
+  background: $help-circle-reverse;
+  background-repeat: no-repeat;
+}
+ 
+.help-circle-reverse-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.help-circle-reverse-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.help-circle-reverse-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.help-circle-reverse-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.help-circle-reverse-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.help-circle-reverse-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

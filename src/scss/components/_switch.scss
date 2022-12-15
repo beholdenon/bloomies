@@ -1,0 +1,39 @@
+@import '../foundation-6.4.4-rc1/scss/components/switch';
+
+$switch-height: rem-calc(24);
+
+$switch-paddle-offset: rem-calc(3.2);
+
+$switch-radius: 90px;
+$switch-paddle-radius: 90px;
+$switch-background-active: $bloomiesBlack;
+$switch-background: $bloomiesWhite;
+
+@mixin bloomies-switch {
+  @include foundation-switch;
+
+  input + .switch-paddle {
+    border: 1px solid $bloomiesGray;
+    background-color: $bloomiesWhite;
+    &::after {
+      border: 1px solid $bloomiesGray;
+    }
+  }
+
+  input.switch-input[disabled] + .switch-paddle{
+    background-color: $bloomiesGrayLightest;
+    cursor:not-allowed;
+    &:after {
+      background-color: $bloomiesGray;
+      box-shadow: none;
+    }
+  }
+
+  .switch-paddle::after {
+    box-shadow: 1px 1px 3px 0 $bloomiesGray;
+  }
+
+  input:checked~.switch-paddle::after {
+    box-shadow: none;
+  }
+}

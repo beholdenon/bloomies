@@ -1,0 +1,43 @@
+$tumblr: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIzMUYyMCIgZD0iTTEyLjUgMkM2LjcxIDIgMiA2LjcxIDIgMTIuNSAyIDE4LjI4OSA2LjcxIDIzIDEyLjUgMjNTMjMgMTguMjg5IDIzIDEyLjVDMjMgNi43MSAxOC4yOSAyIDEyLjUgMnptMy4zMzEgMTUuODY1Yy0uNDE0LjM5Ny0xLjI2NS42OTItMi4wNzguNzA4bC0uMDkyLjAwMWMtMi42NzkgMC0zLjM5NC0yLjA0NS0zLjM5NC0zLjI1NHYtMy43MTJhLjA1Ni4wNTYgMCAwIDAtLjA1Ni0uMDU3SDguOTE3YS4wNTYuMDU2IDAgMCAxLS4wNTYtLjA1NnYtMS42OWEuMDYuMDYgMCAwIDEgLjAzNS0uMDUxYzEuMzg1LS41MzkgMi4xNTgtMS42MSAyLjM2MS0zLjI2Ni4wMTMtLjA5Mi4wODgtLjA5NS4wODgtLjA5NWgxLjczYy4wMyAwIC4wNTUuMDI0LjA1NS4wNTZ2Mi45NzNjMCAuMDMxLjAyNC4wNTYuMDU2LjA1NmgyLjE1MmMuMDMgMCAuMDU3LjAyNS4wNTcuMDU3djEuOTYzYS4wNTYuMDU2IDAgMCAxLS4wNTcuMDU2aC0yLjE2MWEuMDU3LjA1NyAwIDAgMC0uMDU2LjA1N3YzLjUyOWMuMDEzLjc5NS4zOTYgMS4xOTYgMS4xNDMgMS4xOTZhMi44IDIuOCAwIDAgMCAuOTU5LS4xODguMDUyLjA1MiAwIDAgMSAuMDcyLjAzMmwuNTQ5IDEuNjI5Yy4wMDguMDE5LjAwNC4wNDMtLjAxMy4wNTZ6Ii8+PC9zdmc+");
+;
+
+.tumblr-full, .tumblr-full, .tumblr-huge, .tumblr-large, .tumblr-medium, .tumblr-small, .tumblr-tiny {
+  background: $tumblr;
+  background-repeat: no-repeat;
+}
+ 
+.tumblr-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.tumblr-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.tumblr-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.tumblr-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.tumblr-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.tumblr-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

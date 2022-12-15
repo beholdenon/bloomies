@@ -1,0 +1,43 @@
+$bops: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMjcgMzUiPjxkZWZzPjxwYXRoIGlkPSJhIiBkPSJNMCAuMjIxaDI2Ljk4NXYzNC41NTVIMHoiLz48L2RlZnM+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48bWFzayBpZD0iYiIgZmlsbD0iI2ZmZiI+PHVzZSB4bGluazpocmVmPSIjYSIvPjwvbWFzaz48cGF0aCBmaWxsPSIjMDAwIiBkPSJNMTMuNDkyLjk2NGMyLjI1IDAgNC4wOTQgMi4wNjQgNC4yNTggNC42N0g5LjIzNGMuMTY0LTIuNjA2IDIuMDA5LTQuNjcgNC4yNTgtNC42N3ptNC45OTIgNC42N2MtLjE3LTMuMDE2LTIuMzQtNS40MTMtNC45OTItNS40MTMtMi42NTEgMC00LjgyMiAyLjM5Ny00Ljk5MSA1LjQxNEgwdjI5LjE0aDI2Ljk4NVY1LjYzNmgtOC41MDF6IiBtYXNrPSJ1cmwoI2IpIi8+PHBhdGggZmlsbD0iI0VDMDA4QyIgZD0iTTE1LjIzNCA5LjE1YTcuNTM0IDcuNTM0IDAgMCAwLTEuNzM0LS4xNDYgNy41NDggNy41NDggMCAwIDAtMS43MzMuMTQ2Yy0zLjE0LjYzMi01LjcyOCAzLjgyMi01Ljc2NiA3LjExYTguNDgyIDguNDgyIDAgMCAwIC45NDggNC4wMTFjLjY5IDEuMzQ1IDEuNDQ2IDIuNjU1IDIuMTgzIDMuOTc0QzEwLjUxOCAyNi43MyAxMy41IDMyIDEzLjUgMzJzMi45ODItNS4yNyA0LjM2OS03Ljc1NWMuNzM2LTEuMzE5IDEuNDkyLTIuNjI5IDIuMTgtMy45NzRBOC40NyA4LjQ3IDAgMCAwIDIxIDE2LjI2Yy0uMDM3LTMuMjg4LTIuNjI1LTYuNDc3LTUuNzY1LTcuMTEiLz48cGF0aCBmaWxsPSIjMDAwIiBkPSJNMTMuNSAyMC4xNjhjMS40NSAwIDIuNjI1LTEuMTIgMi42MjUtMi40OTkgMC0xLjM4LTEuMTc2LTIuNDk3LTIuNjI1LTIuNDk3LTEuNDUgMC0yLjYyNCAxLjExNi0yLjYyNCAyLjQ5NyAwIDEuMzggMS4xNzQgMi40OTkgMi42MjQgMi40OTlNMTAgMTcuNjY5VjEyaC44NzZ2My40NTZjLjY0LS42ODQgMS41MDMtMS4xMTYgMi42MjQtMS4xMTYgMS45MzEgMCAzLjUwMiAxLjQ5IDMuNSAzLjMzLS4wMDEgMS44MzktMS41NyAzLjMzLTMuNSAzLjMzUzEwIDE5LjUwNiAxMCAxNy42NyIvPjwvZz48L3N2Zz4=");
+;
+
+.bops-full, .bops-full, .bops-huge, .bops-large, .bops-medium, .bops-small, .bops-tiny {
+  background: $bops;
+  background-repeat: no-repeat;
+}
+ 
+.bops-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bops-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bops-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bops-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bops-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bops-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

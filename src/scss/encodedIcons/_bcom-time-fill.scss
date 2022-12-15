@@ -1,0 +1,43 @@
+$bcom-time-fill: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIzMUYyMCIgZD0iTTEyLjUgMkM2LjcxIDIgMiA2LjcxMSAyIDEyLjUgMiAxOC4yOTEgNi43MSAyMyAxMi41IDIzUzIzIDE4LjI5MSAyMyAxMi41QzIzIDYuNzExIDE4LjI5IDIgMTIuNSAyem00LjU3MyAxNS4wNzRhLjYzNC42MzQgMCAwIDEtLjg5NyAwbC00LjEyNy00LjI2OWEuNjIzLjYyMyAwIDAgMS0uMTgzLS40MzZsLS4wMDEtNi40MDVhLjYzNS42MzUgMCAwIDEgMS4yNjkgMHY2LjE0bDMuOTQxIDQuMDc2YS42MzQuNjM0IDAgMCAxLS4wMDIuODk0eiIvPjwvc3ZnPg==");
+;
+
+.bcom-time-fill-full, .bcom-time-fill-full, .bcom-time-fill-huge, .bcom-time-fill-large, .bcom-time-fill-medium, .bcom-time-fill-small, .bcom-time-fill-tiny {
+  background: $bcom-time-fill;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-time-fill-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-time-fill-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-time-fill-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-time-fill-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-time-fill-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-time-fill-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

@@ -1,0 +1,43 @@
+$bcom-phone: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIzMUYyMCIgZD0iTTIxLjA3MyAxNy4wNjFhLjY0Ni42NDYgMCAwIDAtLjA5OC0uMTIzbC0zLjA3NC0zLjA3M2EuNjM1LjYzNSAwIDAgMC0uOTAyIDBsLTEuNTYxIDEuNTYxLTYuMDY3LTYuMDcgMS41NjEtMS41NjFhLjY0NS42NDUgMCAwIDAgMC0uOTAyTDguMDc1IDQuMDM3YS42NzIuNjcyIDAgMCAwLS4xMjItLjA5OC42NjIuNjYyIDAgMCAwLS40NS0uMTg5LjU5OS41OTkgMCAwIDAtLjQzLjE4OEw1LjI4MiA1LjczYy0uNjUyLjY0NS0xLjI2NiAxLjI1Ni0xLjQ2OSAyLjIxNS0uMzEzIDEuNDc5LjQ0NyAzLjA0MiAxLjIzMiA0LjM3Ni42ODEgMS4xNTYgMS41ODYgMi4zMjIgMi44NDkgMy42NjYgMS43MzYgMS44NTEgNC40MDcgNC4zOTYgNy41NDEgNS4xNTIuMzA3LjA3NC42MTEuMTExLjkwOC4xMTEuOTI0IDAgMS43NzktLjM2OSAyLjQ3OS0xLjA2NmwyLjI1LTIuMjVjLjI5LS4yOTMuMjA2LS42NTUuMDAxLS44NzN6TTguMDE3IDguOTA1YS42NDcuNjQ3IDAgMCAwIDAgLjkwMmw2Ljk3IDYuOTdjLjExOS4xMTkuMjc5LjE4Ni40NTEuMTg2cy4zMzItLjA2Ni40NTEtLjE4NmwxLjU2MS0xLjU2MiAyLjI2NiAyLjI2Ny0xLjAxNCAxLjAxNGMtLjA5OC4wOTgtLjE5My4xOTctLjI4OS4yOTctLjUwMi41MjMtLjk3NyAxLjAyLTEuNjc4IDEuMTY4YTIuMjkyIDIuMjkyIDAgMCAxLS40NTEuMDQ1Yy0xLjE5OSAwLTIuNTU1LS44NzktMy40NTQtMS40NjEtMS4wNjMtLjY5My0yLjEyNi0xLjU2Ni0zLjM0Mi0yLjc1NGEyMi43ODYgMjIuNzg2IDAgMCAxLTIuODc3LTMuMzg2QzUuODcgMTEuMzIxIDUuMDE4IDkuODk0IDUuMDMgOC40NzFjLjAwNy0uNzUxLjU3LTEuMjg4IDEuMTE1LTEuODA3LjA5Ni0uMDkxLjE4OS0uMTgyLjI3OS0uMjcxbDEuMTAyLTEuMTAxIDIuMDUyIDIuMDUyLTEuNTYxIDEuNTYxeiIvPjwvc3ZnPg==");
+;
+
+.bcom-phone-full, .bcom-phone-full, .bcom-phone-huge, .bcom-phone-large, .bcom-phone-medium, .bcom-phone-small, .bcom-phone-tiny {
+  background: $bcom-phone;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-phone-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-phone-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-phone-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-phone-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-phone-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-phone-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

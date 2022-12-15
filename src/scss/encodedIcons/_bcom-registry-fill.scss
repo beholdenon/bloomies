@@ -1,0 +1,43 @@
+$bcom-registry-fill: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIzMUYyMCIgZD0iTTIxLjMxNSA3Ljc5OGgtNC4yOGEyLjk1OCAyLjk1OCAwIDAgMCAuOTYzLTIuNjU5Yy0uMjEyLTEuNDM2LTEuNTEzLTIuMDg5LTIuNjMtMi4wODktLjQwNiAwLS44MTEuMDgzLTEuMTY2LjIzOC0xLjAxLjQ0MS0xLjQxOCAxLjM1NC0xLjYzMiAyLjE5NGwtLjAxOC0uMDg4YTIuOTQ3IDIuOTQ3IDAgMCAwLTMuMzM5LTIuMzM3IDIuMzMyIDIuMzMyIDAgMCAwLTEuNzMgMS4yMTMgMi45NzggMi45NzggMCAwIDAtLjEyIDIuNTg0Yy4xNjIuMzcuNDAyLjY4Ny43MTYuOTQySDMuNjg3YS42NDcuNjQ3IDAgMCAwLS42MzguNjR2My41MWMwIC4zNDYuMjkyLjYzOC42MzguNjM4aDEuMDI4djguNzUyYS42NC42NCAwIDAgMCAuNjM4LjYzOUgxOS42NWEuNTkuNTkgMCAwIDAgLjQ0OS0uMTg0LjU5OS41OTkgMCAwIDAgLjE4OC0uNDU1di04Ljc1MmgxLjAyNmEuNTkuNTkgMCAwIDAgLjQ0OS0uMTg1LjYwMy42MDMgMCAwIDAgLjE4OC0uNDUzdi0zLjUxYS42NDIuNjQyIDAgMCAwLS42MzUtLjYzOHpNOC41MDcgNi4yNTRjLS4xOTktLjQ0OS0uMTY0LS45MzkuMS0xLjM4LjIzOS0uMzk3LjU4Ny0uNjA4IDEuMDA0LS42MDguNzU0IDAgMS41NDcuNjY0IDEuNzA0IDEuNDM2bC4zODUgMS45MjQtMS45MjItLjM4NmMtLjU3My0uMTE1LTEuMDQ5LS40ODMtMS4yNzEtLjk4NnptNS42NTMgMTQuNDQzaC0zLjMxOXYtOC4xMDRoMy4zMTl2OC4xMDR6bTIuNjExLTE0LjkyOWMtLjExOS42ODktLjczMiAxLjMzNC0xLjQwNSAxLjQ3MWwtMS45MzIuMzg3LjM4NS0xLjkyMWMuMTYyLS44MTEuODI2LTEuMzk3IDEuNTc3LTEuMzk3LjI3MSAwIC41MzUuMDc1Ljc4Ny4yMjguNDY4LjI3Ny42NzcuNzE2LjU4OCAxLjIzMnoiLz48L3N2Zz4=");
+;
+
+.bcom-registry-fill-full, .bcom-registry-fill-full, .bcom-registry-fill-huge, .bcom-registry-fill-large, .bcom-registry-fill-medium, .bcom-registry-fill-small, .bcom-registry-fill-tiny {
+  background: $bcom-registry-fill;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-registry-fill-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-registry-fill-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-registry-fill-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-registry-fill-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-registry-fill-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-registry-fill-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

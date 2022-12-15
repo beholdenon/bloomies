@@ -1,0 +1,43 @@
+$bcom-radio-check: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMCIgaGVpZ2h0PSIxMCI+PHBhdGggZD0iTTAgNWE1IDUgMCAxIDAgMTAgMEE1IDUgMCAxIDAgMCA1Ii8+PC9zdmc+");
+;
+
+.bcom-radio-check-full, .bcom-radio-check-full, .bcom-radio-check-huge, .bcom-radio-check-large, .bcom-radio-check-medium, .bcom-radio-check-small, .bcom-radio-check-tiny {
+  background: $bcom-radio-check;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-radio-check-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-radio-check-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-radio-check-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-radio-check-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-radio-check-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-radio-check-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

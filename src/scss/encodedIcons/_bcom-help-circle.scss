@@ -1,0 +1,43 @@
+$bcom-help-circle: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PGcgZmlsbD0iIzIzMUYyMCI+PHBhdGggZD0iTTEyLjUgMkM2LjcxMSAyIDIgNi43MSAyIDEyLjVTNi43MTEgMjMgMTIuNSAyM0MxOC4yOSAyMyAyMyAxOC4yOSAyMyAxMi41UzE4LjI5IDIgMTIuNSAyem0wIDE5Ljc2NGMtNS4xMDcgMC05LjI2My00LjE1Ni05LjI2My05LjI2NFM3LjM5MyAzLjIzNyAxMi41IDMuMjM3czkuMjY0IDQuMTU1IDkuMjY0IDkuMjYzYzAgNS4xMDctNC4xNTcgOS4yNjQtOS4yNjQgOS4yNjR6Ii8+PHBhdGggZD0iTTE1LjMzIDYuMzE4Yy0uNzQ3LS43MS0xLjc1LTEuMDY5LTIuOTgxLTEuMDY5LTEuMzMyIDAtMi4zOTcuNDItMy4xNjggMS4yNS0uNzM1Ljc5MS0xLjExOSAxLjg0NS0xLjE0MiAzLjEyM2wtLjAwMy4wMzMuMDAxLjA2OS0uMDAxLjA0Ni4wNjguMjJhLjYzNS42MzUgMCAwIDAgLjU2Ni4zNTRjLjI0MiAwIC41MDItLjE0MS41NjctLjM1NGwuMDY3LS4yMTZjLjAyNS0uNjU3LjE0My0xLjIzLjM0OS0xLjcwMy4zNDEtLjc3OCAxLjMxLTEuNjE1IDIuNjMzLTEuNjE1IDEuMjQ4IDAgMi4wNzcuNjEzIDIuMzcxLjk3Ni4zNi40NDQuNTM4IDEuMDAzLjUyNCAxLjY1OC0uMDA4LjM2OS0uMjA5LjY5Ny0uNDI0IDEuMDQ3YTIuODExIDIuODExIDAgMCAxLS40ODIuNTkybC0uNzE3LjcwOGMtLjcwOC42OTQtMS4xNzUgMS4zMjUtMS4zODggMS44NzctLjE5My40OTYtLjE5OS41MjEtLjMwMSAxLjI4YS4yNi4yNiAwIDAgMC0uMDA0LjA0OHYuMTc0YS42MzQuNjM0IDAgMCAwIDEuMjY4LjAxNGwuMDM0LS4yNDdjLjA2MS0uNDM1LjA2MS0uNDM1LjE2NC0uNjY1bC4wMzEtLjA3NGMuMTYyLS4zNjUuMzgtLjgwMS45MzEtMS4zMzUuNzcxLS43NDYgMS4zMjUtMS4zNjUgMS42MDQtMS43OTEuMjYzLS4zOTguNTYzLS45NDYuNTYzLTEuNjU4LjAwMy0xLjEwNy0uMzc4LTIuMDI4LTEuMTMtMi43NDJ6Ii8+PGNpcmNsZSBjeD0iMTIuNTE2IiBjeT0iMTguNDkyIiByPSIxLjI2Ii8+PC9nPjwvc3ZnPg==");
+;
+
+.bcom-help-circle-full, .bcom-help-circle-full, .bcom-help-circle-huge, .bcom-help-circle-large, .bcom-help-circle-medium, .bcom-help-circle-small, .bcom-help-circle-tiny {
+  background: $bcom-help-circle;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-help-circle-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-help-circle-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-help-circle-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-help-circle-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-help-circle-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-help-circle-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

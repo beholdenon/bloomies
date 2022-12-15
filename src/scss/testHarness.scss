@@ -1,0 +1,258 @@
+
+@import './settings/_settings-mcom.scss';
+@import '_global.scss';
+@import './src/scss/components/_table.scss';
+
+ @include macys-table;
+
+@import './src/scss/components/_thumbnail.scss';
+@include macys-thumbnail;
+
+@import './src/scss/components/_switch.scss';
+@include macys-switch;
+
+@import './src/scss/components/_tooltips.scss';
+@include macys-tooltip;
+@import './src/scss/forms/_forms.scss';
+@include macys-forms;
+@import './components/split-buttons';
+@import './components/button-group';
+
+@include macys-button-group;
+@include macys-split-button;
+
+
+
+.visualGrid{
+  .cell{
+    height: 50px;
+    background-color:rgb(184, 184, 248);
+}
+.cell:nth-child(2){
+    background-color: gray;
+}
+}
+
+.visualPadding{
+
+
+    background-image: linear-gradient(0deg, gray, gray), 
+                      linear-gradient(0deg, red, red), 
+                      linear-gradient(0deg, blue, blue);
+    background-clip: content-box, padding-box, border-box;
+}
+
+.visualMargin{
+
+background: blue;
+}
+
+
+
+$color-swatch-margin: 15px;
+
+.color-swatch-container {
+  display: flex;
+}
+
+.color-swatches {
+    padding: 2em 0;
+    display: flex;
+    flex-flow: wrap;
+
+    .swatch-container{
+      width: 25%;
+    }
+  }
+  .color-swatches::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  .color-swatch-wrap {
+    float: left;
+  }
+  
+  .color-swatch {
+    margin: $color-swatch-margin;
+    width: calc(100% - (#{$color-swatch-margin} * 2));
+    border-radius: 6px;
+    background-color: #F4F5F7;
+
+    .macysRed{
+      background-color: $macysRed;
+    }
+    .macysRedHover{
+      background-color: $macysRedHover;
+    }
+    .macysBlack{
+      background-color: $macysBlack;
+    }
+    .macysGrey1{
+      background-color: $macysGrey1;
+    }
+    .macysGrey2{
+      background-color: $macysGrey2;
+    }
+    .macysGrey3{
+      background-color: $macysGrey3;
+    }
+    .macysGrey4{
+      background-color: $macysGrey4;
+    }
+    .macysGrey5{
+      background-color: $macysGrey5;
+    }
+    .macysGrey6{
+      background-color: $macysGrey6;
+    }
+    .macysWhite{
+      background-color: $macysWhite;
+    }
+    .plentiPrimary{
+      background-color: $plentiPrimary;
+    }
+    .registry{
+      background-color: $registry;
+    }
+    .macysError{
+      background-color: $macysError;
+    }
+    .macysErrorSecondary
+    {
+      background-color: $macysErrorSecondary;
+    }
+    .macysErrorTertiary
+    {
+      background-color: $macysErrorTertiary;
+    }
+    .macysWarning
+    {
+      background-color: $macysWarning;
+    }
+    .macysWarningSecondary
+    {
+      background-color: $macysWarningSecondary;
+    }
+    .macysWarningTertiary
+    {
+      background-color: $macysWarningTertiary;
+    }
+    .macysValidation
+    {
+      background-color: $macysValidation;
+    }
+    .macysValidationSecondary
+    {
+      background-color: $macysValidationSecondary;
+    }
+    .macysValidationTertiary
+    {
+      background-color: $macysValidationTertiary;
+    }
+    .macysInfo
+    {
+      background-color: $macysInfo;
+    }
+    .macysInfoSecondary
+    {
+      background-color: $macysInfoSecondary;
+    }
+    .macysInfoTertiary
+    {
+      background-color: $macysInfoTertiary;
+    }
+  }
+  .color-swatch:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+  .color-swatch-header {
+    position: relative;
+    height: 0;
+    padding-bottom: 50%;
+    border-radius: 6px 6px 0 0;
+    border: 1px solid transparent;
+  }
+  .color-swatch-header.is-light {
+    border-color: #C1C7D0;
+  }
+  .color-swatch-header .pass-fail {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  .color-swatch-header .pass-fail-item-wrap {
+    position: relative;
+    float: left;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .color-swatch-header .pass-fail-item-group {
+    display: inline-block;
+    padding: 0 5px;
+  }
+  .color-swatch-header .pass-fail-item {
+    float: left;
+    display: inline-block;
+    text-align: center;
+    padding: 2px;
+  }
+  .color-swatch-header .pass-fail-item.white .example {
+    color: #fff;
+  }
+  .color-swatch-header .pass-fail-item.small .example {
+    font-size: 10px;
+  }
+  .color-swatch-header .pass-fail-item .lozenge {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: #000;
+    color: #fff;
+    padding: 2px 4px;
+    line-height: 10px;
+    border-radius: 4px;
+    letter-spacing: 0.05em;
+  }
+  .color-swatch-body {
+    position: relative;
+    left: 50%;
+    float: left;
+    padding: 10px 0;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+            &::before{
+              box-sizing: unset !important;
+            }
+            
+            & ::after{
+              box-sizing: unset !important;
+            }
+  }
+  .color-swatch-body .prop-item-wrap {
+    float: left;
+    padding: 0 15px;
+    min-width: 65px;
+ 
+  }
+  .color-swatch-body .prop-item {
+    padding: 15px 0;
+  }
+  .color-swatch-body .prop-item .label {
+    font-size: 11px;
+    color: #62748C;
+    text-transform: uppercase;
+    line-height: 16px;
+  }
+  .color-swatch-body .prop-item .value {
+    font-size: 14px;
+  }
+
+.icon-bg{
+  background: $macysGrey6;
+}

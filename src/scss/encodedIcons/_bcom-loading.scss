@@ -1,0 +1,43 @@
+$bcom-loading: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIzMUYyMCIgZD0iTTEyLjUgMmMtLjMxNyAwLS42MzkuMjE0LS42MzkuNjI1djMuODUxYzAgLjQxLjMyMS42MjUuNjM5LjYyNS4zMTYgMCAuNjM5LS4yMTUuNjM5LS42MjVWMi42MjVjMC0uNDExLS4zMjMtLjYyNS0uNjM5LS42MjV6bTAgMTUuODk4Yy0uMzE3IDAtLjYzOS4yMTYtLjYzOS42MjV2My44NTJjMCAuNDEuMzIxLjYyNS42MzkuNjI1LjMxNiAwIC42MzktLjIxNS42MzktLjYyNXYtMy44NTJjMC0uNDA5LS4zMjMtLjYyNS0uNjM5LS42MjV6bTkuODc1LTYuMDM3aC0zLjg1MmMtLjQxIDAtLjYyNS4zMjEtLjYyNS42MzkgMCAuMzE3LjIxNS42MzkuNjI1LjYzOWgzLjg1MmMuNDEgMCAuNjI1LS4zMjIuNjI1LS42MzlzLS4yMTUtLjYzOS0uNjI1LS42Mzl6bS0xNS44OTkgMEgyLjYyNGMtLjQxIDAtLjYyNC4zMjItLjYyNC42MzlzLjIxNC42MzkuNjI0LjYzOWgzLjg1MmMuNDEgMCAuNjI0LS4zMjIuNjI0LS42MzlzLS4yMTQtLjYzOS0uNjI0LS42Mzl6bTEwLjczNS0zLjE3bDIuNzIzLTIuNzIzYy4yOTEtLjI5LjIxNS0uNjY5LS4wMS0uODkzLS4yMjQtLjIyNC0uNjA0LS4zLS44OTMtLjAwOWwtMi43MjUgMi43MjNjLS4yODkuMjktLjIxNC42NjguMDEuODkzLjIyNi4yMjQuNjA1LjI5OS44OTUuMDA5em0wIDcuNjE4Yy0uMjktLjI4OS0uNjY5LS4yMTUtLjg5My4wMS0uMjI2LjIyNS0uMzAxLjYwNC0uMDEuODk0bDIuNzIzIDIuNzI0Yy4yODkuMjg5LjY2OS4yMTUuODkzLS4wMS4yMjUtLjIyNS4zMDEtLjYwNC4wMS0uODk0bC0yLjcyMy0yLjcyNHpNNS45NjggNS4wNjZjLS4yOS0uMjktLjY2OS0uMjE1LS44OTMuMDA5LS4yMjUuMjI0LS4zLjYwMy0uMDEuODkzbDIuNzI0IDIuNzIzYy4yODkuMjkuNjY4LjIxNC44OTMtLjAxcy4zLS42MDMuMDEtLjg5M0w1Ljk2OCA1LjA2NnoiLz48L3N2Zz4=");
+;
+
+.bcom-loading-full, .bcom-loading-full, .bcom-loading-huge, .bcom-loading-large, .bcom-loading-medium, .bcom-loading-small, .bcom-loading-tiny {
+  background: $bcom-loading;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-loading-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-loading-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-loading-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-loading-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-loading-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-loading-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

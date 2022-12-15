@@ -1,0 +1,43 @@
+$bcom-mail: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIzMUYyMCIgZD0iTTIyLjMzNCA0LjA1OUgyLjY2N2EuNjQuNjQgMCAwIDAtLjY0LjYzOHYxNS42MDVhLjY0LjY0IDAgMCAwIC42NC42MzloMTkuNjY3YS41OTEuNTkxIDAgMCAwIC40NDktLjE4NS42MDMuNjAzIDAgMCAwIC4xODktLjQ1NFY0LjY5NmEuNjM4LjYzOCAwIDAgMC0uNjM4LS42Mzd6bS0uNjM5IDIuMzc5djEyLjM3M2wtNi44MDUtNi40NTcgNi44MDUtNS45MTZ6TTExLjA1IDEzLjE5N2MuNDk5LjM0NC45NzQuNTExIDEuNDQ5LjUxMS40NjEgMCAuOTA5LS4xNTEgMS4zNzQtLjQ3MmwuMDQ5LS4wNDEgNi44MiA2LjQ3SDQuMjUzbDYuNzk3LTYuNDY4em0xLjQ1LS43NjVjLS4yMjkgMC0uNDc4LS4xMDMtLjc3Mi0uMzE3TDQgNS4zMzVoMTcuMDM1bC03LjkwNCA2Ljg2NGMtLjIzNC4xNTYtLjQ0LjIzMy0uNjMxLjIzM3ptLTIuNDIzLS4wNzFsLTYuNzcxIDYuNDQ0VjYuNDEzbDYuNzcxIDUuOTQ4eiIvPjwvc3ZnPg==");
+;
+
+.bcom-mail-full, .bcom-mail-full, .bcom-mail-huge, .bcom-mail-large, .bcom-mail-medium, .bcom-mail-small, .bcom-mail-tiny {
+  background: $bcom-mail;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-mail-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-mail-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-mail-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-mail-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-mail-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-mail-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

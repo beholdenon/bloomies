@@ -1,0 +1,92 @@
+// mixins
+@mixin flex-center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+// avant garde
+@font-face {
+  font-family: "ITCAvantGardeGothicMedium";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('../fonts/ITCAvantGardeGothicMedium_normal_normal.woff2') format('woff2'), url('../fonts/ITCAvantGardeGothicMedium_normal_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "ITCAvantGardeGothicDemiBold";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('../fonts/ITCAvantGardeGothicDemiBold_normal_normal.woff2') format('woff2'), url('../fonts/ITCAvantGardeGothicDemiBold_normal_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "ITCAvantGardeGothicBold";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('../fonts/ITCAvantGardeGothicBold_normal_normal.woff2') format('woff2'), url('../fonts/ITCAvantGardeGothicBold_normal_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "ITCAvantGardeGothicExtraLight";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('../fonts/ITCAvantGardeGothicExtraLight_normal_normal.woff2') format('woff2'), url('../fonts/ITCAvantGardeGothicExtraLight_normal_normal.woff') format('woff');
+}
+@font-face {
+  font-family: "ITCAvantGardeGothicBook";
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url('../fonts/ITCAvantGardeGothicBook_normal_normal.woff2') format('woff2'), url('../fonts/ITCAvantGardeGothicBook_normal_normal.woff') format('woff');
+}
+
+// font face for austin
+@font-face {
+  font-family: 'Austin Web';
+  src: url('../fonts/Austin-Roman-Web.woff2') format('woff2'),
+  url('../fonts/Austin-Roman-Web.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+// mixins
+@mixin flex-center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin ag-extra-light {
+  font-family: 'ITCAvantGardeGothicExtraLight', 'Avenir';
+  font-weight: normal;
+}
+
+@mixin ag-book {
+  font-family: 'ITCAvantGardeGothicBook', 'Avenir';
+  font-weight: normal;
+}
+
+
+@mixin ag-medium {
+  font-family: 'ITCAvantGardeGothicMedium', 'Avenir';
+  font-weight: normal;
+}
+
+@mixin ag-demi {
+  font-family: 'ITCAvantGardeGothicDemiBold', 'Avenir';
+  font-weight: normal;
+}
+
+@mixin ag-bold {
+  font-family: 'ITCAvantGardeGothicBold', 'Avenir';
+  font-weight: normal;
+}
+
+@mixin austin {
+  font-family: 'Austin Web';
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}

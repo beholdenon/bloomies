@@ -1,0 +1,43 @@
+$order-status: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHN3aXRjaD48Zz48cGF0aCBkPSJNMTEuMyAxOC4zYy4zLjIuNy4zLjkgMCAxLjUtMS42IDMtMy4xIDQuNC00LjcuNi0uNi0uMy0xLjUtLjktLjktMS4zIDEuNC0yLjcgMi44LTQgNC4yLS43LS42LTEuNC0xLjEtMi0xLjctLjYtLjUtMS42LjQtLjkuOS44LjggMS42IDEuNSAyLjUgMi4yeiIvPjxwYXRoIGQ9Ik0yMC40IDcuMWgtMy44di0xYzAtMi4zLTEuOC00LjEtNC4xLTQuMmgtLjFjLTIuMiAwLTQgMS45LTQgNC4ydjFINC42Yy0uMyAwLS42LjMtLjYuN3YxNC43YzAgLjMuMy42LjYuNmgxNS43Yy4yIDAgLjMtLjEuNC0uMi4xLS4xLjItLjMuMi0uNFY3LjhjLjEtLjQtLjItLjctLjUtLjd6TTkuMSAxMC43Yy4zIDAgLjYtLjIuNi0uNlY4LjRoNS42VjEwYzAgLjQuMy42LjYuNnMuNi0uMi42LS42VjguNGgzLjJ2MTMuNEg1LjNWOC40aDMuMVYxMGMwIC41LjMuNy43Ljd6bS42LTMuNnYtLjZjMC0uNiAwLTEuMi4zLTEuNy40LTEgMS40LTEuNiAyLjUtMS42aC4xYzEgMCAxLjkuNiAyLjQgMS41LjMuNi4zIDEuMi4zIDEuOXYuNkg5Ljd6Ii8+PC9nPjwvc3dpdGNoPjwvc3ZnPg==");
+;
+
+.order-status-full, .order-status-full, .order-status-huge, .order-status-large, .order-status-medium, .order-status-small, .order-status-tiny {
+  background: $order-status;
+  background-repeat: no-repeat;
+}
+ 
+.order-status-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.order-status-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.order-status-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.order-status-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.order-status-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.order-status-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

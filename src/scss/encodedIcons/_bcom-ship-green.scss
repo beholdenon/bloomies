@@ -1,0 +1,43 @@
+$bcom-ship-green: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIyODkwMCIgZD0iTTIyLjc0OCAxMi42MWwtMy4zMTItNC4yNmMtLjI0MS0uMzA4LS41NC0uMzUtLjgzMS0uMzUtLjA0NiAwLS4wOTMgMC0uMTQ1LjAwMmE3LjUwNiA3LjUwNiAwIDAgMS0uMTQ4LjAwMmgtMS4yMTFWNC43MjNhLjY0LjY0IDAgMCAwLS42NC0uNjM4SDIuNjkzYS42MzguNjM4IDAgMCAwLS42MzguNjM4VjE3LjQ2YS42NC42NCAwIDAgMCAuNjM4LjYzOWgxLjQ3Yy0uMDEuMDczLS4wMTYuMTQ2LS4wMTkuMjE2LS4wNTQgMS4xODkuOTE2IDIuNTIxIDIuNTc1IDIuNTk4IDEuNDc3LjA2MyAyLjQ3OS0xLjIxOSAyLjU4Ny0yLjQ0OWEuNjk1LjY5NSAwIDAgMCAuMDEtLjEzNC43MDYuNzA2IDAgMCAwLS4wMDgtLjEyOWwtLjAxMS0uMTAyaDYuNjM5YTIuMDU1IDIuMDU1IDAgMCAwLS4wMjEuMjE1Yy0uMDU0IDEuMTkuOTE2IDIuNTIxIDIuNTc2IDIuNTk5bC4xMDQuMDAyYzEuNDE2IDAgMi4zNzUtMS4yNSAyLjQ4MS0yLjQ1MWEuNjI1LjYyNSAwIDAgMCAuMDA5LS4xMzQuNjYyLjY2MiAwIDAgMC0uMDA3LS4xMy45NC45NCAwIDAgMC0uMDE0LS4xMDFoMS4yMjFhLjY0LjY0IDAgMCAwIC42MzktLjYzOXYtMy42MjJjMC0uMDY1LjAwNS0uMTM5LjAwOS0uMjIzLjAxOS0uMzM3LjA0LS43MTctLjE4NS0xLjAwNXptLTEuMTAxLjY1NXYzLjU1OWgtMS4wNjhjLS40NzMtLjY1MS0xLjIyNS0xLjA0Ni0yLjA2Ny0xLjA4NGEyLjI4NSAyLjI4NSAwIDAgMC0xLjQxMi40MDlWOS4yODNoMS40NTFsMy4wOTYgMy45ODJ6bS00LjM2NSA0LjU0NWMuMDE4LS4wMjYuMDMxLS4wNTguMDQyLS4wNzkuMjE2LS40MDUuNjkyLS42OTIgMS4xODgtLjcxNi4wMTktLjAwMi4wMzUtLjAwMi4wNTMtLjAwMi43MyAwIDEuMjE4LjY4NSAxLjI0OCAxLjMwOC0uMDQzLjg2Ny0uNzA5IDEuMjY0LTEuMzExIDEuMjY0LS42MDQgMC0xLjI3MS0uMzk2LTEuMzEyLTEuMjdhMS4xOSAxLjE5IDAgMCAxIC4wOTItLjUwNXptLTExLjc3MiAwYy4wMTgtLjAyNy4wMzEtLjA1OC4wNC0uMDc5LjIxNi0uNDA1LjY5My0uNjkyIDEuMTg4LS43MTYuNzU4LS4wMyAxLjI2OC42NjYgMS4yOTkgMS4zMDYtLjA0MS44NjctLjcwOCAxLjI2NC0xLjMxIDEuMjY0LS42MDMgMC0xLjI3MS0uMzk2LTEuMzEtMS4yN2ExLjE4MiAxLjE4MiAwIDAgMSAuMDkzLS41MDV6bS0yLjE3OC0uOTg5VjUuMzYzaDEyLjQ5MnYxMS40NThIOC44MDdjLS40NzMtLjY1MS0xLjIyMy0xLjA0Ny0yLjA2Ny0xLjA4NC0uMDM0LS4wMDItLjA2OC0uMDAyLS4xMDItLjAwMi0uNzg0IDAtMS41MDQuMzk2LTEuOTgyIDEuMDg2SDMuMzMyeiIvPjwvc3ZnPg==");
+;
+
+.bcom-ship-green-full, .bcom-ship-green-full, .bcom-ship-green-huge, .bcom-ship-green-large, .bcom-ship-green-medium, .bcom-ship-green-small, .bcom-ship-green-tiny {
+  background: $bcom-ship-green;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-ship-green-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-ship-green-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-ship-green-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-ship-green-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-ship-green-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-ship-green-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

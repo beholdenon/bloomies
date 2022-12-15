@@ -1,0 +1,146 @@
+.product-carousel {
+    > div {
+      //padding: 0;
+      display: block;
+    }
+
+    .line-header {
+      @media screen and #{breakpoint(large up)} {
+        padding: 0 35px;
+      }
+    }
+
+  .carousel-body {
+    position: relative;
+  }
+
+
+  .product-slider-outer {
+    padding-left: 6%;
+
+    @media screen and #{breakpoint(medium up)} {
+      padding-left: 0;
+    }
+  }
+
+  .product-slider {
+    display: block;
+
+    .slick-slide {
+     // margin: 0 em(7);
+
+      @media screen and #{breakpoint(medium up)} {
+       // margin: 0 15px;
+      }
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .slick-track {
+      overflow: hidden;
+    }
+
+    .slick-list {
+      max-width: none;
+      //margin: 0 em(-13);
+      padding:0 14% 0 0;
+      
+      @media screen and #{breakpoint(medium up)} {
+        padding: 0;
+        margin: 0 15px;
+      }
+    }
+
+    .slick-dots {
+      bottom: -1.7em;
+      
+      @media screen and #{breakpoint(medium up)} {
+        bottom: em(-30);
+      }
+    }
+
+    .slick-dots li {
+      margin: 0 em(4);
+      
+      button {
+        padding: 0;
+        background: #ccc;
+        border-radius: 1000px;
+        
+        &:before {
+          content: "";
+        }
+      }
+
+      &.slick-active {
+        button {
+          background: #000;
+        }
+      }
+    }
+
+    .slick-dots li, .slick-dots li button {
+      width: 7px;
+      height: 7px;
+    }
+  }
+
+  
+
+  .api-product-carousel, .pros-product-carousel {
+    position: relative;
+    
+    .api-product {
+      display: none;
+    }
+  }
+
+  .arrow {
+    position: absolute;
+    top: 35%;
+    width: em(28);
+    height: em(28);
+    cursor: pointer;
+    display: block;
+    visibility: visible;
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIzMUYyMCIgZD0iTTIxLjg3OSA3Ljg5NmEuNjg4LjY4OCAwIDAgMC0uNjExLS40MjkuNjA3LjYwNyAwIDAgMC0uNDMyLjE4OEwxMi41IDE1Ljk5MiA0LjE2NCA3LjY1N2EuNjAzLjYwMyAwIDAgMC0uNDMxLS4xODguNjkuNjkgMCAwIDAtLjYxMy40MjkuNTg3LjU4NyAwIDAgMCAuMTQxLjY2M2w4Ljc4NyA4Ljc4OGEuNjQzLjY0MyAwIDAgMCAuOTAzIDBsOC43ODUtOC43ODhhLjU4NS41ODUgMCAwIDAgLjE0My0uNjY1eiIvPjwvc3ZnPg==");
+    
+    &.slick-disabled, &.slick-hidden {
+      display: none;
+      opacity: .3;
+    }
+
+    &.arrow-previous {
+      left: -10px;
+      transform: rotate(90deg);
+      z-index: 101;
+    }
+
+    &.arrow-next {
+      right: -10px;
+      transform: rotate(270deg);
+      z-index: 100;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    @media screen and #{breakpoint(small only)} {
+      display: none;
+    }
+  }
+
+  .slick-dots {
+    button {
+      min-height: none;
+    }
+  }
+
+  button {
+    min-height: none;
+  }
+}

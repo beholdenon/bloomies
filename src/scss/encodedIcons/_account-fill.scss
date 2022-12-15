@@ -1,0 +1,43 @@
+$account-fill: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIzMUYyMCIgZD0iTTE5LjQxNCAxNi4wMjZjLS43MTgtLjg2OS0xLjg5Mi0xLjM0MS0yLjgzNS0xLjcxOC0uMTU5LS4wNjMtLjMyLS4xMjMtLjQ3OS0uMTg1LS41MDktLjE4OC0uOTg0LS4zNjMtMS40MTktLjY2OC0uMDIzLS4wMjEtLjA0OC0uMDM3LS4wNy0uMDU4aC0uMDAyYy0uMDAyLS4wMTMtLjAwNi0uMDIyLS4wMDgtLjAzOWwtLjAwNi0uMDI0YzEuMzk2LS45MzIgMi4yODEtMi42OCAyLjMxMy00LjU4LjAyNS0xLjU2LS42MzEtMy4yNTEtMS42NzItNC4zMS0uNzY1LS43NzgtMS42OTktMS4xOS0yLjcwNC0xLjE5aC0uMDQxYy0xLjI1OC4wMTctMi4zNDguNjE3LTMuMTU0IDEuNzM4LS42NzcuOTQyLTEuMTA4IDIuMjEzLTEuMTg2IDMuNDg0LS4xMTkgMS45Ny43OSAzLjg5MiAyLjMxOSA0LjkxN2wtLjAwNi4wMjQtLjk0OC40ODljLS4zOTkuMjA3LS44MjEuMzczLTEuMjI5LjUzMy0uNjY1LjI2MS0xLjM1My41MjgtMS45NjIuOTg3LTEuOTQ1IDEuNDYxLTIuMTQ1IDQuMTExLTEuNzI0IDUuOTM5LjA1LjIxNS4yNjIuMzc5LjQ5My4zNzloMTQuOTAxYS40Ny40NyAwIDAgMCAuNDc3LS4zNjcuNTY2LjU2NiAwIDAgMCAuMDM0LS4xMzNjLjE0OS0xLjI3Mi4yMDQtMy42NDctMS4wOTItNS4yMTh6Ii8+PC9zdmc+");
+;
+
+.account-fill-full, .account-fill-full, .account-fill-huge, .account-fill-large, .account-fill-medium, .account-fill-small, .account-fill-tiny {
+  background: $account-fill;
+  background-repeat: no-repeat;
+}
+ 
+.account-fill-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.account-fill-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.account-fill-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.account-fill-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.account-fill-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.account-fill-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

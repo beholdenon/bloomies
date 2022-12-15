@@ -1,0 +1,7 @@
+@import '../foundation-6.4.4-rc1/scss/grid/grid';
+@import './block-grid';
+
+@mixin bloomies-grid {
+  @include foundation-grid;
+  @include bloomies-legacy-block-grid; // Bloomies Foundation-4 Block Grid
+}

@@ -1,0 +1,43 @@
+$bcom-bwallet: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PGcgZmlsbD0iIzIzMUYyMCI+PHBhdGggZD0iTTEyLjYyNiAxMC42NzhjLTEuOTM4IDAtMy41MTcgMS41NzctMy41MTcgMy41IDAgMS45MzkgMS41NzggMy41MTggMy41MDEgMy41MTggMS45MzggMCAzLjUxNy0xLjU3NiAzLjUxNy0zLjQ5OSAwLTEuOTQyLTEuNTc2LTMuNTE5LTMuNTAxLTMuNTE5eiIvPjxwYXRoIGQ9Ik0xNC41NzIgMi42MzNzLjAzMyAyLjExNy0yLjExNiAyLjExN2MtMS45OSAwLTEuOTg3LTIuMTE3LTEuOTg3LTIuMTE3SDQuMzM0djE5LjczNGgxNi4zMzJWMi42MzNoLTYuMDk0em0tMS45NDYgMTYuMjE1Yy0yLjU4IDAtNC42NjgtMi4wOS00LjY2OC00LjY1MVY2LjY4NGgxLjE1MXY0LjQzOGE0LjY1OSA0LjY1OSAwIDAgMSA4LjE2OCAzLjA1NmMwIDIuNTgtMi4wODggNC42Ny00LjY1MSA0LjY3eiIvPjwvZz48L3N2Zz4=");
+;
+
+.bcom-bwallet-full, .bcom-bwallet-full, .bcom-bwallet-huge, .bcom-bwallet-large, .bcom-bwallet-medium, .bcom-bwallet-small, .bcom-bwallet-tiny {
+  background: $bcom-bwallet;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-bwallet-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-bwallet-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-bwallet-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-bwallet-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-bwallet-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-bwallet-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

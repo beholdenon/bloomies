@@ -1,0 +1,43 @@
+$bcom-store-keyline: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTQuMTk4IDEuNTkxaDEwLjQyOXYyOC44MTdINC4xOTh6Ii8+PHBhdGggZD0iTTE1LjQ1MSAzMS4yMzJIMy4zNzVWLjc2OGgxMi4wNzZ2MzAuNDY0em0tMTAuNDMtMS42NDZoOC43ODNWMi40MTVINS4wMjF2MjcuMTcxeiIvPjxwYXRoIGZpbGw9IiNGRkYiIGQ9Ik0xNy4zNzIgMS41OTFoMTAuNDI5djI4LjgxN0gxNy4zNzJ6Ii8+PHBhdGggZD0iTTI4LjYyNSAzMS4yMzJIMTYuNTQ4Vi43NjhoMTIuMDc3djMwLjQ2NHptLTEwLjQzLTEuNjQ2aDguNzgyVjIuNDE1aC04Ljc4MnYyNy4xNzF6Ii8+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTE0LjYyNyAxOC40MThhLjgyNC44MjQgMCAwIDEtLjgyMy44MjRoLTEuMjM1YS44MjMuODIzIDAgMCAxLS44MjMtLjgyNHYtNC40MjVjMC0uNDU1LjM2OS0uODIzLjgyMy0uODIzaDEuMjM1Yy40NTUgMCAuODIzLjM2OC44MjMuODIzdjQuNDI1eiIvPjxwYXRoIGQ9Ik0xMy44MDQgMjAuMDY0aC0xLjIzNWExLjY0NyAxLjY0NyAwIDAgMS0xLjY0Ni0xLjY0NnYtNC40MjVjMC0uOTA5LjczOC0xLjY0NyAxLjY0Ni0xLjY0N2gxLjIzNWMuOTA4IDAgMS42NDYuNzM4IDEuNjQ2IDEuNjQ3djQuNDI1YTEuNjQ3IDEuNjQ3IDAgMCAxLTEuNjQ2IDEuNjQ2em0tMS4yMzUtNi4wNzF2NC40MjVoMS4yMzZ2LTQuNDI1aC0xLjIzNnoiLz48cGF0aCBmaWxsPSIjRkZGIiBkPSJNMjAuMjU0IDE4LjQxOGEuODI0LjgyNCAwIDAgMS0uODI0LjgyNGgtMS4yMzRhLjgyNC44MjQgMCAwIDEtLjgyMy0uODI0di00LjQyNWMwLS40NTUuMzY5LS44MjMuODIzLS44MjNoMS4yMzRjLjQ1NSAwIC44MjQuMzY4LjgyNC44MjN2NC40MjV6Ii8+PHBhdGggZD0iTTE5LjQzIDIwLjA2NGgtMS4yMzRhMS42NDggMS42NDggMCAwIDEtMS42NDctMS42NDZ2LTQuNDI1YzAtLjkwOS43MzktMS42NDcgMS42NDctMS42NDdoMS4yMzRjLjkwOSAwIDEuNjQ3LjczOCAxLjY0NyAxLjY0N3Y0LjQyNWMwIC45MDgtLjczOCAxLjY0Ni0xLjY0NyAxLjY0NnptLTEuMjM1LTYuMDcxdjQuNDI1aDEuMjM2bC0uMDAyLTQuNDI1aC0xLjIzNHoiLz48L3N2Zz4=");
+;
+
+.bcom-store-keyline-full, .bcom-store-keyline-full, .bcom-store-keyline-huge, .bcom-store-keyline-large, .bcom-store-keyline-medium, .bcom-store-keyline-small, .bcom-store-keyline-tiny {
+  background: $bcom-store-keyline;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-store-keyline-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-store-keyline-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-store-keyline-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-store-keyline-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-store-keyline-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-store-keyline-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

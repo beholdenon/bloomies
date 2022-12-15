@@ -1,0 +1,43 @@
+$menu: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIzMUYyMCIgZD0iTTIxLjIwNSAxMS44NjZIMy43OTdhLjYzNC42MzQgMCAxIDAgMCAxLjI2OGgxNy40MDhhLjYzNC42MzQgMCAxIDAgMC0xLjI2OHpNMy44NiA1LjQ3NWgxNy40MDhhLjYzMy42MzMgMCAwIDAgMC0xLjI2OUgzLjg2YS42MzYuNjM2IDAgMCAwLS42MzUuNjM1Yy4wMDEuMzUuMjg3LjYzNC42MzUuNjM0em0xNy4yODIgMTQuMDVIMy43MzJhLjYzNS42MzUgMCAwIDAgMCAxLjI2OWgxNy40MDlhLjYzNC42MzQgMCAwIDAgLjAwMS0xLjI2OXoiLz48L3N2Zz4=");
+;
+
+.menu-full, .menu-full, .menu-huge, .menu-large, .menu-medium, .menu-small, .menu-tiny {
+  background: $menu;
+  background-repeat: no-repeat;
+}
+ 
+.menu-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.menu-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.menu-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.menu-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.menu-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.menu-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

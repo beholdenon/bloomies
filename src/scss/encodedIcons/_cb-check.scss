@@ -1,0 +1,43 @@
+$cb-check: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNSAxNSI+PHBhdGggZmlsbD0iIzQwNDA0MCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNi40NzcgMTAuMzc1bDYuMjM0LTcuMTdhMSAxIDAgMCAxIDEuNTEgMS4zMTFsLTYuNzU2IDcuNzcyYS45OTUuOTk1IDAgMCAxLS41MjQuMzE3IDEgMSAwIDAgMS0xLjE2Mi0uMTQ3bC00LjU0Ny00LjI0YTEgMSAwIDEgMSAxLjM2NC0xLjQ2M2wzLjg4MSAzLjYyeiIvPjwvc3ZnPg==");
+;
+
+.cb-check-full, .cb-check-full, .cb-check-huge, .cb-check-large, .cb-check-medium, .cb-check-small, .cb-check-tiny {
+  background: $cb-check;
+  background-repeat: no-repeat;
+}
+ 
+.cb-check-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.cb-check-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.cb-check-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.cb-check-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.cb-check-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.cb-check-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

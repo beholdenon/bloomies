@@ -1,0 +1,43 @@
+$heart-filled-pink: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgLTI1NiAxODUwIDE4NTAiPjxwYXRoIGZpbGw9IiNjMDBjOTkiIGQ9Ik05MzMuOTY2IDE0NzEuNDI0cS0yNiAwLTQ0LTE4bC02MjQtNjAycS0xMC04LTI3LjUtMjZ0LTU1LjUtNjUuNXEtMzgtNDcuNS02OC05Ny41dC01My41LTEyMXEtMjMuNS03MS0yMy41LTEzOCAwLTIyMCAxMjctMzQ0dDM1MS0xMjRxNjIgMCAxMjYuNSAyMS41dDEyMCA1OHE1NS41IDM2LjUgOTUuNSA2OC41dDc2IDY4cTM2LTM2IDc2LTY4dDk1LjUtNjguNXE1NS41LTM2LjUgMTIwLTU4dDEyNi41LTIxLjVxMjI0IDAgMzUxIDEyNHQxMjcgMzQ0cTAgMjIxLTIyOSA0NTBsLTYyMyA2MDBxLTE4IDE4LTQ0IDE4Ii8+PC9zdmc+");
+;
+
+.heart-filled-pink-full, .heart-filled-pink-full, .heart-filled-pink-huge, .heart-filled-pink-large, .heart-filled-pink-medium, .heart-filled-pink-small, .heart-filled-pink-tiny {
+  background: $heart-filled-pink;
+  background-repeat: no-repeat;
+}
+ 
+.heart-filled-pink-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.heart-filled-pink-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.heart-filled-pink-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.heart-filled-pink-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.heart-filled-pink-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.heart-filled-pink-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

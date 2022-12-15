@@ -1,0 +1,43 @@
+$bcom-error-circle-reverse: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIzMUYyMCIgZD0iTTEyLjUgMjNDMTguMjg5IDIzIDIzIDE4LjI4OSAyMyAxMi41IDIzIDYuNzA4IDE4LjI4OSAyIDEyLjUgMiA2LjcxIDIgMiA2LjcwOCAyIDEyLjUgMiAxOC4yODkgNi43MSAyMyAxMi41IDIzek0xMS4zNjUgNi40NDVjMC0uNjI1LjUxLTEuMTM2IDEuMTM1LTEuMTM2czEuMTM1LjUxMSAxLjEzNSAxLjEzNnY3LjZhMS4xMzUgMS4xMzUgMCAwIDEtMi4yNyAwdi03LjZ6bTEuMTUzIDkuODY2YTEuNjQxIDEuNjQxIDAgMCAxIDAgMy4yODIgMS42NCAxLjY0IDAgMSAxIDAtMy4yODJ6Ii8+PC9zdmc+");
+;
+
+.bcom-error-circle-reverse-full, .bcom-error-circle-reverse-full, .bcom-error-circle-reverse-huge, .bcom-error-circle-reverse-large, .bcom-error-circle-reverse-medium, .bcom-error-circle-reverse-small, .bcom-error-circle-reverse-tiny {
+  background: $bcom-error-circle-reverse;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-error-circle-reverse-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-error-circle-reverse-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-error-circle-reverse-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-error-circle-reverse-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-error-circle-reverse-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-error-circle-reverse-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

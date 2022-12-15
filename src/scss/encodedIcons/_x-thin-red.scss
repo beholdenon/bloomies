@@ -1,0 +1,43 @@
+$x-thin-red: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iI0MwMDAwMCIgZD0iTTEzLjM5NiAxMi40OTlsNS43NS01Ljc1MWEuNjI1LjYyNSAwIDAgMCAwLS44OTUuNjIyLjYyMiAwIDAgMC0uNDQ2LS4xODcuNjIzLjYyMyAwIDAgMC0uNDQ5LjE4N2wtNS43NSA1Ljc1LTUuNzUyLTUuNzUxYS42MjYuNjI2IDAgMCAwLS40NDktLjE4Ni42MzQuNjM0IDAgMCAwLS40NDggMS4wODNsNS43NTIgNS43NTEtNS43NTIgNS43NWEuNjM2LjYzNiAwIDAgMCAuNDQ5IDEuMDg0LjYyNi42MjYgMCAwIDAgLjQ0OC0uMTg3bDUuNzUxLTUuNzUyIDUuNzUgNS43NTNhLjYzNi42MzYgMCAwIDAgLjg5NiAwIC42MzUuNjM1IDAgMCAwIDAtLjg5OGwtNS43NS01Ljc1MXoiLz48L3N2Zz4=");
+;
+
+.x-thin-red-full, .x-thin-red-full, .x-thin-red-huge, .x-thin-red-large, .x-thin-red-medium, .x-thin-red-small, .x-thin-red-tiny {
+  background: $x-thin-red;
+  background-repeat: no-repeat;
+}
+ 
+.x-thin-red-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.x-thin-red-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.x-thin-red-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.x-thin-red-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.x-thin-red-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.x-thin-red-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

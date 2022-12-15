@@ -1,0 +1,43 @@
+$collapse: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZD0iTTIxLjI3MSAxMS4zNjVIMy43MzJhMS4xMzYgMS4xMzYgMCAwIDAgMCAyLjI3aDE3LjUzNmExLjEzNiAxLjEzNiAwIDAgMCAuMDAzLTIuMjd6Ii8+PC9zdmc+");
+;
+
+.collapse-full, .collapse-full, .collapse-huge, .collapse-large, .collapse-medium, .collapse-small, .collapse-tiny {
+  background: $collapse;
+  background-repeat: no-repeat;
+}
+ 
+.collapse-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.collapse-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.collapse-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.collapse-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.collapse-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.collapse-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

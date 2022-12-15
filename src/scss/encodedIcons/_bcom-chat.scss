@@ -1,0 +1,43 @@
+$bcom-chat: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIzMUYyMCIgZD0iTTE5LjgxMiA0Ljc3NUg1LjE4OGEuNjQ3LjY0NyAwIDAgMC0uNjM4LjYzOXYxMC43MTVjMCAuMzQ4LjI5Mi42MzkuNjM4LjYzOWgzLjIxbC0uMDEgMi44MjJjMCAuMTY4LjA2My4zMjQuMTguNDM5YS42NjMuNjYzIDAgMCAwIC40Ny4xOTUuNjEuNjEgMCAwIDAgLjQ0LS4xODRsMy4yOTgtMy4yNzNoNy4wMzdhLjY0Ny42NDcgMCAwIDAgLjYzOS0uNjQxVjUuNDE0YS42NTIuNjUyIDAgMCAwLS42NC0uNjM5ek05LjM2NCAxNS41ODRhLjYxLjYxIDAgMCAwLS4zMzItLjA5Mkg1LjgyN3YtOS40NGgxMy4zNDV2OS40NEgxMi41YS41OTcuNTk3IDAgMCAwLS40OTQuMjRMOS42NyAxOC4wNTFsLjAwNy0xLjkzYS41OC41OCAwIDAgMC0uMzEzLS41Mzd6Ii8+PC9zdmc+");
+;
+
+.bcom-chat-full, .bcom-chat-full, .bcom-chat-huge, .bcom-chat-large, .bcom-chat-medium, .bcom-chat-small, .bcom-chat-tiny {
+  background: $bcom-chat;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-chat-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-chat-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-chat-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-chat-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-chat-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-chat-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

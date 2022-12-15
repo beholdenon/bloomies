@@ -1,0 +1,43 @@
+$bcom-size-guide: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJMYXllcl8xIiB4PSIwIiB5PSIwIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAyNSAyNSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHN0eWxlPi5zdDB7ZmlsbDojMjMxZjIwfTwvc3R5bGU+PHBhdGggZD0iTTIxLjggNy43YzAtLjEtLjEtLjMtLjItLjRsLTMuOS0zLjljLS4yLS4yLS43LS4yLS45IDBsLTEzIDEzLS40LjRjLS4yLjItLjIuNyAwIC45bDMuOSAzLjljLjIuMi43LjIuOSAwbDEzLTEzIC40LS40Yy4xLS4xLjItLjMuMi0uNHYtLjF6bS0yLjkgMS40bC0uOC0uOGMtLjItLjItLjctLjItLjkgMC0uMi4yLS4yLjcgMCAuOWwuOC44LTEuNCAxLjRMMTUgOS44Yy0uNi0uNi0xLjUuMy0uOS45bDEuNiAxLjYtMS4zIDEuMy0uOC0uOGMtLjYtLjYtMS41LjMtLjkuOWwuOC44LTEuMyAxLjMtMS42LTEuNmMtLjYtLjYtMS41LjMtLjkuOWwxLjYgMS42TDEwIDE4bC0uOC0uOGMtLjYtLjYtMS41LjMtLjkuOWwuOC44LTEuNSAxLjUtMy0zTDE3LjEgNC45bDMgMy0xLjIgMS4yeiIgY2xhc3M9InN0MCIvPjwvc3ZnPg==");
+;
+
+.bcom-size-guide-full, .bcom-size-guide-full, .bcom-size-guide-huge, .bcom-size-guide-large, .bcom-size-guide-medium, .bcom-size-guide-small, .bcom-size-guide-tiny {
+  background: $bcom-size-guide;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-size-guide-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-size-guide-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-size-guide-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-size-guide-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-size-guide-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-size-guide-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

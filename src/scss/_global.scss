@@ -1,0 +1,19 @@
+@import 'components/fonts/avenir';
+@import 'foundation-6.4.4-rc1/scss/global';
+
+@mixin bloomies-global-styles {
+  @include foundation-global-styles;
+  body {
+    letter-spacing: rem-calc(0.8);
+  }
+}
+
+// Customizing foundation's grid gutter size
+$grid-column-gutter: (
+        small: 10px,
+        medium: 10px,
+        large: 10px
+);
+$grid-margin-gutters: $grid-column-gutter;
+$grid-padding-gutters: $grid-margin-gutters;
+$grid-container-padding: $grid-padding-gutters;

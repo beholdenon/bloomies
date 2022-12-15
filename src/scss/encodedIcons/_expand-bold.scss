@@ -1,0 +1,43 @@
+$expand-bold: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZD0iTTIxLjI2OCAxMS4zNjRoLTcuNjMzVjMuNzMxYzAtLjYyNS0uNTA5LTEuMTM1LTEuMTM0LTEuMTM1cy0xLjEzNS41MDktMS4xMzUgMS4xMzV2Ny42MzRIMy43MzJjLS42MjUgMC0xLjEzNS41MDktMS4xMzUgMS4xMzUgMCAuNjI1LjUwOSAxLjEzNCAxLjEzNSAxLjEzNGg3LjYzNHY3LjYzNWExLjEzNSAxLjEzNSAwIDAgMCAyLjI2OSAwdi03LjYzNWg3LjYzM2ExLjEzNSAxLjEzNSAwIDAgMCAwLTIuMjd6Ii8+PC9zdmc+");
+;
+
+.expand-bold-full, .expand-bold-full, .expand-bold-huge, .expand-bold-large, .expand-bold-medium, .expand-bold-small, .expand-bold-tiny {
+  background: $expand-bold;
+  background-repeat: no-repeat;
+}
+ 
+.expand-bold-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.expand-bold-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.expand-bold-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.expand-bold-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.expand-bold-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.expand-bold-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

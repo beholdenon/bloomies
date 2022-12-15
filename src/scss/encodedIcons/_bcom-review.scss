@@ -1,0 +1,43 @@
+$bcom-review: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZD0iTTIyLjIgMTBoLTcuNGwtMi4zLTcuMi0yLjQgNy4xSDIuM2w2LjQgNC41LTIuNCA3LjMgNi4yLTQuNiA2IDQuNi0yLjMtNy40eiIvPjwvc3ZnPg==");
+;
+
+.bcom-review-full, .bcom-review-full, .bcom-review-huge, .bcom-review-large, .bcom-review-medium, .bcom-review-small, .bcom-review-tiny {
+  background: $bcom-review;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-review-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-review-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-review-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-review-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-review-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-review-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

@@ -1,0 +1,43 @@
+$registry: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIzMUYyMCIgZD0iTTIxLjMxNSA3Ljc5OWgtNC4yNzlhMi45NjUgMi45NjUgMCAwIDAgLjk2My0yLjY2Yy0uMjEyLTEuNDM2LTEuNTE0LTIuMDg5LTIuNjMxLTIuMDg5LS40MDUgMC0uODA5LjA4My0xLjE2Ni4yMzgtMS4wMS40NDEtMS40MTcgMS4zNTMtMS42MzEgMi4xOTRsLS4wMTgtLjA4N2EyLjk0OCAyLjk0OCAwIDAgMC0zLjM0LTIuMzM3IDIuMzMzIDIuMzMzIDAgMCAwLTEuNzI5IDEuMjEzIDIuOTc1IDIuOTc1IDAgMCAwLS4xMiAyLjU4NGMuMTYyLjM3LjQwMi42ODcuNzE3Ljk0M0gzLjY4OGEuNjQ3LjY0NyAwIDAgMC0uNjM5LjYzOXYzLjUxYzAgLjM0Ni4yOTMuNjM4LjYzOS42MzhoMS4wMjd2OC43NTJjMCAuMzU0LjI4Ny42MzkuNjM5LjYzOWgxNC4yOThhLjU4OC41ODggMCAwIDAgLjQ0Ny0uMTg0LjU5Ny41OTcgMCAwIDAgLjE4OS0uNDU1di04Ljc1MmgxLjAyNWEuNTkuNTkgMCAwIDAgLjQ0OS0uMTg0LjYwNS42MDUgMCAwIDAgLjE4OC0uNDU0di0zLjUxYS42NC42NCAwIDAgMC0uNjM1LS42Mzh6bS0yLjMwMiA0Ljc4NXY4LjExNGgtNC42NTl2LTguMTE0aDQuNjU5em0tNS45MzcuMDE3djguMDgxaC0xLjE0OXYtOC4wODFoMS4xNDl6bS0yLjQyNi0uMDE3djguMTE0SDUuOTkydi04LjExNGg0LjY1OHpNOC41MDcgNi4yNTVhMS40NzIgMS40NzIgMCAwIDEgLjEwMS0xLjM4MWMuMjM5LS4zOTcuNTg2LS42MDggMS4wMDMtLjYwOC43NTUgMCAxLjU0Ny42NjQgMS43MDQgMS40MzVsLjM4NSAxLjkyNS0xLjkyMS0uMzg2Yy0uNTczLS4xMTUtMS4wNDktLjQ4My0xLjI3Mi0uOTg1em00LjkyNyAxLjM2OWwuMzg1LTEuOTIxYy4xNjItLjgxMS44MjYtMS4zOTcgMS41NzctMS4zOTcuMjcxIDAgLjUzNy4wNzUuNzg3LjIyOC40NzEuMjgxLjY4LjcyLjU5IDEuMjM0LS4xMjEuNjg5LS43MzQgMS4zMzQtMS40MDUgMS40NzFsLTEuOTM0LjM4NXptNy4yNDQgMS40NTF2Mi4yMzJINC4zMjZWOS4wNzVoMTYuMzUyeiIvPjwvc3ZnPg==");
+;
+
+.registry-full, .registry-full, .registry-huge, .registry-large, .registry-medium, .registry-small, .registry-tiny {
+  background: $registry;
+  background-repeat: no-repeat;
+}
+ 
+.registry-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.registry-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.registry-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.registry-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.registry-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.registry-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

@@ -1,0 +1,43 @@
+$radio-check-disabled: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMCIgaGVpZ2h0PSIxMCI+PHBhdGggZmlsbD0iI0QwRDBEMCIgZD0iTTAgNWE1IDUgMCAxIDAgMTAgMEE1IDUgMCAxIDAgMCA1Ii8+PC9zdmc+");
+;
+
+.radio-check-disabled-full, .radio-check-disabled-full, .radio-check-disabled-huge, .radio-check-disabled-large, .radio-check-disabled-medium, .radio-check-disabled-small, .radio-check-disabled-tiny {
+  background: $radio-check-disabled;
+  background-repeat: no-repeat;
+}
+ 
+.radio-check-disabled-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.radio-check-disabled-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.radio-check-disabled-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.radio-check-disabled-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.radio-check-disabled-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.radio-check-disabled-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

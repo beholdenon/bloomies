@@ -1,0 +1,37 @@
+// project specific
+$site-width: 100%;
+$contained-max-width: 1440px;
+$module-padding: 70px;
+$module-background-color: #efefef;
+
+// colors
+$body-color: #000;
+$body-bg: #fff;
+
+//typography
+$site-font-family: 'Avenir', 'Helvetica' ,Arial,sans-serif;
+$headings-margin-bottom: .3em;
+$paragraph-margin-bottom: 1em;
+$font-family-base: 'Avenir', 'Helvetica' ,Arial,sans-serif;
+$font-size-base: 14px;
+$font-weight-base: normal;
+$line-height-base: 1em;
+$dt-font-weight: normal;
+$font-family-monospace: "Courier New", sans-serif;
+$label-margin-bottom: $paragraph-margin-bottom;
+
+// links
+$link-color: #000;
+$link-decoration: underline;
+$link-hover-color: #000;
+$link-hover-decoration: underline;
+
+$table-cell-padding: 0;
+$table-cell-padding: 0;
+$table-caption-color: #000;
+
+// grid overrides
+$content-well-max-width: $contained-max-width;
+$gutter: 0;
+
+$browser-context: $font-size-base;

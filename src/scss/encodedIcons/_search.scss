@@ -1,0 +1,43 @@
+$search: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIzMUYyMCIgZD0iTTIxLjU3NCAyMC42MTZsLTUuMTI2LTUuMTI3YTcuNDUgNy40NSAwIDAgMCAxLjcwMy00LjczNWMwLTQuMTEtMy4zNDQtNy40NTQtNy40NTYtNy40NTQtNC4xMSAwLTcuNDU0IDMuMzQ0LTcuNDU0IDcuNDU0czMuMzQ0IDcuNDU2IDcuNDU0IDcuNDU2YTcuNDUxIDcuNDUxIDAgMCAwIDQuODY2LTEuODEzbDUuMTE0IDUuMTE2Yy4xMi4xMTkuMjc5LjE4OC40NDguMTg4YS42Mi42MiAwIDAgMCAuNDQ4LS4xODguNjMuNjMgMCAwIDAgLjE4Ni0uNDQ4LjYxNS42MTUgMCAwIDAtLjE4My0uNDQ5em0tMTAuODc4LTMuNjgzYTYuMTg1IDYuMTg1IDAgMCAxLTYuMTc4LTYuMTc4IDYuMTg1IDYuMTg1IDAgMCAxIDYuMTc4LTYuMTc4IDYuMTg0IDYuMTg0IDAgMCAxIDYuMTc4IDYuMTc4IDYuMTg0IDYuMTg0IDAgMCAxLTYuMTc4IDYuMTc4eiIvPjwvc3ZnPg==");
+;
+
+.search-full, .search-full, .search-huge, .search-large, .search-medium, .search-small, .search-tiny {
+  background: $search;
+  background-repeat: no-repeat;
+}
+ 
+.search-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.search-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.search-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.search-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.search-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.search-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

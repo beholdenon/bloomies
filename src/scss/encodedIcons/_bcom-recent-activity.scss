@@ -1,0 +1,43 @@
+$bcom-recent-activity: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PGcgZmlsbD0iIzIzMUYyMCI+PHBhdGggZD0iTTE5LjY1MSA4LjQ2OGwxLjE3MS0xLjE3MWMuNTk2LS41OTYtLjMyNy0xLjUyLS45MjMtLjkyNGwtMS4xMTQgMS4xMTVhOS45OTcgOS45OTcgMCAwIDAtMS4wNTItLjg5NiA4LjQ5NCA4LjQ5NCAwIDAgMC0zLjA3OS0xLjQwOVYzLjM1MmEuMzYuMzYgMCAwIDAtLjAwMy0uMDQ3aC42NmMuODQyIDAgLjg0Mi0xLjMwNiAwLTEuMzA2SDkuNjg4Yy0uODQyIDAtLjg0MiAxLjMwNiAwIDEuMzA2aC41MDlsLS4wMDIuMDQ3djEuODc2YTguOTk3IDguOTk3IDAgMCAwLS44MTMuMjUxYy0yLjcxNS45ODUtNC43NzggMy4yNzUtNS41ODggNi4wMy0uODQgMi44NTYtLjA5NCA1LjkzNiAxLjc0MiA4LjIyOSAyLjM2OSAyLjk2IDYuNTYyIDQuMDAzIDEwLjA4NiAyLjcyNCAzLjU1LTEuMjg5IDUuODg3LTQuNzQ1IDUuOTI3LTguNDkxYTkuMTM5IDkuMTM5IDAgMCAwLTEuODk4LTUuNTAzem0tOC4xNTMtNS4xNjJoMS44NTNsLS4wMDIuMDQ3djEuNjE5YTkuMjE1IDkuMjE1IDAgMCAwLTEuODQ5LjAxOFYzLjM1M2EuNjguNjggMCAwIDAtLjAwMi0uMDQ3em00LjQwOSAxNy42MjFjLTIuNjM1IDEuMzQ1LTUuOTYxLjkxOS04LjI1LS45MTMtMi4zMjMtMS44NTktMy4zNDctNC45MzItMi42OTItNy44MTguNjQ2LTIuODU1IDIuOTUtNS4wNjIgNS43NjEtNS43NjIgNC44MjMtMS4yIDkuNDY2IDIuNjc2IDkuNTE4IDcuNTM4LS4wMzMgMi45NzEtMS42OTYgNS42MDYtNC4zMzcgNi45NTV6Ii8+PHBhdGggZD0iTTE2LjIyOCAxMS4zODlMMTMuMTMgMTMuMTZWOC42NTVjMC0uODQzLTEuMzA2LS44NDMtMS4zMDYgMHY1LjU5NmEuNTkuNTkgMCAwIDAgLjI3NS41MjQuNTk4LjU5OCAwIDAgMCAuNzI0LjA2NGw0LjA2Mi0yLjMyNGMuNzMxLS40MTcuMDc0LTEuNTQ1LS42NTctMS4xMjZ6Ii8+PC9nPjwvc3ZnPg==");
+;
+
+.bcom-recent-activity-full, .bcom-recent-activity-full, .bcom-recent-activity-huge, .bcom-recent-activity-large, .bcom-recent-activity-medium, .bcom-recent-activity-small, .bcom-recent-activity-tiny {
+  background: $bcom-recent-activity;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-recent-activity-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-recent-activity-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-recent-activity-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-recent-activity-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-recent-activity-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-recent-activity-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

@@ -1,0 +1,43 @@
+$bcom-account: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIzMUYyMCIgZD0iTTE5LjUwNSAxNS45MzNjLS43MjktLjg4NS0xLjg3Ny0xLjM0NS0yLjg5Mi0xLjc0OS0uMTU1LS4wNjItLjMxMi0uMTIxLS40NjktLjE4LS40ODYtLjE4Mi0uOTQ2LS4zNTMtMS4zNjctLjY0MSAxLjM2NS0uOTcgMi4yMjktMi43MjYgMi4yNjEtNC42MDkuMDI2LTEuNTktLjY0NC0zLjMxNi0xLjcwOC00LjM5OC0uNzktLjgwNS0xLjc1Ny0xLjIyOS0yLjc5NC0xLjIyOWgtLjA0MmMtMS4yOTQuMDE0LTIuNDE2LjYyNi0zLjI0NSAxLjc3LS43Ljk2Ni0xLjE0NiAyLjI2OS0xLjIyNSAzLjU3NC0uMTE2IDEuOTM3Ljc1MSAzLjg0NiAyLjIxOSA0LjkxN2wtLjAwNy4wMDRjLS40NDUuMjM0LS45MDYuNDc5LTEuMzgxLjY2MmwtLjA0OS4wMmMtMS4wNjEuNDA4LTIuMDYyLjc5Ny0yLjkyOSAxLjU2MkM0LjIwNiAxNy4xMDkgNC4wOCAxOS42NjIgNC40OCAyMS40Yy4wNjIuMjcuMzI3LjQ3My42MTYuNDczaDE0LjkwMmEuNTkuNTkgMCAwIDAgLjU5Ni0uNDU5Ljc1Ni43NTYgMCAwIDAgLjA0My0uMTY4Yy4xNDktMS4yOTMuMjAxLTMuNzAxLTEuMTMyLTUuMzEzem0tOC4yOC0xLjYyMWMuMjg0LS4xNDYuMzU0LS41MTguNDA4LS44MTIuMDEzLS4wNjMuMDI0LS4xMjkuMDM3LS4xODYuMDctLjI4OS0uMDU1LS41OTEtLjI5OC0uNzE4LTEuMDY3LS41NTctMS44Ny0xLjc5OC0yLjA0Ni0zLjE2LS4yNDQtMS45MDYuNjM5LTQuNzEgMi45MzctNS4wMTYuODAxLS4xMDYgMS41MjMuMTUzIDIuMTI1Ljc2Ni45NjkuOTg1IDEuMzg5IDIuNjQyIDEuMzY4IDMuNzYyLS4wMjIgMS40NjEtLjg2OCAyLjkzNy0yLjA1NyAzLjU4OC0uMjQxLjEzMy0uMzYuNDIxLS4zLjcxNi4wMTYuMDYyLjAyMy4xMjcuMDM1LjE5MS4wMjguMTg3LjA2Mi4zOTMuMTU4LjU1Ny4xNy4yODkuNTM5LjQ5OC44MzYuNjY2LjA0MS4wMjEuMDguMDQ3LjExNy4wNjYuMzYuMjA5Ljc2OC4zNSAxLjE2Mi40OC4xOC4wNjIuMzY2LjEyNS41NDIuMTkzYTkuMDA1IDkuMDA1IDAgMCAxIDEuNzE0Ljg2MWMxLjM1NS44OTUgMS41NCAyLjgyNiAxLjQ0NyA0LjMyNEg1LjYyOWE3LjMyNCA3LjMyNCAwIDAgMS0uMDA4LTEuNzNjLjE3Ni0xLjY3OCAxLjM0NS0yLjU5MiAyLjI5NS0zLjA2Mi40NTEtLjIyNi45MjYtLjQxOCAxLjM4NC0uNjA0YTIwLjA3IDIwLjA3IDAgMCAwIDEuNTU2LS42OWwuMzY5LS4xOTJ6Ii8+PC9zdmc+");
+;
+
+.bcom-account-full, .bcom-account-full, .bcom-account-huge, .bcom-account-large, .bcom-account-medium, .bcom-account-small, .bcom-account-tiny {
+  background: $bcom-account;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-account-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-account-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-account-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-account-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-account-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-account-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

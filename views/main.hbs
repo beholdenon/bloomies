@@ -1,0 +1,1285 @@
+{{! Load CSS First }}
+
+<div id="div-attr" data-img-path="images/FILENAME.jpg"></div>
+
+<div class="intro-video-container" id="intro-video">
+    <div id="intro-video-desktop" class="bloomies-intro-video" data-name="intro-video-desktop" data-loop="false" data-autoplay="true" data-controls="false" data-video-id="6259351399001">
+        <video id="" crossorigin="" autoplay="" playsinline="" loop="" muted="" class="media-player">
+           <source src="/videos/intro-desktop.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div id="intro-video-mobile" class="bloomies-intro-video" data-name="intro-video-mobile" data-loop="false" data-autoplay="true" data-controls="false" data-video-id="6259466958001">
+        <video id="" crossorigin="" autoplay="" playsinline="" loop="" muted="" class="media-player">
+           <source src="/videos/intro-mobile.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+
+<div class="sticky-nav-outer">
+    <div class="sticky-nav" id="sticky-nav">
+        <div class="inner">
+
+            <a href="#fresh-looks-panel" class="sticky-nav-item bloomies-anchor" utag="sticky-nav-fresh-looks-click">
+                {{> img src="sticky-fresh-looks-blue" format="png-alpha" alt="Fresh Looks"}}
+            </a>
+
+            <a href="#food-fun-panel" class="sticky-nav-item bloomies-anchor" utag="sticky-nav-food-fun-click">
+                {{> img src="sticky-food-fun-blue" format="png-alpha" alt="Food & Fun"}}
+            </a>
+
+            <a href="#bloomies-top" class="sticky-logo bloomies-anchor-top" utag="sticky-nav-bloomies-click">
+                <svg xmlns="http://www.w3.org/2000/svg" width="228.873" height="46.436" viewBox="0 0 228.873 46.436">
+                <g id="bloomies_logo" data-name="bloomies logo" transform="translate(0 0)">
+                <path id="Path_32" data-name="Path 32" d="M542.214,295.448V276.34h4.392v19.108Z" transform="translate(-341.271 -264.606)" fill="#003da5"/>
+                <path id="Path_33" data-name="Path 33" d="M226.541,267.725a17.792,17.792,0,0,0-13.366,6.087V256.869h-4.393v28.677a17.79,17.79,0,1,0,17.758-17.822Zm0,31.187a13.4,13.4,0,1,1,13.428-13.365A13.43,13.43,0,0,1,226.541,298.911Z" transform="translate(-208.783 -256.869)" fill="#003da5"/>
+                <rect id="Rectangle_36" data-name="Rectangle 36" width="4.393" height="45.557" transform="translate(38.033 0)" fill="#003da5"/>
+                <path id="Path_34" data-name="Path 34" d="M320.173,274.882a17.674,17.674,0,0,0-9.538,2.761,17.79,17.79,0,1,0,0,30.057,17.8,17.8,0,1,0,9.538-32.819Zm-13.115,29.933a13.644,13.644,0,0,1-5.961,1.38,13.4,13.4,0,1,1,0-26.795,13.636,13.636,0,0,1,5.961,1.381,17.9,17.9,0,0,0-4.643,12.048,17.576,17.576,0,0,0,4.643,11.922Zm-.251-12.111a13.445,13.445,0,0,1,3.827-9.413,13.709,13.709,0,0,1,3.828,9.476,13.447,13.447,0,0,1-3.828,9.413A13.712,13.712,0,0,1,306.808,292.7Zm13.366,13.365a13.627,13.627,0,0,1-5.961-1.38,17.9,17.9,0,0,0,4.643-12.048,17.581,17.581,0,0,0-4.643-11.922,12.864,12.864,0,0,1,5.961-1.443,13.4,13.4,0,1,1,0,26.794Z" transform="translate(-238.383 -264.026)" fill="#003da5"/>
+                <path id="Path_35" data-name="Path 35" d="M415.1,274.882a13.8,13.8,0,0,0-11.608,6.275,13.789,13.789,0,0,0-25.352,7.468v20.958h4.393V288.626a9.381,9.381,0,1,1,18.762.061v20.9h4.393V288.626a9.381,9.381,0,1,1,18.762.061v20.9h4.393V288.626A13.739,13.739,0,0,0,415.1,274.882Z" transform="translate(-276.078 -264.026)" fill="#003da5"/>
+                <rect id="Rectangle_37" data-name="Rectangle 37" width="4.392" height="33.822" transform="translate(156.063 11.734)" fill="#003da5"/>
+                <rect id="Rectangle_38" data-name="Rectangle 38" width="4.392" height="9.224" transform="translate(156.063 0)" fill="#003da5"/>
+                <path id="Path_36" data-name="Path 36" d="M496.863,274.882a17.79,17.79,0,1,0,16.565,24.411h-4.894a13.432,13.432,0,0,1-24.912-4.424h30.936c.063-.691.125-1.413.125-2.165v-.063A17.8,17.8,0,0,0,496.863,274.882Zm-13.178,15.656a13.389,13.389,0,0,1,26.418,0Z" transform="translate(-316.194 -264.026)" fill="#003da5"/>
+                <path id="Path_37" data-name="Path 37" d="M562.41,310.462c-6.212,0-11.232-4.517-11.232-10.1h4.393c0,3.138,3.075,5.71,6.839,5.71a6.71,6.71,0,0,0,6.966-6.274c0-3.828-3.263-5.209-6.966-6.275-4.58-1.255-9.851-2.823-9.788-9.412,0-5.084,4.393-9.225,9.852-9.225s9.852,3.922,9.852,8.691h-4.393c0-2.384-2.447-4.3-5.522-4.3-3.012,0-5.458,2.2-5.458,4.833,0,3.137,3.263,4.329,6.9,5.333,4.643,1.317,9.852,3.326,9.852,10.354,0,5.9-5.02,10.668-11.3,10.668Z" transform="translate(-344.833 -264.026)" fill="#003da5"/>
+                </g>
+                </svg>
+            </a>
+
+            <a href="#good-times-panel" class="sticky-nav-item bloomies-anchor" utag="sticky-nav-good-times-click">
+                {{> img src="sticky-good-times-blue" format="png-alpha" alt="Good Times"}}
+            </a>
+
+            <a href="#cool-services-panel" class="sticky-nav-item bloomies-anchor" utag="sticky-nav-cool-services-click">
+                {{> img src="sticky-cool-services-blue" format="png-alpha" alt="Cool Services"}}
+            </a>
+
+        </div>
+    </div>
+    </div>
+
+<div id="main">
+
+    <div class="grid-container fluid grid-outer" id="bloomies-top">
+        <div class="grid-container panel use-bg-color intro-panel logo-panel" data-color="1">
+            <div class="grid-x header align-center">
+                <div class="cell small-12 medium-7 large-8">
+                    <div class="logo">
+                        {{> bloomies-logo}}
+                    </div>
+                    <h2 class="logo-tagline">This little store is going to be <strong>huge</strong></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-container panel use-bg-color intro-panel" data-color="1">
+            <div class="grid-x icons align-center">
+                <div class="cell small-8 medium-9 large-8">
+                    <div class="grid-x">
+                        <div class="cell small-6 medium-auto fresh-looks-icon">
+                            <a href="#fresh-looks-panel" class="bloomies-anchor" utag="icon-fresh-looks-click">
+                                {{>img src="fresh-looks-icon" format="png-alpha" alt="Fresh Looks"}}
+                            </a>
+                        </div>
+                        <div class="cell small-6 medium-auto food-and-fun-icon">
+                            <a href="#food-fun-panel" class="bloomies-anchor" utag="icon-food-fun-click">
+                                {{>img src="food-and-fun-icon" format="png-alpha" alt="Food & Fun"}}
+                            </a>
+                        </div>
+                        <div class="cell small-6 medium-auto good-times-icon">
+                            <a href="#good-times-panel" class="bloomies-anchor" utag="icon-good-times-click">
+                                {{>img src="good-times-icon" format="png-alpha" alt="Good Times"}}
+                            </a>
+                        </div>
+                        <div class="cell small-6 medium-auto cool-services-icon">
+                            <a href="#cool-services-panel" class="bloomies-anchor" utag="icon-cool-services-click">
+                                {{>img src="cool-services-icon" format="png-alpha" alt="Cool Services"}}
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-container panel use-bg-color intro-panel intro-panel-top" data-color="1">
+            <div class="grid-x intro align-center">
+                <div class="cell small-10 medium-9 large-7">
+                    <h3 class="now-open-text">Now open<br />in the Mosaic District</h3>
+                    <p class="intro-1">We’ve taken everything you know and love about Bloomingdale’s and edited it into something at once totally familiar and completely unlike anything you’ve ever seen from us.</p>
+                    <address class="intro-2">2920 District Avenue, Suite 180</address>
+                    <a href="#fresh-looks-panel" class="down-arrow-anchor bloomies-anchor" utag="down-arrow-click">
+                        <div class="down-arrow hide-for-small-only" id="bloomies-down-arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18.61" height="16.161" viewBox="0 0 18.61 16.161">
+                              <g id="Path_4" data-name="Path 4" transform="translate(18.61 16.161) rotate(-180)" fill="#003da5">
+                                <path d="M 17.74521446228027 15.66134357452393 L 0.8648332357406616 15.66134357452393 L 9.305024147033691 1.002073764801025 L 17.74521446228027 15.66134357452393 Z" stroke="none"/>
+                                <path d="M 9.305024147033691 2.004144668579102 L 1.72966194152832 15.16134357452393 L 16.88038635253906 15.16134357452393 L 9.305024147033691 2.004144668579102 M 9.305024147033691 3.814697265625e-06 L 18.61004447937012 16.16134262084961 L 3.814697265625e-06 16.16134262084961 L 9.305024147033691 3.814697265625e-06 Z" stroke="none" fill="#003da5"/>
+                              </g>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-x bloomies-store-panel intro-panel">
+            <div class="cell small-12">
+                <div class="bloomies-store-full hide-for-small-only">
+                    {{> img desktopsrc="bloomies-store-image-full-oct" alt="Bloomies Storefront" class="bloomies-store-full-image" }}
+                </div>
+                <picture>
+                  <source media="(min-width: 600px)" srcset="images/bloomies-store-image-spacer.jpg">
+                  <img src="images/bloomies-store-mobile-oct.jpg" alt="Bloomie's Storefront" class="bloomies-store-image-spacer">
+                </picture>
+            </div>
+        </div>
+
+        <div class="grid-container intro-text-bottom use-bg-color">
+            <div class="grid-x align-center">
+                <div class="cell small-10 medium-8 large-6">
+                    <p>Bloomie’s is a <strong>highly curated</strong>, ever-evolving store concept filled with <strong>incredible labels</strong>, interactive <strong>experiences</strong>, refreshing <strong>cocktails</strong>, and <strong>exceptional service</strong>. Think a place so fun, colorful, and lively you could easily pop in to see us week after week.</p>
+                    <a class="bloomies-text-link" href="https://locations.bloomingdales.com/bloomies-mosaic-va" target="_blank" utag="get-directions">GET DIRECTIONS</a>
+                </div>
+            </div>
+        </div>
+
+        {{!-- fresh looks panel - mobile --}}
+        <div class="grid-container panel panel-mobile scroll-div-mobile show-for-small-only" data-color="1" id="fresh-looks-panel-mobile">
+            <div class="grid-x align-center">
+                <div class="cell small-12">
+                    {{> img src="section-title-mobile-fresh-looks" format="png-alpha" alt="Fresh Looks" class="section-title-mobile fresh-looks" }}
+                </div>
+                <div class="cell small-12 mobile-grid-container">
+
+                    <div class="fresh-looks-mobile-slider">
+                        <div class="fresh-looks-mobile-slide">
+                            {{> img src="fresh_looks_mobile-slide-1" format="png-alpha" alt="Fresh Looks" class="fresh-looks-grid-mobile"}}
+
+                            <div class="grid-item-mobile fresh-clouds-video-mobile">
+                                <div data-name="fresh-clouds-video-mobile-vid" class="media-player-div fresh-clouds-video-mobile-vid" data-loop="true" data-autoplay="true" data-controls="false" data-video-id="6258863166001">
+                                    <video id="" crossorigin="" autoplay="" playsinline="" loop="" muted="" class="media-player">
+                                       <source src="/videos/clouds.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                            </div>
+
+                            <div class="grid-item-mobile fresh-looks-bottle-mobile">
+                                <img src="images/fresh_looks---la-mer_5.gif" class="lamergif" alt="La Mer" />
+                                {{>img src="fresh_looks---la-mer_3-png" format="png-alpha" alt="La Mer" }}
+                            </div>
+                        </div>
+                        <div class="fresh-looks-mobile-slide">
+                            {{> img src="fresh_looks_mobile-slide-2" format="png-alpha" alt="Fresh Looks"}}
+                        </div>
+                    </div>
+                </div>
+                <div class="cell small-10">
+                    {{> fresh-looks-text}}
+                </div>
+            </div>
+        </div>
+
+        {{!-- food and fun panel - mobile --}}
+        <div class="grid-container panel panel-mobile scroll-div-mobile show-for-small-only" data-color="2" id="food-fun-panel-mobile">
+            <div class="grid-x align-center">
+                <div class="cell small-12">
+                    {{> img src="section-title-mobile-food-fun" format="png-alpha" alt="Food & Fun"class="section-title-mobile food-fun" }}
+                </div>
+                <div class="cell small-12 mobile-grid-container">
+                    
+                    <div id="food-fun-empanada-mobile" class="grid-item-mobile" data-speed="2" data-offset="2">
+                        <div class="inner">
+                            {{>img src="food_fun---empanada" format="png-alpha" alt="Empanada"}}
+                        </div>
+                    </div>
+
+                    <div id="food-fun-drink-mobile">
+                        <div class="media-player-div" id="food-fun-drink-video-mobile" data-name="food-fun-drink-video"data-loop="true" data-autoplay="true" data-controls="false" data-video-id="6258846987001">
+                            <video id="" crossorigin="" autoplay="" playsinline="" loop="" muted="" class="media-player">
+                               <source src="/videos/drink.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+
+                    {{> img src="food_fun_mobile-2" format="png-alpha" alt="Food & Fun" class="food-fun-grid-mobile"}}
+                </div>
+
+                <div class="cell small-10">
+                    {{> food-fun-text}}
+                </div>
+
+                <div class="cell small-10 colada-box-mobile">
+                        <div class="colada-inner">
+                            <div class="colada-container">
+                                {{> img src="colada-photo" class="colada-photo" alt="Colada"}}
+
+                                <div class="colada-copy">
+                                    <div class="colada-copy-inner">
+                                        <h3>Colada Shop Hours:</h3>
+                                        <ul>
+                                            <li>10AM–8PM, Monday–Saturday</li>
+                                            <li>11AM–7PM, Sunday</li>
+                                            <li><strong>Happy Hours:</strong> 3PM–6PM, Monday–Friday</li>
+                                        </ul>
+                                        <a href="#" class="bloomies-text-link menu-launch" utag="see-colada-menu">SEE MENU</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        {{!-- good times panel - mobile --}}
+        <div class="grid-container panel panel-mobile scroll-div-mobile show-for-small-only" data-color="3" id="good-times-panel-mobile">
+            <div class="grid-x align-center">
+                <div class="cell small-12">
+                    {{> img src="section-title-mobile-good-times" format="png-alpha" alt="Good Times" class="section-title-mobile good-times" }}
+                </div>
+
+                <div class="cell small-12 mobile-grid-container">
+                    <div id="good-times-cart-mobile">
+                        <div class="inner">
+                            <img src="images/good_times---cart-2.gif" alt="Bloomie's Cart" />
+                        </div>
+                    </div>
+                    {{> img src="good-times-mobile-2" format="png-alpha" alt="Good Times" class="good-times-grid-mobile"}}
+                </div>
+
+                <div class="cell small-10">
+                    {{> good-times-text}}
+                </div>
+
+            </div>
+        </div>
+
+        {{!-- cool services panel - mobile --}}
+        <div class="grid-container panel panel-mobile scroll-div-mobile show-for-small-only" data-color="4" id="cool-services-panel-mobile">
+            <div class="grid-x align-center">
+                <div class="cell small-12">
+                    {{> img src="section-title-mobile-cool-services" format="png-alpha" alt="Cool Services"class="section-title-mobile cool-services" }}
+                </div>
+                <div class="cell small-12 mobile-grid-container">
+                    {{> img src="cool_services_mobile-3" format="png-alpha" alt="Cool Services" class="good-times-grid-mobile"}}
+
+                    <div id="cool-services-rack-mobile" data-speed="2" data-offset="2">
+                        <div class="inner">
+                            {{>img src="cool-services-rack" format="png-alpha" alt="Bloomie's Rack"}}
+                        </div>
+                    </div>
+
+                    <div id="cool-services-stylist-mobile" data-speed="4" data-offset="5">
+                        {{>img src="cool-services-stylist" format="png-alpha" alt="Bloomie's Stylist"}}
+                    </div>
+
+                    <div id="cool-services-clouds-mobile">
+                        <div class="media-player-div" data-loop="true" data-autoplay="true" data-controls="false" data-video-id="6258825144001" id="cool-services-clouds-video-mobile"></div>
+                    </div>
+                </div>
+                <div class="cell small-10">
+                    {{> cool-services-text}}
+                </div>
+            </div>
+        </div>
+
+        {{!-- fresh styles panel - desktop --}}
+        <div class="grid-container scroll-div scroll-div-first panel hide-for-small-only" data-color="1" id="fresh-looks-panel">
+            <div class="grid-x align-center">
+                <div class="cell small-12 medium-11 large-8">
+
+                    {{> img src="sizer-fresh-looks" class="section-sizer" }}
+
+                    <div id="fresh-looks-title" class="grid-item loading" data-speed="8" data-down-speed="16" data-offset="1.5">
+                        {{>img desktopsrc="fresh-looks-header" format="png-alpha" alt="Fresh Looks"}}
+                    </div>
+
+                    <div class="grid-item" id="fresh-looks-carousel" data-speed="12" data-down-speed="12" data-offset="1.5">
+                        
+                
+
+                        <div class="looks-carousel">
+
+
+
+                            {{!--<div class="looks-carousel-slide slide-1">
+
+                                {{> img src="looks-carousel-sizer" class="section-sizer" }}
+
+                                <div id="fresh-looks-cloud" class="grid-item loading">
+                                    <div id="fresh-clouds-video" data-name="fresh-clouds-video" class="media-player-div" data-loop="true" data-autoplay="true" data-controls="false" data-video-id="6258863166001"></div>
+                                    {{> img desktopsrc="clouds" alt="Clouds" class="video-bg" }}
+                                </div>
+
+                                <div id="fresh-looks-denim" class="grid-item loading">
+                                    {{>img desktopsrc="BLMMS_DENIM_ST01@2x" alt="Denim"}}
+                                </div>
+
+                                <div id="fresh-looks-rtw" class="grid-item loading">
+                                    {{>img desktopsrc="rtw-2" format="png-alpha" alt="RTW"}}
+                                </div>
+
+                                <div id="fresh-looks-bottle" class="grid-item loading">
+                                    <div class="inner">
+                                        <img src="https://images.ctfassets.net/m3h9iuk14rnq/7wq5DR2Anclhdhfo2Y65aZ/01e1e0d4873849f84c0bb266d4a18899/fresh_looks---la-mer_5.gif" class="lamergif" alt="La Mer" />
+                                        {{>img desktopsrc="fresh_looks---la-mer_3-png" format="png-alpha" }}
+                                    </div>
+                                </div>
+
+                                <div id="fresh-looks-sneakers" class="grid-item loading">
+                                    {{> img desktopsrc="BLMMS_SNEAKER_ST01@2x" alt="Sneakers"}}
+                                </div>
+
+                                <div id="fresh-looks-glasses" class="grid-item loading">
+                                    {{>img desktopsrc="glasses" format="png-alpha" alt="Glasses"}}
+                                </div>
+                            </div>
+
+                            <div class="looks-carousel-slide slide-2">
+
+                                {{> img src="looks-carousel-sizer" class="section-sizer" }}
+
+                                <div id="fresh-looks-slide-2" class="grid-item loading">
+                                    {{> img src="fresh-looks-slide-2" format="png-alpha"}}
+                                </div>
+
+                                {{!--<div id="fresh-looks-rtw-3" class="grid-item loading">
+                                    {{> img src="cult-gaia-fpo@2x" alt="Cult Gai" }}
+                                </div>
+
+                                <div id="fresh-looks-staud" class="grid-item loading">
+                                    {{> img src="staud@2x" alt="Staud" }}
+                                </div>
+
+                                <div id="fresh-looks-helmut" class="grid-item loading">
+                                    {{> img src="helmut-lang@2x" alt="Helmut Lang" }}
+                                </div>
+
+                                <div id="fresh-looks-mansur" class="grid-item loading">
+                                    {{> img src="mansur-fpo@2x" alt="MANSUR GAVRIEL" }}
+                                </div>
+
+                                <div id="fresh-looks-apc" class="grid-item loading">
+                                    {{> img src="apc@2x" alt="A.P.C." }}
+                                </div>
+
+                                <div id="fresh-looks-salomon" class="grid-item loading">
+                                    {{> img src="saloman-fpo@2x" alt="SALOMON" }}
+                                </div>--}}
+                            {{!--</div>--}}
+
+                            <div class="carousel-slide">
+                                {{> img src="looks-carousel-sizer" class="section-sizer" }}
+
+                                <div class="grid-item loading fresh-looks-cloud">
+                                    <div data-name="fresh-clouds-video" class="media-player-div fresh-clouds-video" data-loop="true" data-autoplay="true" data-controls="false" data-video-id="6258863166001">
+                                        <video id="" crossorigin="" autoplay="" playsinline="" loop="" muted="" class="media-player">
+                                           <source src="/videos/clouds.mp4" type="video/mp4">
+                                        </video>
+                                    </div>
+                                    {{> img desktopsrc="clouds" alt="Clouds" class="video-bg" }}
+                                </div>
+
+                                <div class="grid-item loading fresh-looks-denim">
+                                    {{>img desktopsrc="BLMMS_DENIM_ST01@2x" alt="Denim"}}
+                                </div>
+
+                                <div class="grid-item loading fresh-looks-rtw">
+                                    {{>img desktopsrc="rtw-2" format="png-alpha" alt="RTW"}}
+                                </div>
+
+                                <div class="grid-item loading fresh-looks-bottle">
+                                    <div class="inner">
+                                        <img src="images/fresh_looks---la-mer_5.gif" class="lamergif" alt="La Mer" />
+                                        {{>img desktopsrc="fresh_looks---la-mer_3-png" format="png-alpha" }}
+                                    </div>
+                                </div>
+
+                                <div class="grid-item loading fresh-looks-sneakers">
+                                    {{> img desktopsrc="BLMMS_SNEAKER_ST01@2x" alt="Sneakers"}}
+                                </div>
+
+                                <div class="grid-item loading fresh-looks-glasses">
+                                    {{>img desktopsrc="glasses" format="png-alpha" alt="Glasses"}}
+                                </div>
+                            </div>
+
+                            <div class="carousel-slide">
+                                {{> img src="looks-carousel-sizer" class="section-sizer" }}
+
+                                <div class="grid-item loading fresh-looks-slide-2">
+                                    {{> img src="fresh-looks-slide-2" format="png-alpha"}}
+                                </div>
+                            </div>
+                    
+
+                        </div>
+
+                        
+
+
+                    </div>
+
+                    <div id="fresh-looks-brands" class="grid-item loading" data-speed="16" data-down-speed="8" data-offset="8">
+                        {{> fresh-looks-text}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{!-- food and fun panel - desktop --}}
+        <div class="grid-container scroll-div panel hide-for-small-only " data-color="2" id="food-fun-panel">
+            <div class="grid-x align-center">
+                <div class="cell small-12 medium-11 large-8">
+                    {{> img src="sizer-food-fun-2" class="section-sizer" }}
+
+                    <div id="food-fun-title" class="grid-item loading" data-speed="8" data-down-speed="26" data-offset="2">
+                        {{>img desktopsrc="food-and-fun-type" format="png-alpha" alt="Food & Fun"}}
+                    </div>
+
+                    <div id="food-fun-empanada" class="grid-item loading" data-speed="11" data-down-speed="23" data-offset="3">
+                        <div class="inner">
+                            {{>img desktopsrc="food_fun---empanada" format="png-alpha" alt="Empanada"}}
+                        </div>
+                    </div>
+
+                    <div id="food-fun-bg" class="grid-item loading" data-speed="14" data-down-speed="20" data-offset="4">
+                        {{>img desktopsrc="AvocadoTostada@2x" alt="Colada"}}
+                    </div>
+
+                    <div id="food-fun-drink" class="grid-item loading" data-speed="17" data-down-speed="17" data-offset="5">
+                        <div class="media-player-div" id="food-fun-drink-video" data-name="food-fun-drink-video"data-loop="true" data-autoplay="true" data-controls="false" data-video-id="6258846987001">
+                            <video id="" crossorigin="" autoplay="" playsinline="" loop="" muted="" class="media-player">
+                               <source src="/videos/drink.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        {{> img desktopsrc="food-fun-drink" alt="Cocktail" class="video-bg" }}
+                    </div>
+
+                    <div id="food-fun-menu" class="grid-item loading" data-speed="20" data-down-speed="14" data-offset="6">
+                        <a class="menu-launch" href="#">
+                            {{>img desktopsrc="colada-menu" format="png-alpha" alt="Colada Menu"}}
+                        </a>
+                    </div>
+
+                    <div id="food-fun-cup" class="grid-item loading" data-speed="23" data-down-speed="11" data-offset="7">
+                        {{>img desktopsrc="colada-cup" format="png-alpha" alt="Colada Cup"}}
+                    </div>
+
+                    <div id="food-fun-type" class="grid-item loading" data-speed="26" data-down-speed="8" data-offset="8">
+                        {{> food-fun-text}}
+                    </div>
+
+                    <div id="colada-box" class="grid-item loading" data-speed="26" data-down-speed="8" data-offset="8">
+                        {{> img src="colada-box-sizer" class="sizer"}}
+                        <div class="colada-inner">
+                            <div class="colada-container">
+                                {{> img src="colada-photo" class="colada-photo" alt="Colada"}}
+
+                                <div class="colada-copy">
+                                    <div class="colada-copy-inner">
+                                        <h3>Colada Shop Hours:</h3>
+                                        <ul>
+                                            <li>10AM–8PM, Monday–Saturday</li>
+                                            <li>11AM–7PM, Sunday</li>
+                                            <li><strong>Happy Hours:</strong> 3PM–6PM, Monday–Friday</li>
+                                        </ul>
+                                        <a href="#" class="bloomies-text-link menu-launch" utag="see-colada-menu">SEE MENU</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        {{!-- good times panel - desktop --}}
+        <div class="grid-container scroll-div panel hide-for-small-only" data-color="3" id="good-times-panel">
+            <div class="grid-x align-center">
+                <div class="cell small-12 medium-11 large-8">
+                    
+                    <div class="sub-section">
+                        {{> img src="sizer-good-times" class="section-sizer" }}
+
+                        <div id="good-times-title" class="grid-item loading" data-speed="8" data-down-speed="26" data-offset="2">
+                            {{>img desktopsrc="good-times-title" format="png-alpha" alt="Good Times"}}
+                        </div>
+
+                        <div id="good-times-popcorn" class="grid-item loading" data-speed="11" data-down-speed="23" data-offset="3">
+                            <img src="images/good_times---popcorn.gif" alt="Popcorn" />
+                        </div>
+
+                        <div id="good-times-ticket" class="grid-item loading" data-speed="14" data-down-speed="20" data-offset="4">
+                            {{>img desktopsrc="ticket" format="png-alpha" alt="Ticket" }}
+                        </div>
+
+                        <div id="good-times-newspaper" class="grid-item loading" data-speed="17" data-down-speed="17" data-offset="5">
+                            {{>img desktopsrc="woman-newspaper@2x" alt="Bloomie's"}}
+                        </div>
+
+                        <div id="good-times-cart" class="grid-item loading" data-speed="20" data-down-speed="14" data-offset="6">
+                            <div class="inner">
+                                <img src="images/good_times---cart-2.gif" alt="Bloomie's Cart" />
+                            </div>
+                        </div>
+                        <div id="good-times-bag" class="grid-item loading" data-speed="23" data-down-speed="11" data-offset="7">
+                            {{>img desktopsrc="bloomies-bag-dog" format="png-alpha" alt="Bloomie's Bag"}}
+                        </div>
+
+                        <div id="good-times-type" class="grid-item loading" data-speed="26" data-down-speed="8" data-offset="8">
+                            {{> good-times-text}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{!-- cool services panel - desktop --}}
+        <div class="grid-container scroll-div scroll-div-last panel hide-for-small-only" data-color="4" id="cool-services-panel">
+            <div class="grid-x align-center">
+                <div class="cell small-12 medium-11 large-8">
+                    {{> img src="sizer-cool-services-2" class="section-sizer" }}
+
+                    <div id="cool-services-title" class="grid-item loading" data-speed="8" data-down-speed="29" data-offset="8">
+                        {{>img desktopsrc="cool-services-type" format="png-alpha" alt="Cool Services"}}
+                    </div>
+
+                    <div id="cool-services-clouds" class="grid-item loading" data-speed="11" data-down-speed="26" data-offset="3">
+                        <div class="media-player-div" data-loop="true" data-autoplay="true" data-controls="false" data-video-id="6258825144001" id="cool-services-clouds-video">
+                            <video id="" crossorigin="" autoplay="" playsinline="" loop="" muted="" class="media-player">
+                               <source src="/videos/clouds.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        {{> img desktopsrc="cool-services-clouds" alt="Clouds" class="video-bg" }}
+                    </div>
+
+                    <div id="cool-services-woman" class="grid-item loading" data-speed="14" data-down-speed="26" data-offset="4">
+                        {{>img desktopsrc="cool-services-woman" format="png-alpha" alt="Bloomie's"}}
+                    </div>
+
+                    <div id="cool-services-bg" class="grid-item loading" data-speed="17" data-down-speed="23" data-offset="5">
+                        {{>img desktopsrc="cool-services-bg" alt="Cool Services"}}
+                    </div>
+
+                    <div id="cool-services-rack" class="grid-item loading" data-speed="17" data-down-speed="20" data-offset="5">
+                        <div class="inner">
+                            {{>img desktopsrc="cool-services-rack" format="png-alpha" alt="Bloomie's Rack"}}
+                        </div>
+                    </div>
+
+                    <div id="cool-services-stylist" class="grid-item loading" data-speed="20" data-down-speed="17" data-offset="6">
+                            {{>img desktopsrc="cool-services-stylist" format="png-alpha" alt="Bloomie's Stylist"}}
+                    </div>
+
+                    <div id="cool-services-button" class="grid-item loading" data-speed="23" data-down-speed="17" data-offset="7">
+                        {{>img desktopsrc="cool-services-button-2" format="png-alpha" alt="Bloomie's Button"}}
+                    </div>
+
+                    <div id="cool-services-gift" class="grid-item loading" data-speed="26" data-down-speed="14" data-offset="8">
+                        {{>img desktopsrc="cool-services-gift" format="png-alpha" alt="Bloomie's Gift"}}
+                    </div>
+
+                    <div id="cool-services-thread-2" class="grid-item loading" data-speed="26" data-down-speed="11" data-offset="9">
+                        <img src="images/cool_services---thread-1__1_.gif" alt="Thread" />
+                    </div>
+
+                    <div id="cool-services-type" class="grid-item loading" data-speed="29" data-down-speed="8" data-offset="10">
+                        {{> cool-services-text}}
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    
+
+        <div class="grid-container say-hello-panel panel" data-color="4">
+            <div class="grid-x align-center">
+                <div class="cell small-12">
+                    <div class="media-player-div say-hello-video" data-loop="true" data-autoplay="true" data-controls="false" data-video-id="6269313680001" id="say-hello-video">
+                        <video id="" crossorigin="" autoplay="" playsinline="" loop="" muted="" class="media-player">
+                            <source src="/videos/hello.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <address class="footer-address">
+                        2920 District Avenue, Suite 180
+                    </address>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+
+
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+
+<script>
+
+
+!function(t,e){"function"==typeof define&&define.amd?define([],e):"object"==typeof module&&module.exports?module.exports=e():t.SimpleLightbox=e()}(this,function(){function e(t){for(var e=1;e<arguments.length;e++){var n=arguments[e];if(n)for(var i in n)n.hasOwnProperty(i)&&(t[i]=n[i])}return t}function i(t,e){t&&e&&(t.className+=" "+e)}function s(t,e){t&&e&&(t.className=t.className.replace(new RegExp("(\\s|^)"+e+"(\\s|$)")," ").trim())}function o(t){var e=document.createElement("div");return e.innerHTML=t.trim(),e.childNodes[0]}function l(t,e){return(t.matches||t.matchesSelector||t.msMatchesSelector).call(t,e)}function r(t){this.init.apply(this,arguments)}return r.defaults={elementClass:"",elementLoadingClass:"slbLoading",htmlClass:"slbActive",closeBtnClass:"",nextBtnClass:"",prevBtnClass:"",loadingTextClass:"",closeBtnCaption:"Close",nextBtnCaption:"Next",prevBtnCaption:"Previous",loadingCaption:"Loading...",bindToItems:!0,closeOnOverlayClick:!0,closeOnEscapeKey:!0,nextOnImageClick:!0,showCaptions:!0,captionAttribute:"title",urlAttribute:"href",startAt:0,loadingTimeout:100,appendTarget:"body",beforeSetContent:null,beforeClose:null,afterClose:null,beforeDestroy:null,afterDestroy:null,videoRegex:new RegExp(/youtube.com|vimeo.com/)},e(r.prototype,{init:function(n){n=this.options=e({},r.defaults,n);var t,i=this;n.$items&&(t=n.$items.get()),n.elements&&(t=[].slice.call("string"==typeof n.elements?document.querySelectorAll(n.elements):n.elements)),this.eventRegistry={lightbox:[],thumbnails:[]},this.items=[],this.captions=[],t&&t.forEach(function(t,e){i.items.push(t.getAttribute(n.urlAttribute)),i.captions.push(t.getAttribute(n.captionAttribute)),n.bindToItems&&i.addEvent(t,"click",function(t){t.preventDefault(),i.showPosition(e)},"thumbnails")}),n.items&&(this.items=n.items),n.captions&&(this.captions=n.captions)},addEvent:function(t,e,n,i){return this.eventRegistry[i||"lightbox"].push({element:t,eventName:e,callback:n}),t.addEventListener(e,n),this},removeEvents:function(t){return this.eventRegistry[t].forEach(function(t){t.element.removeEventListener(t.eventName,t.callback)}),this.eventRegistry[t]=[],this},next:function(){return this.showPosition(this.currentPosition+1)},prev:function(){return this.showPosition(this.currentPosition-1)},normalizePosition:function(t){return t>=this.items.length?t=0:t<0&&(t=this.items.length-1),t},showPosition:function(t){var e=this.normalizePosition(t);return void 0!==this.currentPosition&&(this.direction=e>this.currentPosition?"next":"prev"),this.currentPosition=e,this.setupLightboxHtml().prepareItem(this.currentPosition,this.setContent).show()},loading:function(t){var e=this,n=this.options;t?this.loadingTimeout=setTimeout(function(){i(e.$el,n.elementLoadingClass),e.$content.innerHTML='<p class="slbLoadingText '+n.loadingTextClass+'">'+n.loadingCaption+"</p>",e.show()},n.loadingTimeout):(s(this.$el,n.elementLoadingClass),clearTimeout(this.loadingTimeout))},prepareItem:function(t,e){var n=this,i=this.items[t];if(this.loading(!0),this.options.videoRegex.test(i))e.call(n,o('<div class="slbIframeCont"><iframe class="slbIframe" frameborder="0" allowfullscreen src="'+i+'"></iframe></div>'));else{var s=o('<div class="slbImageWrap"><img class="slbImage" src="'+i+'" /></div>');this.$currentImage=s.querySelector(".slbImage"),this.options.showCaptions&&this.captions[t]&&s.appendChild(o('<div class="slbCaption">'+this.captions[t]+"</div>")),this.loadImage(i,function(){n.setImageDimensions(),e.call(n,s),n.loadImage(n.items[n.normalizePosition(n.currentPosition+1)])})}return this},loadImage:function(t,e){if(!this.options.videoRegex.test(t)){var n=new Image;e&&(n.onload=e),n.src=t}},setupLightboxHtml:function(){var t=this.options;return this.$el||(this.$el=o('<div class="slbElement '+t.elementClass+'"><div class="slbOverlay"></div><div class="slbWrapOuter"><div class="slbWrap"><div class="slbContentOuter"><div class="slbContent"></div><button type="button" title="'+t.closeBtnCaption+'" class="slbCloseBtn '+t.closeBtnClass+'">×</button>'+(1<this.items.length?'<div class="slbArrows"><button type="button" title="'+t.prevBtnCaption+'" class="prev slbArrow'+t.prevBtnClass+'">'+t.prevBtnCaption+'</button><button type="button" title="'+t.nextBtnCaption+'" class="next slbArrow'+t.nextBtnClass+'">'+t.nextBtnCaption+"</button></div>":"")+"</div></div></div></div>"),this.$content=this.$el.querySelector(".slbContent")),this.$content.innerHTML="",this},show:function(){return this.modalInDom||(document.querySelector(this.options.appendTarget).appendChild(this.$el),i(document.documentElement,this.options.htmlClass),this.setupLightboxEvents(),this.modalInDom=!0),this},setContent:function(t){var e="string"==typeof t?o(t):t;return this.loading(!1),this.setupLightboxHtml(),s(this.$content,"slbDirectionNext"),s(this.$content,"slbDirectionPrev"),this.direction&&i(this.$content,"next"===this.direction?"slbDirectionNext":"slbDirectionPrev"),this.options.beforeSetContent&&this.options.beforeSetContent(e,this),this.$content.appendChild(e),this},setImageDimensions:function(){this.$currentImage&&(this.$currentImage.style.maxHeight=("innerHeight"in window?window.innerHeight:document.documentElement.offsetHeight)+"px")},setupLightboxEvents:function(){var n=this;return this.eventRegistry.lightbox.length||this.addEvent(this.$el,"click",function(t){var e=t.target;l(e,".slbCloseBtn")||n.options.closeOnOverlayClick&&l(e,".slbWrap")?n.close():l(e,".slbArrow")?l(e,".next")?n.next():n.prev():n.options.nextOnImageClick&&1<n.items.length&&l(e,".slbImage")&&n.next()}).addEvent(document,"keyup",function(t){n.options.closeOnEscapeKey&&27===t.keyCode&&n.close(),1<n.items.length&&((39===t.keyCode||68===t.keyCode)&&n.next(),(37===t.keyCode||65===t.keyCode)&&n.prev())}).addEvent(window,"resize",function(){n.setImageDimensions()}),this},close:function(){this.modalInDom&&(this.runHook("beforeClose"),this.removeEvents("lightbox"),this.$el&&this.$el.parentNode.removeChild(this.$el),s(document.documentElement,this.options.htmlClass),this.modalInDom=!1,this.runHook("afterClose")),this.direction=void 0,this.currentPosition=this.options.startAt},destroy:function(){this.close(),this.runHook("beforeDestroy"),this.removeEvents("thumbnails"),this.runHook("afterDestroy")},runHook:function(t){this.options[t]&&this.options[t](this)}}),r.open=function(t){var e=new r(t);return t.content?e.setContent(t.content).show():e.showPosition(e.options.startAt)},r.registerAsJqueryPlugin=function(i){i.fn.simpleLightbox=function(t){var e,n=this;return this.each(function(){i.data(this,"simpleLightbox")||(e=e||new r(i.extend({},t,{$items:n})),i.data(this,"simpleLightbox",e))})},i.SimpleLightbox=r},"undefined"!=typeof window&&window.jQuery&&r.registerAsJqueryPlugin(window.jQuery),r});
+
+/*
+var $jq = jQuery.noConflict();
+$jq(document).ready(function() { 
+    $jq('#fresh-looks-carousel .looks-carousel').slick();
+});
+*/
+
+$.noConflict();
+jQuery( document ).ready(function( $ ) {
+        var w = $(window);
+        var body = $('body');
+        var windowHeight = w.height();
+        var deadHeight = 30;
+        var pageScrollSpeed = 4000;
+        var desktopImagesLoaded = false;
+        var mobileMode;
+        var accountID = 75934411001;
+        var policyKey = 'BCpkADawqM0NvUfP8kau23tpJMWdg09UoT0lqv-Aoqc98Q-ug4rTtp17hA99TA9yLT4-SJm-oIpkYExCvnGqb1fpbxMZM1Y8Yy1Hol4HdRpWGuJHGskT_7155ak';
+
+        function initLightboxMenu() {
+            SimpleLightbox.defaults = {
+                // add custom classes to lightbox elements
+                elementClass: '',
+                elementLoadingClass: 'slbLoading',
+                htmlClass: 'slbActive',
+                closeBtnClass: ' lightbox-close',
+                nextBtnClass: ' lightbox-next',
+                prevBtnClass: ' lightbox-prev',
+                loadingTextClass: '',
+
+                // customize / localize controls captions
+                closeBtnCaption: 'Close',
+                nextBtnCaption: '',
+                prevBtnCaption: '',
+                loadingCaption: 'Loading...',
+
+                bindToItems: true, // set click event handler to trigger lightbox on provided $items
+                closeOnOverlayClick: true,
+                closeOnEscapeKey: true,
+                nextOnImageClick: true,
+                showCaptions: true,
+
+                captionAttribute: 'title', // choose data source for library to glean image caption from
+                urlAttribute: 'href', // where to expect large image
+
+                startAt: 0, // start gallery at custom index
+                loadingTimeout: 100, // time after loading element will appear
+
+                appendTarget: 'body', // append elsewhere if needed
+
+                beforeSetContent: null, // convenient hooks for extending library behavoiur
+                beforeClose: null,
+                beforeDestroy: null,
+
+                videoRegex: new RegExp(/youtube.com|vimeo.com/) // regex which tests load url for iframe content
+            };
+
+            $('.menu-launch').on('click', function(e) {
+                e.preventDefault();
+                var lightbox = SimpleLightbox.open({
+                    items: [getImage('menu-1'), getImage('menu-2')]
+                });
+            });
+        }
+
+        function getImage(src) {
+            return $('#div-attr').data('img-path').replace('FILENAME', src);
+        }
+
+
+        function listenForWindowResize() {
+            checkWindowSize();
+            w.on('resize', checkWindowSize);
+        }
+
+        function checkWindowSize() {
+            if(w.width() < 600) {
+                if(!mobileMode || mobileMode == undefined) {
+                    mobileMode = true;
+                    setMobile();
+                }
+
+            }
+            else {
+                if(mobileMode || mobileMode == undefined) {
+                    mobileMode = false;
+                    setDesktop();
+                }
+            }
+        }
+
+        function colorChangeOnScroll() {
+            w.scroll(function() {
+                // selectors
+                var panel = $('.panel');
+                var nav = $('.sticky-nav');
+
+                // get scroll position
+                var scroll = w.scrollTop() + (w.height() / 2);
+
+                // loop through panels
+                panel.each(function () {
+                    var $this = $(this);
+                    if ($this.position().top <= scroll && $this.position().top + $this.height() > scroll) {
+                        
+                        // set classes on body
+                        body.removeClass(function (index, css) {
+                            return (css.match (/(^|\s)color-\S+/g) || []).join(' ');
+                        });
+                        body.addClass('color-' + $(this).data('color'));
+
+                        // set classes on nav
+                        nav.removeClass(function (index, css) {
+                            return (css.match (/(^|\s)color-\S+/g) || []).join(' ');
+                        });
+                        nav.addClass('color-' + $(this).data('color'));
+
+                        $('.use-bg-color').removeClass(function (index, css) {
+                            return (css.match (/(^|\s)color-\S+/g) || []).join(' ');
+                        });
+                        $('.use-bg-color').addClass('color-' + $(this).data('color'));
+                    }
+                });    
+
+            });
+        }
+
+        function getScrollSpeed(dist) {
+            var speed = dist * 1.4;
+            if(speed < 1500) {
+                speed = 1500;
+            }
+            return speed;
+        }
+
+        function scrollTo(el) {
+            var pos = ($(el).offset().top + (($(el).height()/2) - $(window).height()/2));
+            if(($(el).height() + $('.sticky-nav-outer').height()) > $(window).height()) {
+                pos = pos - 45;
+            }
+            var dist = Math.abs(pos - $('html').scrollTop());
+            $('html').animate({ scrollTop: pos }, getScrollSpeed(dist));
+        }
+
+        function setStickyNav() {
+            var introEl = $('.icons'); 
+            var stickyNavOuter = $('.sticky-nav-outer');
+
+            // listen for scroll
+            w.on('scroll', function() {
+                var windowScrollTop = w.scrollTop();
+                var windowCenter = windowScrollTop + (w.height() / 2); 
+
+                // show/hide sticky nav
+                windowScrollTop > (introEl.offset().top + introEl.height()) - 20 ? stickyNavOuter.addClass('show-nav') : stickyNavOuter.removeClass('show-nav');
+            }).scroll();
+
+            // set the speed of the sticky nav
+            setTimeout(function() {
+                $('.sticky-nav-outer').attr('style', '--transition-speed: 1s');
+            }, 1000);
+
+        }
+
+        function setSeeYouSoon() {
+            var videoEl = $('#say-hello-video-video');
+            var videoCom = videoEl[0];
+
+            videoEl.on("pause", function (e) {
+                console.log('bloomies video currentTime: ' + videoCom.paused);
+                //document.getElementById('say-hello-video-video').currentTime = 0;
+            });
+
+            videoEl.on("play", function (e) {
+                //document.getElementById('say-hello-video-video').currentTime = 0;
+            });
+
+            w.on('scroll', function() {
+                var bodyHeight = $('body').height();
+                var windowScrollTop = w.scrollTop();
+                var panelHeight = $('.say-hello-panel').height();
+                var windowHeight = w.height();
+
+
+                if(windowScrollTop > (bodyHeight - (panelHeight + 150) - (windowHeight/1.2))) {
+                    console.log('bloomies video paused: ' + videoCom.paused);
+                    if(videoCom.paused) {
+                        document.getElementById('say-hello-video-video').currentTime = 0;
+                        videoCom.play();
+                    }
+                }
+                else {
+                    console.log('bloomies video paused: ' + videoCom.paused);
+                    if(!videoCom.paused) {
+                        videoCom.pause();
+                        document.getElementById('say-hello-video-video').currentTime = 0;
+                    }
+                }
+            });
+        }
+    
+        
+        function initScroll() {
+            $('.bloomies-store-full-image').attr('style', '--transition-speed: 1s');
+
+            w.on('scroll', function() {
+                var windowScrollTop = w.scrollTop();
+                var windowCenter = windowScrollTop + (w.height() / 2);
+
+                // set the store image parallax
+                if(windowScrollTop < w.height()) {
+                    var storePanel = $('.bloomies-store-panel');
+                    var storeCenter = storePanel.offset().top + (storePanel.height() / 2);
+                    var storeDist = storeCenter - windowCenter;
+                    var storeTransY = storeDist * .15;
+                    $('.bloomies-store-full-image').css({'transform' : 'translateY(' + storeTransY + 'px)'});
+                }
+            });
+
+            $('.scroll-div').each(function() {
+                $(this).find('.grid-item').each(function() {
+                    $(this).data('offset-num', parseInt($(this).data('offset')));
+                    $(this).data('speed-num', parseInt($(this).data('speed')));
+                    $(this).data('down-speed-num', parseInt($(this).data('down-speed')));
+                });
+            });
+
+
+            setInterval(function() {
+                var windowCenter = w.scrollTop() + (w.height() / 2); 
+                var windowScrollTop = w.scrollTop();
+                var a = 0;
+                
+                $('.scroll-div').each(function() {
+                    var container = $(this);
+                    var sectionCenter = container.offset().top + (container.height() / 2);
+                    var sectionDist = sectionCenter - windowCenter;
+
+                    container.find('.grid-item').each(function() {
+                        var g = $(this);
+                        var targetTransY = sectionDist;
+
+                        if(a > 0) {
+                            targetTransY = sectionDist * 1.2;
+                        }
+
+                        var currentTransY = parseInt(g.css('transform').split(',')[5]);
+                        var speed;
+                        currentTransY < targetTransY ? speed = g.data('down-speed-num') : speed = g.data('speed-num');
+                        speed *= .5;
+                        var transYDif = targetTransY - currentTransY;
+                        g.css({'transform' : 'translateY(' + (currentTransY + (transYDif/speed)) + 'px)'});
+                    });
+
+                    a += 1;
+                });
+            }, 40);
+
+
+            // show all grid items
+            $('.loading').removeClass('loading');
+        }
+
+        function setMobileParallax() {
+            setInterval(function() {
+              var windowCenter = w.scrollTop(); 
+              var windowScrollTop = w.scrollTop();
+
+                $('.scroll-div-mobile').each(function() {
+                var container = $(this);
+                var sectionCenter = container.offset().top;
+                var sectionDist = sectionCenter - windowCenter;
+               
+                container.find('.grid-item-mobile').each(function() {
+                  var offset = parseInt($(this).data('offset'));
+                  var speed = parseInt($(this).data('speed'));
+                  var targetTransY = (sectionDist * offset)/10;
+                  var currentTransY = parseInt($(this).css('transform').split(',')[5]);
+                  var transYDif = targetTransY - currentTransY;
+                  $(this).css({'transform' : 'translateY(' + (currentTransY + (transYDif/speed)) + 'px)'});
+                });
+              });
+            }, 40);
+        }
+
+        function killAnchorItems() {
+            $('.bloomies-anchor').off();
+            $('.bloomies-anchor-top').off();
+        }
+
+        function setAnchorItemsDesktop() {
+            killAnchorItems();
+
+            $('.bloomies-anchor').on('click', function(e) {
+                e.preventDefault();
+                scrollTo($(this).attr('href'));
+            });
+
+            $('.bloomies-anchor-top').on('click', function(e) {
+                e.preventDefault();
+                $("html").animate({ scrollTop: 0 }, pageScrollSpeed);
+            });
+        }
+
+        function setAnchorItemsMobile() {
+            killAnchorItems();
+
+            $('.bloomies-anchor').on('click', function(e) {
+                e.preventDefault();
+                var targetEl = $(this).attr('href') + '-mobile';
+                $("html").animate({ scrollTop: $(targetEl).offset().top }, pageScrollSpeed);
+            });
+
+            $('.bloomies-anchor-top').on('click', function(e) {
+                e.preventDefault();
+                $("html").animate({ scrollTop: 0 }, pageScrollSpeed);
+            });
+        }
+
+        function setBgFade() {
+            colorChangeOnScroll();
+
+            // set the speed for the background fade on load
+            document.body.style.setProperty('--bg-speed', '1s');
+        }
+
+        function showVideoBackups() {
+            setTimeout(function() { $('.video-bg').css('opacity', 1); }, 1000);
+        }
+
+        function setDesktop() {
+            desktopImagesLoaded = true;
+            $('img').each(function() {
+                if($(this).data('desktop-src')) {
+                    $(this).attr('src', $(this).data('desktop-src'));
+                }
+            });
+            
+            initDesktopCarousel();
+            initScroll();
+            setAnchorItemsDesktop();
+        }
+
+        function initDesktopCarousel() {
+            var carousel = $('#fresh-looks-carousel .looks-carousel');
+            if(!carousel.hasClass('slick-initialized')) {
+                carousel.slick({
+                    infinite: true,
+                    slidesToShow: 1,
+                    dots: false,
+                    speed: 300,
+                    autoplay: true,
+                    autoplaySpeed: 4000,
+                });
+
+                carousel.on('afterChange', function(event, slick, currentSlide, nextSlide){
+                    $('.fresh-clouds-video').each(function() {
+                        $(this).find('video')[0].pause();
+                        $(this).find('video').attr('currentTime', 0);
+                        $(this).find('video')[0].play();
+                    });
+                });
+            }
+        }
+
+        function initMobileCarousel() {
+            var carousel = $('.fresh-looks-mobile-slider');
+            if(!carousel.hasClass('slick-initialized')) {
+                carousel.slick({
+                    infinite: true,
+                    slidesToShow: 1,
+                    dots: false,
+                    arrows: false,
+                    speed: 300,
+                    autoplay: true,
+                    autoplaySpeed: 6000,
+                });
+
+                carousel.on('afterChange', function(event, slick, currentSlide, nextSlide){
+                    $('.fresh-clouds-video-mobile-vid').each(function() {
+                        $(this).find('video')[0].pause();
+                        $(this).find('video').attr('currentTime', 0);
+                        $(this).find('video')[0].play();
+                    });
+                });
+            }
+        }
+
+        function setMobile() {
+            initMobileCarousel();
+            setAnchorItemsMobile();
+            setMobileParallax();
+        }
+
+        function setSitePosition() {
+            var mainPos = ($(window).height()/2) - ($('.logo-panel').height()*.6);
+            $('#main').css('transform', 'translateY(' + mainPos + 'px)');
+        }
+
+        function checkIntroSize() {
+            // set the intro video container to 100% width and height
+            $('.intro-video-container').width('100%').height('100%');
+
+            // get video element
+            var video = $('#intro-video').find('video');
+
+            // set video element width and height
+            if(w.height() > w.width()) {
+                video.width('auto');
+                video.height('101vh');
+            }
+            else {
+                video.height('auto');
+                video.width('101vw');
+            }
+
+            setSitePosition();
+        }
+        
+        // load all videos
+        function loadAllVideos() {
+            $('.media-player-div').each(function(index, element) {
+                var el = $(this);
+                var videoId = el.data('video-id');
+                getBrightcoveVideoData(videoId, el, function(data) {
+                    videoDataLoaded(data, el);
+                });
+            });
+        }
+
+        function getBrightcoveVideoData(videoId, element, callback) {
+            var path = `https://edge.api.brightcove.com/playback/v1/accounts/${accountID}/videos/${videoId}`;
+            $.ajax(
+                {
+                    type: 'GET',
+                    url: path,
+                    cache: false,
+                    contentType: 'application/json',
+                    crossDomain: true,
+                    processData: true,
+                    headers: {
+                    Accept: `application/json;pk=${policyKey}`,
+                },
+
+                success(brightcoveVideoData) {
+                    callback(brightcoveVideoData);
+                },
+
+                error(xhr, status, errorThrown) {
+                    if(element.hasClass('bloomies-intro-video')) {
+                        introLoadFail();
+                    }
+                },
+            });
+        }
+
+        function videoDataLoaded(data, element) {
+            var videoSource = getVideoSource(data);
+            var videoEl = $(element);
+            var videoId = videoEl.data('video-id');
+            var autoplayinline = '';
+            var playsinline = '';
+            var loopinline = '';
+            var mutedinline = '';
+
+            if (videoEl.data('autoplay') === true) {
+                autoplayinline = 'autoplay';
+                mutedinline = 'muted';
+                playsinline = 'playsinline';
+            }
+            mutedinline = 'muted';
+
+            if (videoEl.data('loop') === true) {
+                loopinline = 'loop';
+            }
+
+            // build video
+            var id ="";
+
+            if(videoEl.hasClass('say-hello-video')) {
+                id = "say-hello-video-video";
+            }
+            videoEl.append(`<video id="${id}" crossorigin ${autoplayinline} ${playsinline} ${loopinline} ${mutedinline} id="vid-${videoId}" class="media-player" data-name="${videoEl.data('name')}" data-video="${data.id}">
+            <source src="${videoSource}" type="video/mp4">
+            </video>`);
+
+            // if this is the video play it
+            if(videoEl.hasClass('bloomies-intro-video')) {
+                showIntro();
+            }
+
+            if(videoEl.hasClass('say-hello-video')) {
+                $('#say-hello-video-video').on('loadstart', function() {
+                    setSeeYouSoon();
+                });
+            }
+        }
+
+        function getVideoSource(data) {
+            var videoSourceArray = [];
+            for (var i = 0; i < data.sources.length; i += 1) {
+                if ('src' in data.sources[i]) {
+                    var srcToCheck = data.sources[i].src;
+                    if (srcToCheck.startsWith('https') && srcToCheck.indexOf('mp4')) {
+                        videoSourceArray.push(data.sources[i]);
+                    }
+                }
+            }
+
+            var maxWidth = 0;
+            var maxWidthIndex;
+            for (var i = 0; i < videoSourceArray.length; i += 1) {
+                if (videoSourceArray[i].width > maxWidth) {
+                    maxWidth = videoSourceArray[i].width;
+                    maxWidthIndex = i;
+                }
+            }
+            return videoSourceArray[maxWidthIndex].src;
+        }
+
+        function introLoadFail() {
+            init();
+            introFinished();
+        }
+
+        function showIntro() {
+            w.on('resize', checkIntroSize.intro);
+            checkIntroSize();
+            init();
+
+            var introVideo = $('#intro-video').find('video');
+            introVideo.on('ended',function(){
+                introFinished();
+            });
+        }
+
+        function introFinished() {
+            // stop window listener
+            w.off('.intro');
+
+            $('.intro-video-container').addClass('intro-finished');
+            $('.intro-video-container').animate({'opacity': 0}, 500, function() {
+                $('.intro-video-container').remove();
+                setStickyNav();
+                showSite();
+            });
+        }
+
+        function showSite() {
+            $('#main').attr('style', '--transition-speed: 2s');
+            setTimeout(function() {
+                $('.logo-tagline').addClass('animate');
+            }, 200);
+
+            setTimeout(function() {
+                $('#main').css('transform', 'translateY(0px)');
+            }, 2200);
+
+            setTimeout(function() {
+                $('.icons img').each(function() {
+                    $(this).addClass('animate');
+                });
+            }, 2300);
+
+            setTimeout(function() {
+                $('.bloomies-store-panel').addClass('animate');
+                $('body').addClass('intro-finished');
+            }, 3000);
+
+            setTimeout(function() {
+                $('.intro-panel-top').addClass('animate');
+                w.scroll();
+            }, 2500);
+
+            setTimeout(function() {
+                $('.intro-text-bottom').addClass('animate');
+            }, 3900);
+        }
+
+        function loadIntroVideo() {
+            var el;
+
+            // set cookie not to show animation next time
+            setCookie('bloomiesvisit', 1, 30);
+
+            // set the site position
+            setSitePosition();
+
+            // get intro container based on window width
+            (w.width() < 600) ? el = $('#intro-video-mobile') : el = $('#intro-video-desktop');
+
+            // get video id based on mobile or desktop
+            var videoId = el.data('video-id');
+
+            // load brightcove video
+            getBrightcoveVideoData(videoId, el, function(data) {
+                videoDataLoaded(data, el);
+            });
+        }
+
+        function skipIntro() {
+            init();
+            introFinished();
+        }
+
+        function getCookie(cname) {
+          let name = cname + "=";
+          let decodedCookie = decodeURIComponent(document.cookie);
+          let ca = decodedCookie.split(';');
+          for(let i = 0; i <ca.length; i++) {
+            let c = ca[i];
+            while (c.charAt(0) == ' ') {
+              c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+              return c.substring(name.length, c.length);
+            }
+          }
+          return "";
+        }
+
+        function setCookie(cname, cvalue, exdays) {
+          const d = new Date();
+          d.setTime(d.getTime() + (exdays*24*60*60*1000));
+          let expires = "expires="+ d.toUTCString();
+          document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        }
+
+        function checkCookies() {
+            getCookie('bloomiesvisit') === '' ? loadIntroVideo() : skipIntro();
+        }
+
+        function setIntialScroll() {
+            window.scroll(0, 0); 
+            if (history.scrollRestoration) {
+                history.scrollRestoration = 'manual';
+            }
+        }
+
+        function init() {
+            setBgFade();
+            listenForWindowResize();
+            showVideoBackups();
+            initLightboxMenu();
+            //loadAllVideos();
+        }
+
+        setIntialScroll();
+        checkCookies();
+
+    });
+
+
+</script>
+

@@ -1,0 +1,43 @@
+$bcom-map-pin: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PGcgZmlsbD0iIzIzMUYyMCI+PHBhdGggZD0iTTE3LjQxMyA1LjA1NWMtMS4xODItMS4zOTMtMi45NjEtMi4xODktNC44ODUtMi4xODktLjk3NCAwLTEuOTU0LjIwOS0yLjgzNi42MDQtMi42NDUgMS4xOS00LjEzIDQuMTQ0LTMuNjExIDcuMTgyLjI3MSAxLjU5NCAxLjMyNCAyLjkxNyAyLjM0MiA0LjE5Ny4yOTYuMzcxLjU3NS43MjUuODM1IDEuMDggMS4xNDMgMS41NjYgMi41NjMgMy41MTcgMi42MDUgNS41ODJhLjU5NC41OTQgMCAwIDAgLjE2My40MzguNjYuNjYgMCAwIDAgLjQ3NC4xODZoLjAxNGMuMTggMCAuMzUtLjA2Ni40NjQtLjE4NmEuNTkuNTkgMCAwIDAgLjE2My0uNDM2Yy4wMzItMS41NjkuODgxLTMuMDE0IDEuNjc2LTQuMjQzLjU4NC0uOTAzIDEuMjQ0LTEuNzc4IDEuODgzLTIuNjI4LjM1MS0uNDY1LjcxNC0uOTQ1IDEuMDYtMS40MjggMS44MDItMi41MDcgMS42NjUtNS43ODYtLjM0Ny04LjE1OXptLTkuNjk1IDYuNTQzYy0uMzc4LS43NTktLjUzNy0xLjcwMi0uNDYzLTIuNzMuMDk2LTEuMzE4LjgwMi0yLjYyNyAxLjkzOC0zLjU5Ljg5NC0uNzU3IDIuMDEtMS4xNTcgMy4yMjktMS4xNTcgMS42OTggMCAzLjMwNy43ODQgNC4zMDEgMi4wOTkuOTA3IDEuMiAxLjI0NCAyLjc3Mi45MjQgNC4zMTMtLjI1IDEuMjA1LTEuMDUxIDIuMjE4LTEuODI4IDMuMTk4LS4xODUuMjMxLS4zNzUuNDc2LS41NTMuNzExbC0uMTI3LjE3MWMtLjkzMSAxLjIzOC0xLjk3OSAyLjYzNy0yLjYyNyA0LjE0MS0uNjkxLTEuNjM1LTEuODI4LTMuMTEtMi45MjktNC41NDEtLjI3OS0uMzYtLjU0Mi0uNzAzLS43OTYtMS4wNDVsLS4yMDctLjI3NWMtLjMxMy0uNDEyLS42MzUtLjgzOC0uODYyLTEuMjk1em00Ljc5NiAxMC40MzZ2LjAwNC0uMDA0eiIvPjxwYXRoIGQ9Ik0xMi41MDEgMTIuMDk4YzEuNTc2IDAgMi44NTctMS4yODEgMi44NTctMi44NTdzLTEuMjgxLTIuODU3LTIuODU3LTIuODU3LTIuODU4IDEuMjgtMi44NTggMi44NTYgMS4yODIgMi44NTggMi44NTggMi44NTh6bTAtNC40MzljLjg3MiAwIDEuNTgyLjcwOSAxLjU4MiAxLjU4MSAwIC44NzMtLjcxIDEuNTgyLTEuNTgyIDEuNTgycy0xLjU4Mi0uNzA5LTEuNTgyLTEuNTgyYzAtLjg3Mi43MS0xLjU4MSAxLjU4Mi0xLjU4MXoiLz48L2c+PC9zdmc+");
+;
+
+.bcom-map-pin-full, .bcom-map-pin-full, .bcom-map-pin-huge, .bcom-map-pin-large, .bcom-map-pin-medium, .bcom-map-pin-small, .bcom-map-pin-tiny {
+  background: $bcom-map-pin;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-map-pin-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-map-pin-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-map-pin-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-map-pin-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-map-pin-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-map-pin-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

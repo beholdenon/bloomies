@@ -1,0 +1,63 @@
+@import '../foundation-6.4.4-rc1/scss/forms/select';
+@import "../encodedIcons/bcom-arrow";
+@import "../encodedIcons/bcom-arrow-disable";
+
+//We use this mixin to append error or success icon for selects
+@mixin select-icon-style () {
+  background-image: $bcom-arrow;
+  background-position-x: calc( 100% - 15px );
+  background-position-y: center;
+  background-repeat: no-repeat;
+}
+
+@mixin form-select-overrides {
+  //remove browser default arrow and add custom
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  &::-ms-expand {
+    display: none;
+  }
+  background: $bcom-arrow no-repeat right rem-calc(15) center;
+  background-size: rem-calc(15) rem-calc(15);
+
+  padding-left: rem-calc(15);
+  padding-right: rem-calc(40);
+
+	//IE 11 Support for removing browser default arrow
+  @media screen and #{breakpoint(small only)} {
+    padding-left: rem-calc(15);
+    padding-right: rem-calc(33);
+  }
+
+  // IE fallback to display default arrow
+  @media screen and (min-width:0\0) {
+    background-image: $bcom-arrow;
+  }
+
+  // Disabled state
+  &:disabled {
+    // using bcom-arrow icon for the select triangle
+    background: $bcom-arrow-disable no-repeat right rem-calc(15) center;
+    background-size: rem-calc(15) rem-calc(15);
+    border-color: $bloomiesGrayLighter;
+    color: $bloomiesGrayLighter;
+  }
+
+  &:focus {
+    outline: rem-calc(3) solid $bloomiesBlueOutline;
+  }
+
+  &.valid-input {
+    @include select-icon-style();
+  }
+}
+
+@mixin bloomies-form-select {
+  select {
+    @include form-select;
+    @include form-select-overrides;
+  }
+}

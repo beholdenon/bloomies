@@ -1,0 +1,43 @@
+$crosshair: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIzMUYyMCIgZD0iTTIyLjM4MyAxMS44NjFoLTIuMDkyYy0uMjM4LTIuNjEtMS43MTItNC45NDUtNC4wMjUtNi4yNDFhNy41NDEgNy41NDEgMCAwIDAtMy4xMjYtLjkyNVYyLjYxN2MwLS44MjMtMS4yNzctLjgyMy0xLjI3NyAwdjIuMDk0YTcuOTcyIDcuOTcyIDAgMCAwLTMuNjk1IDEuMjUzYy0yLjAxNCAxLjMxOS0zLjI1NiAzLjUzOS0zLjQ2IDUuODk3SDIuNjE3Yy0uODIzIDAtLjgyMyAxLjI3NyAwIDEuMjc3aDIuMDc1Yy4wMDEuMDIxLS4wMDEuMDQzLjAwMS4wNjQuMjM4IDIuODE4IDIuMDY3IDUuMzI2IDQuNjQzIDYuNDY5YTcuNzE1IDcuNzE1IDAgMCAwIDIuNTI2LjYyMnYyLjA4OWMwIC44MjMgMS4yNzguODIzIDEuMjc4IDB2LTIuMDhhNy45MzcgNy45MzcgMCAwIDAgMy42OTEtMS4yNjhjMi4wMTUtMS4zMTkgMy4yNDctMy41MyAzLjQ2My01Ljg5NmgyLjA4OGMuODI0LjAwMS44MjQtMS4yNzcuMDAxLTEuMjc3em0tOC4wMDIgNi45M2E2LjIxNiA2LjIxNiAwIDAgMS0xLjI0MS4yMzZ2LTIuMTIzYzAtLjgyMy0xLjI3Ny0uODIzLTEuMjc3IDB2Mi4xMDljLTEuOTUxLS4yMDctMy43ODEtMS4yNzktNC44ODYtMi45NjdhNi4zMzMgNi4zMzMgMCAwIDEtLjk5OC0yLjkwOWgyLjExN2MuODIzIDAgLjgyMy0xLjI3OCAwLTEuMjc4SDUuOTlhNi42NjQgNi42NjQgMCAwIDEgMS41ODUtMy43MDRjMS4xMDgtMS4yNzIgMi42NjYtMiA0LjI4Ny0yLjE2djIuMDk4YzAgLjgyMyAxLjI3OC44MjMgMS4yNzggMHYtMi4xMWE2LjU0NyA2LjU0NyAwIDAgMSAyLjE4Ni41ODRjMi4wOTIuOTg3IDMuNDQ0IDMuMDMzIDMuNjg4IDUuMjkyaC0yLjEwN2MtLjgyMyAwLS44MjMgMS4yNzggMCAxLjI3OGgyLjEwMmMtLjI4NCAyLjYyNS0yLjA2NCA0Ljg2MS00LjYyOCA1LjY1NHoiLz48L3N2Zz4=");
+;
+
+.crosshair-full, .crosshair-full, .crosshair-huge, .crosshair-large, .crosshair-medium, .crosshair-small, .crosshair-tiny {
+  background: $crosshair;
+  background-repeat: no-repeat;
+}
+ 
+.crosshair-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.crosshair-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.crosshair-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.crosshair-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.crosshair-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.crosshair-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

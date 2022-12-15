@@ -1,0 +1,43 @@
+$bcom-full-screen: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIzMUYyMCIgZD0iTTIxLjMxNiAxNy4zMTJhLjYyLjYyIDAgMCAwLS41NzguNjRsLS4wMDYgMS43ODktNS40ODctNS40MTFhLjYzMS42MzEgMCAwIDAtLjg5NS4wMDQuNjMuNjMgMCAwIDAgLjAwMy44OTZsNS42MiA1LjU0MS0yLjAyMS0uMDItLjAyLjAwMWEuNjI3LjYyNyAwIDAgMC0uNDE0LjIyOS42MTYuNjE2IDAgMCAwIC41My45OThsMy4zNjYtLjAxNmguMDJhLjYyMy42MjMgMCAwIDAgLjU0OS0uNjM4bC0uMDE2LTMuNDM4YS42MTUuNjE1IDAgMCAwLS42NTEtLjU3NXpNMTQuOCAxMC44NTFhLjYyNS42MjUgMCAwIDAgLjQ0NS0uMTg0bDUuNDg3LTUuNDEyLjAwNiAxLjc3OGEuNjE2LjYxNiAwIDEgMCAxLjIzMi4wNjFsLjAxNC0zLjQxNGEuNjI4LjYyOCAwIDAgMC0uMTgtLjQ3My42MzEuNjMxIDAgMCAwLS4zODEtLjE3N2wtMy4zNjMtLjAxNGEuNjE3LjYxNyAwIDAgMC0uMTI3IDEuMjI2bC4wMTIuMDAxIDIuMDI3LS4wMTgtNS42MiA1LjU0YS42MjcuNjI3IDAgMCAwLS4wMDQuODk1LjYzLjYzIDAgMCAwIC40NTIuMTkxek01LjE0NiA0LjIyOGwxLjkwMS4wMTguMDE5LS4wMDFhLjYxNC42MTQgMCAwIDAgLjU0NS0uNjgyLjYxNC42MTQgMCAwIDAtLjY2My0uNTQ2bC0zLjM2NS4wMTMtLjAyLjAwMWEuNjIuNjIgMCAwIDAtLjU0Ny42MzZsLjAxNCAzLjQzOWMuMDIuMzI1LjI4OS41OC42MTQuNThsLjAzNy0uMDAxYS42Mi42MiAwIDAgMCAuNTgtLjYzOGwuMDA1LTEuOTA2IDUuNjA1IDUuNTI2YS42My42MyAwIDAgMCAuODk2LS4wMDMuNjMzLjYzMyAwIDAgMC0uMDA1LS44OTZsLTUuNjE2LTUuNTR6bTUuMTcxIDkuOTE4YS42Mi42MiAwIDAgMC0uNDQ1LjE4M2wtNS42MDUgNS41MjYtLjAwNy0xLjg5MWEuNjEyLjYxMiAwIDAgMC0uNTc5LS42NS42MTguNjE4IDAgMCAwLS42NTEuNTkybC0uMDE0IDMuNDEyYS42MTcuNjE3IDAgMCAwIC41NTguNjUxbDMuMzY1LjAxNC4wNjEuMDAyYS42MTUuNjE1IDAgMCAwIC40NzktMS4wMDIuNjE5LjYxOSAwIDAgMC0uNDEyLS4yMjlsLS4wMTQtLjAwMS0xLjkwOS4wMTkgNS42MTktNS41NDFhLjYzNS42MzUgMCAwIDAtLjQ0Ni0xLjA4NXoiLz48L3N2Zz4=");
+;
+
+.bcom-full-screen-full, .bcom-full-screen-full, .bcom-full-screen-huge, .bcom-full-screen-large, .bcom-full-screen-medium, .bcom-full-screen-small, .bcom-full-screen-tiny {
+  background: $bcom-full-screen;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-full-screen-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-full-screen-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-full-screen-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-full-screen-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-full-screen-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-full-screen-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

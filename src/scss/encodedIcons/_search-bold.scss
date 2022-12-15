@@ -1,0 +1,43 @@
+$search-bold: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZD0iTTIxLjkyNSAyMC4yNjJsLTQuODEyLTQuODE0YTcuOTY0IDcuOTY0IDAgMCAwIDEuNTM2LTQuNjkzYzAtNC4zODYtMy41NjctNy45NTQtNy45NTYtNy45NTQtNC4zODYgMC03Ljk1NCAzLjU2OC03Ljk1NCA3Ljk1NCAwIDQuMzg2IDMuNTY4IDcuOTU3IDcuOTU0IDcuOTU3IDEuNzQ5IDAgMy40NDYtLjU4IDQuODMzLTEuNjQzbDQuNzk4IDQuODAxYTEuMTM2IDEuMTM2IDAgMCAwIDEuNjAxLTEuNjA4ek0xMC42OTMgNS4wNzdhNS42ODQgNS42ODQgMCAwIDEgNS42NzkgNS42NzggNS42ODQgNS42ODQgMCAwIDEtNS42NzkgNS42NzcgNS42ODQgNS42ODQgMCAwIDEtNS42NzgtNS42NzcgNS42ODUgNS42ODUgMCAwIDEgNS42NzgtNS42Nzh6Ii8+PC9zdmc+");
+;
+
+.search-bold-full, .search-bold-full, .search-bold-huge, .search-bold-large, .search-bold-medium, .search-bold-small, .search-bold-tiny {
+  background: $search-bold;
+  background-repeat: no-repeat;
+}
+ 
+.search-bold-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.search-bold-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.search-bold-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.search-bold-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.search-bold-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.search-bold-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

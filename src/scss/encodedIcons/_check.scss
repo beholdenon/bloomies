@@ -1,0 +1,43 @@
+$check: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAyNSI+PHBhdGggZmlsbD0iIzIzMUYyMCIgZD0iTTIxLjc0OSA2LjQ5NmMtLjEwNi0uMjQ3LS4zNTQtLjQyLS42MDMtLjQyYS41OTYuNTk2IDAgMCAwLS40MzQuMTk2bC0xMC42IDExLjE0Ni01LjgxMi00Ljg2YS42MjguNjI4IDAgMCAwLS40MTYtLjE1OC43MS43MSAwIDAgMC0uNjUzLjQ1NWMtLjA4Mi4yMjctLjAxNi40NS4xODMuNjE2bDYuMzA3IDUuMjc0YS43NDMuNzQzIDAgMCAwIC40NjguMTc4LjU3Mi41NzIgMCAwIDAgLjQzMS0uMTg3bDExLTExLjU2N2EuNTkyLjU5MiAwIDAgMCAuMTI5LS42NzN6Ii8+PC9zdmc+");
+;
+
+.check-full, .check-full, .check-huge, .check-large, .check-medium, .check-small, .check-tiny {
+  background: $check;
+  background-repeat: no-repeat;
+}
+ 
+.check-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.check-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.check-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.check-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.check-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.check-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

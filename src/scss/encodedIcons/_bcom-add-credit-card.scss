@@ -1,0 +1,43 @@
+$bcom-add-credit-card: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NSA2MiI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxIDEpIj48Y2lyY2xlIGN4PSIzMCIgY3k9IjMwIiByPSIzMCIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjEuMiIvPjxyZWN0IHdpZHRoPSIyOC44IiBoZWlnaHQ9IjIyLjgiIHg9IjE1LjYiIHk9IjE4LjYiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLXdpZHRoPSIxLjIiIHJ4PSIzIi8+PHBhdGggc3Ryb2tlPSIjMDAwIiBzdHJva2UtbGluZWNhcD0ic3F1YXJlIiBzdHJva2Utd2lkdGg9IjEuMiIgZD0iTTE2LjUgMjQuNWgyNy4wMTltLTI3LjAxOSA0aDI4Ii8+PHBhdGggc3Ryb2tlPSIjMDAwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS13aWR0aD0iMS4yIiBkPSJNMTkuNSAzNi41aDMuMTYybTMuODM4IDBoNy4wNzEiLz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0NCAxKSI+PGNpcmNsZSBjeD0iMTAiIGN5PSIxMCIgcj0iMTAiIGZpbGw9IiNGRkYiLz48cGF0aCBmaWxsPSIjMDAwIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGQ9Ik0xMCAxLjE3NmMtNC44NjYgMC04LjgyNCAzLjk1OC04LjgyNCA4LjgyNFM1LjEzNCAxOC44MjQgMTAgMTguODI0YzQuODY1IDAgOC44MjQtMy45NTggOC44MjQtOC44MjRTMTQuODY0IDEuMTc2IDEwIDEuMTc2em00LjkgOS4zNjdoLTQuMzY3djQuMzY3YS41MzQuNTM0IDAgMCAxLTEuMDY3IDB2LTQuMzY3SDUuMWEuNTMzLjUzMyAwIDAgMSAwLTEuMDY1aDQuMzY3VjUuMTEyYS41MzQuNTM0IDAgMCAxIDEuMDY3IDB2NC4zNjdIMTQuOWEuNTMyLjUzMiAwIDEgMSAwIDEuMDY0eiIvPjwvZz48L2c+PC9zdmc+");
+;
+
+.bcom-add-credit-card-full, .bcom-add-credit-card-full, .bcom-add-credit-card-huge, .bcom-add-credit-card-large, .bcom-add-credit-card-medium, .bcom-add-credit-card-small, .bcom-add-credit-card-tiny {
+  background: $bcom-add-credit-card;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-add-credit-card-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-add-credit-card-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-add-credit-card-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-add-credit-card-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-add-credit-card-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-add-credit-card-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

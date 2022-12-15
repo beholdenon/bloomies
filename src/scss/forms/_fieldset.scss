@@ -1,0 +1,10 @@
+@import '../foundation-6.4.4-rc1/scss/forms/fieldset';
+
+@mixin bloomies-form-fieldset {
+  @include foundation-form-fieldset;
+  label,
+  fieldset.fieldset label,  {
+    line-height: rem-calc(24);
+    vertical-align: top;
+  }
+}

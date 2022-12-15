@@ -1,0 +1,34 @@
+// mixins
+@function em($pixels, $context: $browser-context) {
+  @if (unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+
+  @if (unitless($context)) {
+    $context: $context * 1px;
+  }
+
+  @return $pixels / $context * 1em;
+}
+
+@mixin prefix($declarations) {
+  $prefixes: webkit, moz, ms;
+  @each $property, $value in $declarations {
+    @each $prefix in $prefixes {
+      #{'-' + $prefix + '-' + $property}: $value;
+    }
+
+    // Output standard non-prefixed declaration
+    #{$property}: $value;
+  }
+}
+
+@mixin delay($speed) {
+  @for $i from 1 through 20 {
+    &:nth-child(#{$i}) {
+    	@include prefix((
+		  	animation-delay: #{$i * $speed}s
+			));
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@import '../foundation-6.4.4-rc1/scss/forms/label';
+
+@mixin bloomies-form-label {
+  @include foundation-form-label;
+  label,[type=checkbox]+label, [type=radio]+label{
+    line-height: rem-calc(24);
+    vertical-align: top;
+    color: $bloomiesBlackLighter  ;
+    letter-spacing: rem-calc(0.8);
+    &.middle {
+      padding: 0;
+    }
+  }
+
+  [type=checkbox]+label, [type=radio]+label{
+    margin-left:rem-calc(5);
+    margin-right:rem-calc(16);
+    
+    &.long-label {
+      max-width: calc(100% - #{rem-calc(32)});
+      margin-right: 0;
+    }
+  }
+}

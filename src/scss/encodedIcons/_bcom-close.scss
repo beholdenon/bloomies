@@ -1,0 +1,43 @@
+$bcom-close: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDE1IDE1Ij48cGF0aCBmaWxsPSIjMjMxZjIwIiBkPSJNOC40OCA3LjVsNi4zMS02LjMxQS42OS42OSAwIDAgMCAxNSAuN2EuNjguNjggMCAwIDAtLjIxLS40OS42OS42OSAwIDAgMC0xIDBMNy41IDYuNTIgMS4xOS4yQS42OS42OSAwIDAgMCAuNyAwYS42OC42OCAwIDAgMC0uNS4yMS43LjcgMCAwIDAgMCAxTDYuNTIgNy41LjIgMTMuODFhLjcuNyAwIDAgMC0uMi40OS42OS42OSAwIDAgMCAuMi40OS43LjcgMCAwIDAgLjUuMjEuNjkuNjkgMCAwIDAgLjQ5LS4yMUw3LjUgOC40OGw2LjMxIDYuMzFhLjcuNyAwIDAgMCAuNDkuMi42OC42OCAwIDAgMCAuNDktLjIuNy43IDAgMCAwIDAtMXoiLz48L3N2Zz4=");
+;
+
+.bcom-close-full, .bcom-close-full, .bcom-close-huge, .bcom-close-large, .bcom-close-medium, .bcom-close-small, .bcom-close-tiny {
+  background: $bcom-close;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-close-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-close-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-close-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-close-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-close-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-close-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

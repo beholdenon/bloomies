@@ -1,0 +1,472 @@
+/* type placeholders */
+%headline-a {
+  font-family:'ITC Avant Garde Gothic W05 Dem', sans-serif;
+  letter-spacing: 0.4px;
+  font-weight: normal;
+  font-size: em(30);
+  line-height: 1em;
+  text-align: center;
+  margin-top: 0;
+
+  a {
+    //text-decoration: none!important;
+  }
+}
+
+
+%headline-b {
+  font-family:'ITC Avant Garde Gothic W05 Dem', sans-serif;
+  letter-spacing: 0.4px;
+  font-weight: normal;
+  font-size: em(20);
+  line-height: 1.2em;
+  text-align: center;
+  margin: 0 0 10px 0;
+
+  a {
+    //text-decoration: none!important;
+  }
+}
+
+%subhead-a {
+  font-family: 'Avenir', sans-serif;
+  letter-spacing: 0.8px;
+  font-weight: bold;
+  font-size: em(14);
+  line-height: 1em;
+  text-align: center;
+  margin-bottom: .8em;
+  text-transform: uppercase;
+}
+
+%body {
+  font-family: 'Avenir', sans-serif;
+  font-size: em(15);
+  line-height: em(22);
+  letter-spacing: 0;
+  text-align: center;
+  margin-block-start: 0.5em;
+  margin-block-end: 1em;
+  font-color: #000;
+}
+
+%vendor-tag {
+  font-size: em(13);
+}
+
+
+
+
+
+%type-style-a {
+  font-family:'ITC Avant Garde Gothic W05 Dem', sans-serif;
+  letter-spacing: 0.4px;
+  font-weight: normal;
+  line-height: 1.2em;
+  font-size: em(15);
+  text-align: center;
+}
+
+%type-style-c {
+  font-family: 'Avenir', sans-serif;
+  font-size: em(15);
+  line-height: em(22);
+  letter-spacing: 0;
+  text-align: center;
+}
+
+%type-style-d {
+  font-family:'ITC Avant Garde Gothic W05 Dem', sans-serif;
+  letter-spacing: 0.8px;
+  font-weight: normal;
+  line-height: 1.1em;
+  font-size: em(20);
+  text-align: center;
+}
+
+%type-style-e {
+  font-family: 'Avenir', sans-serif;
+  font-weight: bold;
+  font-size: em(16);
+  line-height: em(22);
+  letter-spacing: 0;
+  text-align: center;
+}
+
+%type-style-f {
+  font-family:'ITC Avant Garde Gothic W05 Bol', sans-serif;
+}
+
+%align-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+%link-style {
+  font-family: 'Avenir', sans-serif;
+  font-weight: bold;
+  font-size: em(15);
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  padding: 2px 7px;
+}
+
+%active-link-style {
+  color: #fff;
+  background: #000;
+  text-decoration: none;
+}
+
+%module-text-styles {
+  h1, h2, h3, h4 {
+    @extend %headline-b;
+    text-transform: none;
+    
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &.headline-large {
+    h1, h2, h3 {
+      @extend %headline-a;
+    }
+  }
+
+  &.headline-xlarge {
+    h1, h2, h3 {
+      @extend %headline-a;
+      font-size: em(40);
+    }
+  }
+
+  a {
+    outline: none;
+
+    &:not(.button) {
+      color: #000;
+      text-decoration: underline;
+    }
+  }
+
+  &.breadcrumbs {
+    a {
+      color: #808080;
+      text-decoration: none;
+    }
+  }
+
+  .headline-a {
+    @extend %headline-a;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .subhead-a {
+    @extend %subhead-a;
+  }
+
+  p {
+    @extend %body;
+
+    &.vendor-tag {
+      @extend %vendor-tag;
+      width: 100%;
+      font-size: 11px;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: .5px;
+      padding: 0 20px;
+
+      @media screen and #{breakpoint(small only)} {
+        text-align: left !important;
+      }
+
+      @media screen and #{breakpoint(medium up)} {
+        position: absolute;
+        bottom: -25px;
+        padding: 0 0;
+      }
+    }
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+  }
+  
+  &.carousel-b, &.carousel-c {
+    .subhead-a {
+      color: #808080;
+      margin-bottom: 1.4em;
+    }
+  }
+
+  &.feed-a {
+
+    .button {
+      margin: 0 auto;
+    }
+
+    .browse-item {
+      .headline-b {
+        text-transform: uppercase;
+        text-align: left;
+        margin: 0 0 2px 0;
+      }
+
+      .subhead-a {
+        color: #808080;
+        text-transform: uppercase;
+        line-height: 1.2em;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      p {
+        text-align: left;
+      }
+    }
+
+  }
+
+  
+
+
+  // Align Vendor Tags
+  &.vendor-tag-left {
+    p.vendor-tag {
+      text-align: left;
+    }
+  }
+
+  &.vendor-tag-right {
+    p.vendor-tag {
+      text-align: right;
+    }
+  }
+
+  &.vendor-tag-right-small {
+    @media screen and #{breakpoint(small only)} {
+      p.vendor-tag {
+        text-align: right;
+      }
+    }
+  }
+
+  &.vendor-tag-right-medium {
+    @media screen and #{breakpoint(medium only)} {
+      p.vendor-tag {
+        text-align: right;
+      }
+    }
+  }
+
+  &.vendor-tag-right-large {
+    @media screen and #{breakpoint(large up)} {
+      p.vendor-tag {
+        text-align: right;
+      }
+    }
+  }
+
+  &.vendor-tag-left {
+    p.vendor-tag {
+      text-align: left;
+    }
+  }
+
+  &.vendor-tag-left-small {
+    @media screen and #{breakpoint(small only)} {
+      p.vendor-tag {
+        text-align: left;
+      }
+    }
+  }
+
+  &.vendor-tag-left-medium {
+    @media screen and #{breakpoint(medium only)} {
+      p.vendor-tag {
+        text-align: left;
+      }
+    }
+  }
+
+  &.vendor-tag-left-large {
+    @media screen and #{breakpoint(large up)} {
+      p.vendor-tag {
+        text-align: left;
+      }
+    }
+  }
+
+  &.vendor-tag-center {
+    p.vendor-tag {
+      text-align: center;
+    }
+  }
+
+  &.vendor-tag-center-small {
+    @media screen and #{breakpoint(small only)} {
+      p.vendor-tag {
+        text-align: center;
+      }
+    }
+  }
+
+  &.vendor-tag-center-medium {
+    @media screen and #{breakpoint(medium only)} {
+      p.vendor-tag {
+        text-align: center;
+      }
+    }
+  }
+
+  &.vendor-tag-center-large {
+    @media screen and #{breakpoint(large up)} {
+      p.vendor-tag {
+        text-align: center;
+      }
+    }
+  }
+
+  /* strike thru headline */
+  .type-strike-thru {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto .7em auto;
+
+    h1, h2,  h3, h4, h5 {
+      display: flex;
+      white-space: nowrap;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-top: 0;
+      margin-bottom: 0;
+      flex: none;
+    }
+
+    .stroke {
+      display: inline;
+      border-bottom: 1px solid #000;
+      width: 100%;
+      height: 1px;
+    }
+  }
+
+  .shop-the-look {
+    font-size: em(13);
+    font-weight: bold;
+    color: #ff0000;
+    text-transform: uppercase;
+    margin: 10px auto 0 auto;
+    display: block;
+
+    @media screen and #{breakpoint(large up)} {
+      margin: 12px auto 0 auto;
+      font-size: em(14);
+    }
+  }
+
+  .editorial-landing-headline {
+    font-family: 'Avenir', sans-serif;
+    font-weight: bold;
+    color: #808080;
+    font-size: em(14);
+    letter-spacing: .05714rem;
+    text-transform: uppercase;
+  }
+}
+
+// what to wear where styles
+  &.wtww {
+    .module{
+
+      @media screen and #{breakpoint(small only)} {
+        text-align: center;
+      }
+
+      h1 {
+        text-transform: none;
+        letter-spacing: 0;
+        margin-top: 0;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        line-height: 1.1em;
+
+        span {
+          font-family:'ITC Avant Garde Gothic W01 XLt';
+        }
+      }
+
+      &.header-a {
+        h1, h2, h3, h4, h5, h6 {
+          &:last-child {
+            margin-bottom: -8px;
+          }
+        }
+
+        p {
+          &:last-child {
+            margin-bottom: -5px;
+          }
+        }
+      }
+      
+      &.header-c {
+        h1 {
+          font-size: em(50);
+
+          @media screen and #{breakpoint(medium up)} {
+            font-size: em(40);
+          }
+
+          @media screen and #{breakpoint(large up)} {
+            font-size: em(50);
+          }
+        }
+      }
+
+      h2 {
+        font-family: 'Avenir', sans-serif;
+        font-weight: bold;
+       // text-transform: uppercase;
+        font-size: em(12);
+        margin-bottom: 19px;
+      }
+
+      h3 {
+        font-family:'ITC Avant Garde Gothic W05 Dem', sans-serif;
+        color: #000;
+        font-size: em(20);
+        text-transform: none;
+        letter-spacing: 0;
+        margin-top: 0;
+        line-height: 1.4em;
+        margin-bottom: 20px;
+      }
+
+      h4 {
+        font-size: em(14);
+        margin-bottom: 18px;
+      }
+    }
+  }

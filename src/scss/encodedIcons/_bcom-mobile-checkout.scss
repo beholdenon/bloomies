@@ -1,0 +1,43 @@
+$bcom-mobile-checkout: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMCAzMCI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMjIuNTgzIDI0Ljk5MWMwIDEuODEzLTEuNDQyIDMuMjg2LTMuMjMyIDMuMjg2aC05LjA4Yy0xLjc4MiAwLTMuMjMtMS40NzMtMy4yMy0zLjI4NlY0Ljk5YzAtMS44MTMgMS40NDYtMy4yODQgMy4yMy0zLjI4NGg5LjA4YzEuNzgyIDAgMy4yMzIgMS40NzEgMy4yMzIgMy4yODZ2MjB6bS03Ljc3MSAxLjk2NGExLjM2NyAxLjM2NyAwIDEgMCAwLTIuNzM0IDEuMzY3IDEuMzY3IDAgMCAwIDAgMi43MzR6TTguMDM3IDUuMTUzdjE4LjA0aDEzLjU1VjUuMTUzSDguMDM2ek0xMi41IDMuOTVoNC42MjZhLjMyOC4zMjggMCAwIDAgLjMyOS0uMzMyLjMzLjMzIDAgMCAwLS4zMy0uMzMxSDEyLjVhLjMzMS4zMzEgMCAxIDAgMCAuNjYzeiIvPjxwYXRoIGZpbGwtcnVsZT0ibm9uemVybyIgZD0iTTEzLjYyIDE2LjgzOGMuMy4yLjcuMy45IDAgMS41LTEuNiAzLTMuMSA0LjQtNC43LjYtLjYtLjMtMS41LS45LS45LTEuMyAxLjQtMi43IDIuOC00IDQuMi0uNy0uNi0xLjQtMS4xLTItMS43LS42LS41LTEuNi40LS45LjkuOC44IDEuNiAxLjUgMi41IDIuMnoiLz48L2c+PC9zdmc+");
+;
+
+.bcom-mobile-checkout-full, .bcom-mobile-checkout-full, .bcom-mobile-checkout-huge, .bcom-mobile-checkout-large, .bcom-mobile-checkout-medium, .bcom-mobile-checkout-small, .bcom-mobile-checkout-tiny {
+  background: $bcom-mobile-checkout;
+  background-repeat: no-repeat;
+}
+ 
+.bcom-mobile-checkout-full {
+	width: 40px;
+	height: 40px;
+  background-size: 40px 40px;
+}
+
+.bcom-mobile-checkout-huge {
+	width: 30px;
+	height: 30px;
+  background-size: 30px 30px;
+}
+
+.bcom-mobile-checkout-large {
+	width: 25px;
+	height: 25px;
+  background-size: 25px 25px;
+}
+
+.bcom-mobile-checkout-medium {
+	width: 20px;
+	height: 20px;
+  background-size: 20px 20px;
+}
+
+.bcom-mobile-checkout-small {
+	width: 15px;
+	height: 15px;
+  background-size: 15px 15px;
+}
+
+.bcom-mobile-checkout-tiny {
+	width: 8px;
+	height: 8px;
+  background-size: 8px 8px;
+}

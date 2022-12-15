@@ -1,0 +1,15 @@
+@import './checkbox';
+@import './label';
+@import './error';
+@import './fieldset';
+@import './select';
+@import './text';
+
+@mixin bloomies-forms {
+  @include bloomies-form-text;
+  @include bloomies-form-fieldset;
+  @include bloomies-form-select;
+  @include bloomies-form-checkbox;
+  @include bloomies-form-input-error;
+  @include bloomies-form-label;
+}
